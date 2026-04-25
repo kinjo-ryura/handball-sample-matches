@@ -1,5 +1,14 @@
 {
   "schemaVersion" : 1,
   "matches" : [
+    {
+      "slug" : "2026-04-21-jeekstar-vs-bravekings",
+      "displayName" : "ジークスター vs ブレイヴキングス",
+      "description" : null,
+      "date" : "2026-04-21T23:41:50Z",
+      "homeScore" : 3,
+      "awayScore" : 2,
+      "hasYouTubeURL" : true
+    }
   ]
 }

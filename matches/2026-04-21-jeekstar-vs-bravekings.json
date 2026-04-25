@@ -1,0 +1,165 @@
+{
+  "events" : [
+    {
+      "createdAt" : "2026-04-21T23:43:34Z",
+      "eventType" : 0,
+      "phase" : 0,
+      "phaseTimeSeconds" : 0,
+      "videoTimeSeconds" : 1086
+    },
+    {
+      "createdAt" : "2026-04-21T23:43:34Z",
+      "eventType" : 7,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1800,
+      "videoTimeSeconds" : 2974.750896287823
+    },
+    {
+      "createdAt" : "2026-04-21T23:59:38Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "1BB3D48F-2CA6-4126-9985-4F4035A697AE",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1127.7947956297205
+    },
+    {
+      "createdAt" : "2026-04-22T00:00:16Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "A34A727B-5474-4F15-95C2-4B51AA1B59A9",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1186.737654576833
+    },
+    {
+      "createdAt" : "2026-04-22T00:04:35Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "FE9D3A44-9B47-457D-83AD-5DF7DFE3BDFB",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1231.8057196234024
+    },
+    {
+      "createdAt" : "2026-04-22T00:05:06Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 164.76827145425136,
+      "videoTimeSeconds" : 1249
+    },
+    {
+      "createdAt" : "2026-04-22T00:05:06Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 164.76827145425136,
+      "videoTimeSeconds" : 1285
+    },
+    {
+      "createdAt" : "2026-04-22T00:06:51Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "D4FCD80E-6561-41AE-94F5-D4673E54924A",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1305.238905785989
+    },
+    {
+      "createdAt" : "2026-04-22T00:06:57Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "1BB3D48F-2CA6-4126-9985-4F4035A697AE",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1316.0691831158388
+    },
+    {
+      "createdAt" : "2026-04-22T00:14:00Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 258.57850258070334,
+      "videoTimeSeconds" : 1378.810231126452
+    },
+    {
+      "createdAt" : "2026-04-22T00:14:00Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 258.57850258070334,
+      "videoTimeSeconds" : 1404
+    },
+    {
+      "createdAt" : "2026-04-22T00:19:31Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "D4FCD80E-6561-41AE-94F5-D4673E54924A",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1407
+    },
+    {
+      "createdAt" : "2026-04-22T00:24:42Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 291.01737516642856,
+      "videoTimeSeconds" : 1436.4388725857252
+    },
+    {
+      "createdAt" : "2026-04-22T00:24:42Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 291.01737516642856,
+      "videoTimeSeconds" : 1464
+    },
+    {
+      "createdAt" : "2026-04-22T00:25:34Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "42861E3C-3B54-4CB9-8169-B3FB5EA83198",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1466
+    },
+    {
+      "createdAt" : "2026-04-22T00:33:29Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "D4FCD80E-6561-41AE-94F5-D4673E54924A",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1545.0062437225936
+    }
+  ],
+  "match" : {
+    "date" : "2026-04-21T23:41:50Z",
+    "displayName" : "ジークスター vs ブレイヴキングス",
+    "phaseDurationSeconds" : 1800,
+    "youtubeURL" : "https://www.youtube.com/watch?v=SwT-bedOphY&t=987s&pp=ygUr44OW44Os44Kk44OW44Kt44Oz44Kw44K5IOOCuOODvOOCr-OCueOCv-ODvA%3D%3D"
+  },
+  "schemaVersion" : 1,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "ブレイヴキングス",
+      "players" : [
+        {
+          "key" : "A34A727B-5474-4F15-95C2-4B51AA1B59A9",
+          "name" : "パウエル"
+        },
+        {
+          "key" : "D4FCD80E-6561-41AE-94F5-D4673E54924A",
+          "name" : "吉野"
+        },
+        {
+          "key" : "FE9D3A44-9B47-457D-83AD-5DF7DFE3BDFB",
+          "name" : "岡本"
+        }
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "ジークスター",
+      "players" : [
+        {
+          "key" : "1BB3D48F-2CA6-4126-9985-4F4035A697AE",
+          "name" : "アダム"
+        },
+        {
+          "key" : "42861E3C-3B54-4CB9-8169-B3FB5EA83198",
+          "name" : "蔦屋"
+        }
+      ]
+    }
+  }
+}
