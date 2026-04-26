@@ -1,0 +1,1290 @@
+{
+  "events" : [
+    {
+      "createdAt" : "2025-12-20T00:00:48Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 48,
+      "playerKey" : "E858A482-227F-405D-A42F-700AF84F75F8",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:01:47Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 107,
+      "playerKey" : "80517E53-E594-41A5-A9F8-5CD3556D365D",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:03:24Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 204,
+      "playerKey" : "E858A482-227F-405D-A42F-700AF84F75F8",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:04:24Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 264,
+      "playerKey" : "CACED136-8D37-4FC5-88CC-3B2FA312EEA1",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:04:56Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 296,
+      "playerKey" : "CD91210B-9142-4BE6-A098-F013F09767E4",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:06:22Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 382,
+      "playerKey" : "E858A482-227F-405D-A42F-700AF84F75F8",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:07:02Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 422,
+      "playerKey" : "4433DE95-B8B5-4081-A45F-324D02B17CD2",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:08:47Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 527,
+      "playerKey" : "E858A482-227F-405D-A42F-700AF84F75F8",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:09:32Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 572,
+      "playerKey" : "5649BEFE-BE3B-40DC-9E7F-AAEB53BB67BE",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:09:32Z",
+      "eventType" : 8,
+      "phase" : 0,
+      "phaseTimeSeconds" : 572,
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1783.7053326527348
+    },
+    {
+      "createdAt" : "2025-12-20T00:10:41Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 641,
+      "playerKey" : "CD91210B-9142-4BE6-A098-F013F09767E4",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:11:41Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 701,
+      "playerKey" : "CACED136-8D37-4FC5-88CC-3B2FA312EEA1",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:12:04Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 724,
+      "playerKey" : "5649BEFE-BE3B-40DC-9E7F-AAEB53BB67BE",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:13:07Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 787,
+      "playerKey" : "CACED136-8D37-4FC5-88CC-3B2FA312EEA1",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:13:25Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 805,
+      "playerKey" : "CD91210B-9142-4BE6-A098-F013F09767E4",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:16:07Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 967,
+      "playerKey" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:16:39Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 999,
+      "playerKey" : "19F83949-1C16-4DBA-A9C5-601F7B327DFA",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:17:11Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1031,
+      "playerKey" : "CACED136-8D37-4FC5-88CC-3B2FA312EEA1",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:17:55Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1075,
+      "playerKey" : "81401AE0-4291-4DD8-A983-8A66400887A1",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:18:40Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1120,
+      "playerKey" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:18:56Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1136,
+      "playerKey" : "A9C2BF8D-9F30-42D7-A348-7CAA69E64DBB",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:19:23Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1163,
+      "playerKey" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:19:38Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1178,
+      "playerKey" : "F1C24D9E-468E-4280-9E05-A77D20087EDD",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:21:01Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1261,
+      "playerKey" : "CACED136-8D37-4FC5-88CC-3B2FA312EEA1",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:21:13Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1273,
+      "playerKey" : "F1C24D9E-468E-4280-9E05-A77D20087EDD",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:21:29Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1289,
+      "playerKey" : "1667F83B-5D3D-4E15-9AC3-6E7825C5E48F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:22:58Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1378,
+      "playerKey" : "7D3B01B4-3917-45B9-A206-4FB63A39F4D0",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:23:58Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1438,
+      "playerKey" : "19F83949-1C16-4DBA-A9C5-601F7B327DFA",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:25:42Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1542,
+      "playerKey" : "E858A482-227F-405D-A42F-700AF84F75F8",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:26:19Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1579,
+      "playerKey" : "398EE316-6DE3-4DF6-B9D7-1B3F037B101D",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:27:01Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1621,
+      "playerKey" : "C87F0301-B9E5-4356-9043-C11015B32107",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:27:53Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1673,
+      "playerKey" : "19F83949-1C16-4DBA-A9C5-601F7B327DFA",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:28:34Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1714,
+      "playerKey" : "C87F0301-B9E5-4356-9043-C11015B32107",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:28:47Z",
+      "eventType" : 8,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1727,
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3266.1666450461894
+    },
+    {
+      "createdAt" : "2025-12-20T00:29:08Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1748,
+      "playerKey" : "08A39969-9F4D-493C-A2AA-0C0E53A42658",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:29:22Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1762,
+      "playerKey" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:29:44Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1784,
+      "playerKey" : "E858A482-227F-405D-A42F-700AF84F75F8",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:29:55Z",
+      "eventType" : 2,
+      "note" : "7mスロー失敗",
+      "phase" : 0,
+      "phaseTimeSeconds" : 1795,
+      "playerKey" : "C87F0301-B9E5-4356-9043-C11015B32107",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:30:20Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 20,
+      "playerKey" : "C1D3A0E6-AF59-4BFD-BA8B-FEF44406672D",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:30:57Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 57,
+      "playerKey" : "F1C24D9E-468E-4280-9E05-A77D20087EDD",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:32:24Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 144,
+      "playerKey" : "CD91210B-9142-4BE6-A098-F013F09767E4",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:32:52Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 172,
+      "playerKey" : "C87F0301-B9E5-4356-9043-C11015B32107",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:33:39Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 219,
+      "playerKey" : "80517E53-E594-41A5-A9F8-5CD3556D365D",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:34:48Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 288,
+      "playerKey" : "8422C5A7-B015-4E93-95F7-3203F324527D",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:35:11Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 311,
+      "playerKey" : "E858A482-227F-405D-A42F-700AF84F75F8",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:36:10Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 370,
+      "playerKey" : "4433DE95-B8B5-4081-A45F-324D02B17CD2",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:37:19Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 439,
+      "playerKey" : "5649BEFE-BE3B-40DC-9E7F-AAEB53BB67BE",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:37:44Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 464,
+      "playerKey" : "CACED136-8D37-4FC5-88CC-3B2FA312EEA1",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:38:20Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 500,
+      "playerKey" : "CD91210B-9142-4BE6-A098-F013F09767E4",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:38:35Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 515,
+      "playerKey" : "CACED136-8D37-4FC5-88CC-3B2FA312EEA1",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:39:30Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 570,
+      "playerKey" : "5649BEFE-BE3B-40DC-9E7F-AAEB53BB67BE",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:40:00Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 600,
+      "playerKey" : "80517E53-E594-41A5-A9F8-5CD3556D365D",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:40:55Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 655,
+      "playerKey" : "C87F0301-B9E5-4356-9043-C11015B32107",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:41:29Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 689,
+      "playerKey" : "CACED136-8D37-4FC5-88CC-3B2FA312EEA1",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:41:29Z",
+      "eventType" : 8,
+      "phase" : 1,
+      "phaseTimeSeconds" : 689,
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5054.078142015274
+    },
+    {
+      "createdAt" : "2025-12-20T00:41:48Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 708,
+      "playerKey" : "19F83949-1C16-4DBA-A9C5-601F7B327DFA",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:42:36Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 756,
+      "playerKey" : "5649BEFE-BE3B-40DC-9E7F-AAEB53BB67BE",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:43:57Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 837,
+      "playerKey" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:45:20Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 920,
+      "playerKey" : "CD91210B-9142-4BE6-A098-F013F09767E4",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:46:29Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 989,
+      "playerKey" : "B7327AF6-4D0B-4F11-BCCB-9115B1B0EF71",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:47:30Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1050,
+      "playerKey" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:48:29Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1109,
+      "playerKey" : "B7327AF6-4D0B-4F11-BCCB-9115B1B0EF71",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:49:04Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1144,
+      "playerKey" : "80517E53-E594-41A5-A9F8-5CD3556D365D",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:50:21Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1221,
+      "playerKey" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:51:26Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1286,
+      "playerKey" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:51:52Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1312,
+      "playerKey" : "9367D59A-CD14-4709-8131-D760E8F90FF9",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:52:46Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1366,
+      "playerKey" : "A9C2BF8D-9F30-42D7-A348-7CAA69E64DBB",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:53:15Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1395,
+      "playerKey" : "C87F0301-B9E5-4356-9043-C11015B32107",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:55:45Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1545,
+      "playerKey" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+      "teamKey" : "away"
+    },
+    {
+      "createdAt" : "2025-12-20T00:57:33Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1653,
+      "playerKey" : "19F83949-1C16-4DBA-A9C5-601F7B327DFA",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:58:56Z",
+      "eventType" : 8,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1736,
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6615.6141795809735
+    },
+    {
+      "createdAt" : "2025-12-20T00:59:59Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1799,
+      "playerKey" : "ABD0D870-2158-41F7-A148-3361AD632B43",
+      "teamKey" : "home"
+    },
+    {
+      "createdAt" : "2025-12-20T00:59:59Z",
+      "eventType" : 8,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1799,
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6771.16357910719
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 0,
+      "phase" : 0,
+      "phaseTimeSeconds" : 0,
+      "videoTimeSeconds" : 1086.3985902878715
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 7,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1800,
+      "videoTimeSeconds" : 3457.0139762540343
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 0,
+      "phase" : 1,
+      "phaseTimeSeconds" : 0,
+      "videoTimeSeconds" : 4350.639152685182
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 7,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1800,
+      "videoTimeSeconds" : 6850.524691938559
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 9,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1736,
+      "videoTimeSeconds" : 6707.30578800739
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 9,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1799,
+      "videoTimeSeconds" : 6846.822868946693
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 9,
+      "phase" : 1,
+      "phaseTimeSeconds" : 689,
+      "videoTimeSeconds" : 5160.650061098971
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 9,
+      "phase" : 0,
+      "phaseTimeSeconds" : 572,
+      "videoTimeSeconds" : 1849.8493609528928
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 9,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1727,
+      "videoTimeSeconds" : 3340.620650640676
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 165.07016374276077,
+      "videoTimeSeconds" : 1251.4687540306322
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 165.07016374276077,
+      "videoTimeSeconds" : 1285.0915422134285
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 259.45067213788275,
+      "videoTimeSeconds" : 1379.4720506085505
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 259.45067213788275,
+      "videoTimeSeconds" : 1404.1086622780542
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 292.63207766022947,
+      "videoTimeSeconds" : 1437.290067800401
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 292.63207766022947,
+      "videoTimeSeconds" : 1464.8513131079792
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 385.93855587528856,
+      "videoTimeSeconds" : 1558.1577913230383
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 385.93855587528856,
+      "videoTimeSeconds" : 1579.8619183030305
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 490.5865623807647,
+      "videoTimeSeconds" : 1684.5099248085066
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 490.5865623807647,
+      "videoTimeSeconds" : 1698.3712094190464
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 636.5887846786391,
+      "videoTimeSeconds" : 1910.5174600170787
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 636.5887846786391,
+      "videoTimeSeconds" : 1956.41771878172
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 693.2873241416892,
+      "videoTimeSeconds" : 2013.11625824477
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 693.2873241416892,
+      "videoTimeSeconds" : 2034.4365340146699
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1248.6822418634795,
+      "videoTimeSeconds" : 2589.83145173646
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1248.6822418634795,
+      "videoTimeSeconds" : 2627.411515275216
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1297.8816321710926,
+      "videoTimeSeconds" : 2676.610905582829
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1297.8816321710926,
+      "videoTimeSeconds" : 2706.4999610125715
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1326.4065645779485,
+      "videoTimeSeconds" : 2735.0248934194274
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1326.4065645779485,
+      "videoTimeSeconds" : 2759.3787631149676
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1469.6346977501696,
+      "videoTimeSeconds" : 2902.6068962871886
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1469.6346977501696,
+      "videoTimeSeconds" : 2936.2324076237082
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1485.4315806252464,
+      "videoTimeSeconds" : 2952.029290498785
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1485.4315806252464,
+      "videoTimeSeconds" : 2960.9614537968896
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1503.592930078283,
+      "videoTimeSeconds" : 2979.122803249926
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1503.592930078283,
+      "videoTimeSeconds" : 3029.215130130543
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1706.4112786640121,
+      "videoTimeSeconds" : 3232.0334787162724
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1706.4112786640121,
+      "videoTimeSeconds" : 3244.2021813450397
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1762.610517940805,
+      "videoTimeSeconds" : 3374.8554262163193
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1762.610517940805,
+      "videoTimeSeconds" : 3392.404286768342
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1791.5748115264573,
+      "videoTimeSeconds" : 3421.368580353994
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "phaseTimeSeconds" : 1791.5748115264573,
+      "videoTimeSeconds" : 3448.6674350386293
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 347.12501403494844,
+      "videoTimeSeconds" : 4697.764166720131
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 347.12501403494844,
+      "videoTimeSeconds" : 4710.45816628521
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 862.0104163634905,
+      "videoTimeSeconds" : 5331.915487697448
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 862.0104163634905,
+      "videoTimeSeconds" : 5351.117270374082
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 967.9795064445971,
+      "videoTimeSeconds" : 5457.086360455189
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 967.9795064445971,
+      "videoTimeSeconds" : 5493.703893725909
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 977.9427925278806,
+      "videoTimeSeconds" : 5503.667179809193
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 977.9427925278806,
+      "videoTimeSeconds" : 5534.162931280117
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1103.4017198206147,
+      "videoTimeSeconds" : 5659.621858572851
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1103.4017198206147,
+      "videoTimeSeconds" : 5689.621858572851
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1243.355636030089,
+      "videoTimeSeconds" : 5829.575774782325
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1243.355636030089,
+      "videoTimeSeconds" : 5858.823254497077
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1287.4540352576414,
+      "videoTimeSeconds" : 5902.921653724629
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1287.4540352576414,
+      "videoTimeSeconds" : 5938.808396305647
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1337.9735508162903,
+      "videoTimeSeconds" : 5989.327911864296
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1337.9735508162903,
+      "videoTimeSeconds" : 6018.214031831808
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1441.1610361361072,
+      "videoTimeSeconds" : 6121.401517151625
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1441.1610361361072,
+      "videoTimeSeconds" : 6212.459306979553
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1500.103175924909,
+      "videoTimeSeconds" : 6271.401446768355
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1500.103175924909,
+      "videoTimeSeconds" : 6319.413656630741
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1512.990028929581,
+      "videoTimeSeconds" : 6332.300509635413
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1512.990028929581,
+      "videoTimeSeconds" : 6362.788079912022
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1529.9194072715427,
+      "videoTimeSeconds" : 6379.717458253984
+    },
+    {
+      "createdAt" : "2026-04-26T09:24:13Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "phaseTimeSeconds" : 1529.9194072715427,
+      "videoTimeSeconds" : 6412.65761573358
+    }
+  ],
+  "match" : {
+    "date" : "2025-12-20T00:00:00Z",
+    "displayName" : "ZEEKSTAR TOKYO vs ブレイブキングス刈谷",
+    "phaseDurationSeconds" : 1800,
+    "youtubeURL" : "https://youtu.be/SwT-bedOphY"
+  },
+  "schemaVersion" : 1,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "ブレイブキングス刈谷",
+      "players" : [
+        {
+          "jerseyNumber" : 1,
+          "key" : "C898C910-F88D-446C-8B48-B3F7A66E0359",
+          "name" : "平尾 克己"
+        },
+        {
+          "jerseyNumber" : 2,
+          "key" : "E668BDB4-7EE6-48F3-87F1-390D1CCA9B0D",
+          "name" : "露木 涼"
+        },
+        {
+          "jerseyNumber" : 3,
+          "key" : "C87F0301-B9E5-4356-9043-C11015B32107",
+          "name" : "松下 海"
+        },
+        {
+          "jerseyNumber" : 5,
+          "key" : "097C3D77-3589-4588-A852-6FE18AD8B0DF",
+          "name" : "高智 海吏"
+        },
+        {
+          "jerseyNumber" : 8,
+          "key" : "1667F83B-5D3D-4E15-9AC3-6E7825C5E48F",
+          "name" : "富永 聖也"
+        },
+        {
+          "jerseyNumber" : 9,
+          "key" : "6C89A811-F2B4-4312-8659-AC7006AA9D55",
+          "name" : "杉岡 尚樹"
+        },
+        {
+          "jerseyNumber" : 10,
+          "key" : "8422C5A7-B015-4E93-95F7-3203F324527D",
+          "name" : "岡本 翔馬"
+        },
+        {
+          "jerseyNumber" : 12,
+          "key" : "365E41CC-9FC9-4179-A894-94593D24A756",
+          "name" : "加藤 芳規"
+        },
+        {
+          "jerseyNumber" : 14,
+          "key" : "31D7E4CD-4599-4E8B-96CA-E8A04377C93B",
+          "name" : "小畠 来生"
+        },
+        {
+          "jerseyNumber" : 16,
+          "key" : "BF0EA3F9-3E9F-4595-9C78-C250AB2DEEC8",
+          "name" : "岡本 大亮"
+        },
+        {
+          "jerseyNumber" : 17,
+          "key" : "DFA97F08-F4B5-414C-93E1-8B4CBA6AE210",
+          "name" : "髙野 颯太"
+        },
+        {
+          "jerseyNumber" : 18,
+          "key" : "6EBC895A-D172-4BE5-9718-F78D37C79A8B",
+          "name" : "櫻井 睦哉"
+        },
+        {
+          "jerseyNumber" : 20,
+          "key" : "7D3B01B4-3917-45B9-A206-4FB63A39F4D0",
+          "name" : "渡部 仁"
+        },
+        {
+          "jerseyNumber" : 23,
+          "key" : "CACED136-8D37-4FC5-88CC-3B2FA312EEA1",
+          "name" : "吉野 樹"
+        },
+        {
+          "jerseyNumber" : 24,
+          "key" : "4433DE95-B8B5-4081-A45F-324D02B17CD2",
+          "name" : "北詰 明未"
+        },
+        {
+          "jerseyNumber" : 25,
+          "key" : "C1D3A0E6-AF59-4BFD-BA8B-FEF44406672D",
+          "name" : "山田 信也"
+        },
+        {
+          "jerseyNumber" : 26,
+          "key" : "A2E93647-91D2-461B-AF69-C912DF9BE593",
+          "name" : "赤嶺 尚太朗"
+        },
+        {
+          "jerseyNumber" : 27,
+          "key" : "97244FB9-7473-4AA6-9121-A2915E6C3B9F",
+          "name" : "アンドレ ゴメス"
+        },
+        {
+          "jerseyNumber" : 30,
+          "key" : "398EE316-6DE3-4DF6-B9D7-1B3F037B101D",
+          "name" : "トリム コルペルド ジョンセン"
+        },
+        {
+          "jerseyNumber" : 33,
+          "key" : "6B2973E3-3D63-4FC7-ACC3-A7FE31B331D8",
+          "name" : "田代 翔真"
+        },
+        {
+          "jerseyNumber" : 34,
+          "key" : "80517E53-E594-41A5-A9F8-5CD3556D365D",
+          "name" : "パウエル パチコフスキー"
+        }
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "ZEEKSTAR TOKYO",
+      "players" : [
+        {
+          "jerseyNumber" : 1,
+          "key" : "2D920632-453D-4E24-907F-1EBF66803085",
+          "name" : "大山翔伍"
+        },
+        {
+          "jerseyNumber" : 3,
+          "key" : "E858A482-227F-405D-A42F-700AF84F75F8",
+          "name" : "部井久アダム勇樹"
+        },
+        {
+          "jerseyNumber" : 6,
+          "key" : "8E0D0D14-6DC6-477D-958D-3D8943704D6C",
+          "name" : "高橋颯汰"
+        },
+        {
+          "jerseyNumber" : 7,
+          "key" : "A9C2BF8D-9F30-42D7-A348-7CAA69E64DBB",
+          "name" : "細川智晃"
+        },
+        {
+          "jerseyNumber" : 8,
+          "key" : "ABD0D870-2158-41F7-A148-3361AD632B43",
+          "name" : "元木博紀"
+        },
+        {
+          "jerseyNumber" : 9,
+          "key" : "A1E43ABF-ED0D-4786-92F5-1B1FD9283278",
+          "name" : "趙顯章"
+        },
+        {
+          "jerseyNumber" : 12,
+          "key" : "5C453D5D-1CF5-4761-958B-A5DBD3BC9896",
+          "name" : "矢村裕斗"
+        },
+        {
+          "jerseyNumber" : 13,
+          "key" : "B7327AF6-4D0B-4F11-BCCB-9115B1B0EF71",
+          "name" : "中村翼"
+        },
+        {
+          "jerseyNumber" : 17,
+          "key" : "19F83949-1C16-4DBA-A9C5-601F7B327DFA",
+          "name" : "泉本心"
+        },
+        {
+          "jerseyNumber" : 19,
+          "key" : "81401AE0-4291-4DD8-A983-8A66400887A1",
+          "name" : "中沖 仁希太"
+        },
+        {
+          "jerseyNumber" : 21,
+          "key" : "8B6961ED-8FA7-45BA-B94B-0C00F537A763",
+          "name" : "岩下祐太"
+        },
+        {
+          "jerseyNumber" : 23,
+          "key" : "83F662CD-20C1-4E0A-B83F-01E233195C1F",
+          "name" : "ピサノライアン海夏人"
+        },
+        {
+          "jerseyNumber" : 24,
+          "key" : "5649BEFE-BE3B-40DC-9E7F-AAEB53BB67BE",
+          "name" : "宮本辰弥"
+        },
+        {
+          "jerseyNumber" : 27,
+          "key" : "8D6E5DF3-4A53-422B-A313-A8223178594B",
+          "name" : "玉川裕康"
+        },
+        {
+          "jerseyNumber" : 32,
+          "key" : "9367D59A-CD14-4709-8131-D760E8F90FF9",
+          "name" : "橋本明雄"
+        },
+        {
+          "jerseyNumber" : 33,
+          "key" : "4409A596-A7F4-473E-B64F-94E91FAEAD4D",
+          "name" : "信太弘樹"
+        },
+        {
+          "jerseyNumber" : 35,
+          "key" : "F1C24D9E-468E-4280-9E05-A77D20087EDD",
+          "name" : "小山哲也"
+        },
+        {
+          "jerseyNumber" : 44,
+          "key" : "CD91210B-9142-4BE6-A098-F013F09767E4",
+          "name" : "蔦谷大雅"
+        },
+        {
+          "jerseyNumber" : 46,
+          "key" : "33DB690A-032E-479F-BCD5-E091AF418766",
+          "name" : "バティスト・ボンフォン"
+        },
+        {
+          "jerseyNumber" : 55,
+          "key" : "08A39969-9F4D-493C-A2AA-0C0E53A42658",
+          "name" : "伊禮雅太"
+        },
+        {
+          "jerseyNumber" : 66,
+          "key" : "5EAC2C64-A12D-4169-B679-F6CFABEEFDD8",
+          "name" : "甲斐昭人"
+        },
+        {
+          "jerseyNumber" : 77,
+          "key" : "681E31DF-D9BE-4310-A430-288DCDBB19E8",
+          "name" : "東江雄斗"
+        },
+        {
+          "jerseyNumber" : 84,
+          "key" : "1384B469-A7F7-447F-843B-D6F1B329B8BE",
+          "name" : "柴山裕貴博"
+        },
+        {
+          "jerseyNumber" : 88,
+          "key" : "206A5CFA-B116-43F2-A55D-16214CA2F948",
+          "name" : "東長濱秀希"
+        }
+      ]
+    }
+  }
+}
