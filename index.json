@@ -1,23 +1,6 @@
 {
   "schemaVersion" : 1,
   "matches" : [
-    {
-      "slug" : "2026-04-21-jeekstar-vs-bravekings",
-      "displayName" : "ジークスター vs ブレイヴキングス",
-      "description" : null,
-      "date" : "2026-04-21T23:41:50Z",
-      "homeScore" : 3,
-      "awayScore" : 2,
-      "hasYouTubeURL" : true
-    },
-    {
-      "slug" : "2025-12-20-49d8efce",
-      "displayName" : "ZEEKSTAR TOKYO vs ブレイブキングス刈谷",
-      "description" : null,
-      "date" : "2025-12-20T00:00:00Z",
-      "homeScore" : 34,
-      "awayScore" : 33,
-      "hasYouTubeURL" : true
-    }
+
   ]
 }
