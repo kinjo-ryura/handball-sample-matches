@@ -1,6 +1,14 @@
 {
   "schemaVersion" : 1,
   "matches" : [
-
+    {
+      "slug" : "2025-12-20-f352ea46",
+      "displayName" : "ZEEKSTAR TOKYO vs ブレイブキングス刈谷",
+      "description" : null,
+      "date" : "2025-12-20T00:00:00Z",
+      "homeScore" : 19,
+      "awayScore" : 16,
+      "hasYouTubeURL" : true
+    }
   ]
 }
