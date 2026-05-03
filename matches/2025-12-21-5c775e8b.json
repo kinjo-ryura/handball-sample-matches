@@ -1,0 +1,1322 @@
+{
+  "events" : [
+    {
+      "createdAt" : "2025-12-21T00:01:42Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1613
+    },
+    {
+      "createdAt" : "2025-12-21T00:02:07Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "E9BA8E64-4C6E-44D5-93A1-8FEEDF810456",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1643
+    },
+    {
+      "createdAt" : "2025-12-21T00:02:40Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1677
+    },
+    {
+      "createdAt" : "2025-12-21T00:03:36Z",
+      "eventType" : 2,
+      "note" : "7mスロー失敗",
+      "phase" : 0,
+      "playerKey" : "743C82D1-4D39-4A08-9F9B-B7311FDCFDC5",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1737
+    },
+    {
+      "createdAt" : "2025-12-21T00:04:16Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1772
+    },
+    {
+      "createdAt" : "2025-12-21T00:06:05Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1947
+    },
+    {
+      "createdAt" : "2025-12-21T00:07:35Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2041
+    },
+    {
+      "createdAt" : "2025-12-21T00:08:12Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "C067340A-9461-4CF1-800E-9CCC32C9FFEB",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2077
+    },
+    {
+      "createdAt" : "2025-12-21T00:09:01Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "B0BBB4E9-2969-4FB8-A6D2-E30CEDCD80F1",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2149
+    },
+    {
+      "createdAt" : "2025-12-21T00:09:26Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "30C9A2E0-407A-4BC4-943A-30B224AB5363",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2176
+    },
+    {
+      "createdAt" : "2025-12-21T00:10:11Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "5C7D053D-6D66-4540-B773-538B57C3EA1F",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2216
+    },
+    {
+      "createdAt" : "2025-12-21T00:10:42Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "D42617B8-5A27-46C8-B3C0-A986E0B98089",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2253
+    },
+    {
+      "createdAt" : "2025-12-21T00:11:22Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "B3A306E5-86BC-4EAA-91A5-92883E2EACA4",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2304
+    },
+    {
+      "createdAt" : "2025-12-21T00:12:29Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "2E00EC82-79BB-42DA-AEE7-2C0DB5D5F15C",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2374
+    },
+    {
+      "createdAt" : "2025-12-21T00:13:19Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2411
+    },
+    {
+      "createdAt" : "2025-12-21T00:13:53Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "B3A306E5-86BC-4EAA-91A5-92883E2EACA4",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2451
+    },
+    {
+      "createdAt" : "2025-12-21T00:15:35Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "5C7D053D-6D66-4540-B773-538B57C3EA1F",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2550
+    },
+    {
+      "createdAt" : "2025-12-21T00:16:07Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2587
+    },
+    {
+      "createdAt" : "2025-12-21T00:16:42Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "43D577AB-7A51-4B3F-B871-FBF0346C43B1",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2620
+    },
+    {
+      "createdAt" : "2025-12-21T00:18:44Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "B0BBB4E9-2969-4FB8-A6D2-E30CEDCD80F1",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2772
+    },
+    {
+      "createdAt" : "2025-12-21T00:19:55Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "F0AAA35C-8033-46F7-ABC3-D69AD345E0E7",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2836
+    },
+    {
+      "createdAt" : "2025-12-21T00:20:45Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3A28E656-9392-47A1-A8CA-906BE8DA0AC7",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2886
+    },
+    {
+      "createdAt" : "2025-12-21T00:20:46Z",
+      "eventType" : 8,
+      "phase" : 0,
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2895
+    },
+    {
+      "createdAt" : "2025-12-21T00:22:15Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "C15644B3-14E7-41E9-9B92-11DD45C36FE0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3056
+    },
+    {
+      "createdAt" : "2025-12-21T00:23:14Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "C15644B3-14E7-41E9-9B92-11DD45C36FE0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3115
+    },
+    {
+      "createdAt" : "2025-12-21T00:23:45Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "A42920DE-8702-4A5E-887B-18636F0C61F6",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 3169
+    },
+    {
+      "createdAt" : "2025-12-21T00:24:53Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "743C82D1-4D39-4A08-9F9B-B7311FDCFDC5",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 3237
+    },
+    {
+      "createdAt" : "2025-12-21T00:25:16Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3272
+    },
+    {
+      "createdAt" : "2025-12-21T00:25:35Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "743C82D1-4D39-4A08-9F9B-B7311FDCFDC5",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 3287
+    },
+    {
+      "createdAt" : "2025-12-21T00:26:46Z",
+      "eventType" : 8,
+      "phase" : 0,
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3420
+    },
+    {
+      "createdAt" : "2025-12-21T00:27:06Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3509
+    },
+    {
+      "createdAt" : "2025-12-21T00:27:20Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "30C9A2E0-407A-4BC4-943A-30B224AB5363",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 3519
+    },
+    {
+      "createdAt" : "2025-12-21T00:28:12Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "066714E3-A34F-4BD6-B2D5-C6D0F07E2F74",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3567
+    },
+    {
+      "createdAt" : "2025-12-21T00:29:03Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "E9BA8E64-4C6E-44D5-93A1-8FEEDF810456",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 3626
+    },
+    {
+      "createdAt" : "2025-12-21T00:29:33Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "7FF4FC81-3600-4CC9-87AA-9170A94A3CBD",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 3654
+    },
+    {
+      "createdAt" : "2025-12-21T00:29:59Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "750BD8E8-BBFC-43E0-821A-BE924ACBB4AF",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3683
+    },
+    {
+      "createdAt" : "2025-12-21T00:30:36Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "5C7D053D-6D66-4540-B773-538B57C3EA1F",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 4626
+    },
+    {
+      "createdAt" : "2025-12-21T00:31:08Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "B680714C-BA9B-4203-BF18-22865880619D",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 4658
+    },
+    {
+      "createdAt" : "2025-12-21T00:32:03Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "743C82D1-4D39-4A08-9F9B-B7311FDCFDC5",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 4712
+    },
+    {
+      "createdAt" : "2025-12-21T00:33:51Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "F0AAA35C-8033-46F7-ABC3-D69AD345E0E7",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 4820
+    },
+    {
+      "createdAt" : "2025-12-21T00:36:06Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "B0BBB4E9-2969-4FB8-A6D2-E30CEDCD80F1",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5115
+    },
+    {
+      "createdAt" : "2025-12-21T00:37:05Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5167
+    },
+    {
+      "createdAt" : "2025-12-21T00:38:09Z",
+      "eventType" : 2,
+      "note" : "7mスロー失敗",
+      "phase" : 1,
+      "playerKey" : "2E00EC82-79BB-42DA-AEE7-2C0DB5D5F15C",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5234
+    },
+    {
+      "createdAt" : "2025-12-21T00:38:42Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "B680714C-BA9B-4203-BF18-22865880619D",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5266
+    },
+    {
+      "createdAt" : "2025-12-21T00:38:56Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "2E00EC82-79BB-42DA-AEE7-2C0DB5D5F15C",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5275
+    },
+    {
+      "createdAt" : "2025-12-21T00:39:22Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5305
+    },
+    {
+      "createdAt" : "2025-12-21T00:40:33Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "D42617B8-5A27-46C8-B3C0-A986E0B98089",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5377
+    },
+    {
+      "createdAt" : "2025-12-21T00:40:46Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "5C7D053D-6D66-4540-B773-538B57C3EA1F",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5387
+    },
+    {
+      "createdAt" : "2025-12-21T00:41:23Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "5C7D053D-6D66-4540-B773-538B57C3EA1F",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5420
+    },
+    {
+      "createdAt" : "2025-12-21T00:41:50Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5453
+    },
+    {
+      "createdAt" : "2025-12-21T00:42:25Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "7FF4FC81-3600-4CC9-87AA-9170A94A3CBD",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5486
+    },
+    {
+      "createdAt" : "2025-12-21T00:43:25Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "BC2EF1EC-6BD2-4979-869A-4A879B394194",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5549
+    },
+    {
+      "createdAt" : "2025-12-21T00:44:04Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "43D577AB-7A51-4B3F-B871-FBF0346C43B1",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5585
+    },
+    {
+      "createdAt" : "2025-12-21T00:44:34Z",
+      "eventType" : 2,
+      "note" : "7mスロー失敗",
+      "phase" : 1,
+      "playerKey" : "B0BBB4E9-2969-4FB8-A6D2-E30CEDCD80F1",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5651
+    },
+    {
+      "createdAt" : "2025-12-21T00:45:33Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "1EC9043F-8A01-4157-98A0-E4B400692A58",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5701
+    },
+    {
+      "createdAt" : "2025-12-21T00:45:56Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "F0AAA35C-8033-46F7-ABC3-D69AD345E0E7",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5727
+    },
+    {
+      "createdAt" : "2025-12-21T00:47:04Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "43D577AB-7A51-4B3F-B871-FBF0346C43B1",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5791
+    },
+    {
+      "createdAt" : "2025-12-21T00:47:38Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "F0AAA35C-8033-46F7-ABC3-D69AD345E0E7",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5832
+    },
+    {
+      "createdAt" : "2025-12-21T00:48:10Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "F0AAA35C-8033-46F7-ABC3-D69AD345E0E7",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5897
+    },
+    {
+      "createdAt" : "2025-12-21T00:48:24Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "2E00EC82-79BB-42DA-AEE7-2C0DB5D5F15C",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5908
+    },
+    {
+      "createdAt" : "2025-12-21T00:48:50Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "BC2EF1EC-6BD2-4979-869A-4A879B394194",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5936
+    },
+    {
+      "createdAt" : "2025-12-21T00:49:05Z",
+      "eventType" : 8,
+      "phase" : 1,
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5957
+    },
+    {
+      "createdAt" : "2025-12-21T00:49:20Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "D1FB02AC-A729-4E7B-A9BB-4FB3F0E70500",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6040
+    },
+    {
+      "createdAt" : "2025-12-21T00:49:45Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "B0BBB4E9-2969-4FB8-A6D2-E30CEDCD80F1",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6066
+    },
+    {
+      "createdAt" : "2025-12-21T00:50:24Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "6B3C6EF7-A7FD-40B8-B2AE-5EC50A086240",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6103
+    },
+    {
+      "createdAt" : "2025-12-21T00:51:15Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6172
+    },
+    {
+      "createdAt" : "2025-12-21T00:52:05Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "C15644B3-14E7-41E9-9B92-11DD45C36FE0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6223
+    },
+    {
+      "createdAt" : "2025-12-21T00:52:50Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "2E00EC82-79BB-42DA-AEE7-2C0DB5D5F15C",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6265
+    },
+    {
+      "createdAt" : "2025-12-21T00:53:28Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "B680714C-BA9B-4203-BF18-22865880619D",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6304
+    },
+    {
+      "createdAt" : "2025-12-21T00:53:28Z",
+      "eventType" : 8,
+      "phase" : 1,
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6310
+    },
+    {
+      "createdAt" : "2025-12-21T00:55:08Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "7FF4FC81-3600-4CC9-87AA-9170A94A3CBD",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6471
+    },
+    {
+      "createdAt" : "2025-12-21T00:56:09Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "D42617B8-5A27-46C8-B3C0-A986E0B98089",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6540
+    },
+    {
+      "createdAt" : "2025-12-21T00:56:50Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "E9BA8E64-4C6E-44D5-93A1-8FEEDF810456",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6575
+    },
+    {
+      "createdAt" : "2025-12-21T00:57:39Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "F0AAA35C-8033-46F7-ABC3-D69AD345E0E7",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6628
+    },
+    {
+      "createdAt" : "2025-12-21T00:58:44Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "43D577AB-7A51-4B3F-B871-FBF0346C43B1",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6797
+    },
+    {
+      "createdAt" : "2025-12-21T00:58:59Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "DB6C80F7-352C-45FA-9317-2EAF7B76027C",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6811
+    },
+    {
+      "createdAt" : "2025-12-21T00:59:17Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "6B3C6EF7-A7FD-40B8-B2AE-5EC50A086240",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6829
+    },
+    {
+      "createdAt" : "2025-12-21T00:59:35Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "DB6C80F7-352C-45FA-9317-2EAF7B76027C",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6848
+    },
+    {
+      "createdAt" : "2025-12-21T00:59:57Z",
+      "eventType" : 1,
+      "phase" : 1,
+      "playerKey" : "1EC9043F-8A01-4157-98A0-E4B400692A58",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6867
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 0,
+      "phase" : 0,
+      "videoTimeSeconds" : 1521
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 7,
+      "phase" : 0,
+      "videoTimeSeconds" : 3686
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 0,
+      "phase" : 1,
+      "videoTimeSeconds" : 4595
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 7,
+      "phase" : 1,
+      "videoTimeSeconds" : 6880
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 9,
+      "phase" : 0,
+      "videoTimeSeconds" : 2972
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 9,
+      "phase" : 0,
+      "videoTimeSeconds" : 3494
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 9,
+      "phase" : 1,
+      "videoTimeSeconds" : 6031
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 9,
+      "phase" : 1,
+      "videoTimeSeconds" : 6382
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "videoTimeSeconds" : 1787
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "videoTimeSeconds" : 1843
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "videoTimeSeconds" : 1906
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "videoTimeSeconds" : 1921
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "videoTimeSeconds" : 2123
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "videoTimeSeconds" : 2146
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "videoTimeSeconds" : 2276
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "videoTimeSeconds" : 2287
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "videoTimeSeconds" : 2747
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "videoTimeSeconds" : 2769
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "videoTimeSeconds" : 3126
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "videoTimeSeconds" : 3154
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "videoTimeSeconds" : 3364
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "videoTimeSeconds" : 3413
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 0,
+      "videoTimeSeconds" : 3244
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 0,
+      "videoTimeSeconds" : 3254
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "videoTimeSeconds" : 4934
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "videoTimeSeconds" : 5068
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "videoTimeSeconds" : 5091
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "videoTimeSeconds" : 5111
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "videoTimeSeconds" : 5620
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "videoTimeSeconds" : 5650
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "videoTimeSeconds" : 5840
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "videoTimeSeconds" : 5871
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "videoTimeSeconds" : 6139
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "videoTimeSeconds" : 6157
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 10,
+      "phase" : 1,
+      "videoTimeSeconds" : 6661
+    },
+    {
+      "createdAt" : "2026-05-03T03:15:49Z",
+      "eventType" : 11,
+      "phase" : 1,
+      "videoTimeSeconds" : 6767
+    },
+    {
+      "createdAt" : "2026-05-03T03:20:15Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "E9BA8E64-4C6E-44D5-93A1-8FEEDF810456",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1898.97008510944
+    },
+    {
+      "createdAt" : "2026-05-03T03:21:56Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "743C82D1-4D39-4A08-9F9B-B7311FDCFDC5",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 1984
+    },
+    {
+      "createdAt" : "2026-05-03T03:26:36Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "AC225267-B8E2-4AAF-B9A4-E1697FAA1A7C",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2185.5333808132264
+    },
+    {
+      "createdAt" : "2026-05-03T03:30:56Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "30C9A2E0-407A-4BC4-943A-30B224AB5363",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2477
+    },
+    {
+      "createdAt" : "2026-05-03T03:31:47Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "AC225267-B8E2-4AAF-B9A4-E1697FAA1A7C",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2543
+    },
+    {
+      "createdAt" : "2026-05-03T03:34:20Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2701
+    },
+    {
+      "createdAt" : "2026-05-03T03:35:27Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "5C7D053D-6D66-4540-B773-538B57C3EA1F",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2814.7386569600967
+    },
+    {
+      "createdAt" : "2026-05-03T03:37:10Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "1EC9043F-8A01-4157-98A0-E4B400692A58",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 2991.052302724637
+    },
+    {
+      "createdAt" : "2026-05-03T03:43:10Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "1EC9043F-8A01-4157-98A0-E4B400692A58",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 3359.423620015925
+    },
+    {
+      "createdAt" : "2026-05-03T03:45:18Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "30C9A2E0-407A-4BC4-943A-30B224AB5363",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 3603.4455885878942
+    },
+    {
+      "createdAt" : "2026-05-03T03:47:30Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "5C7D053D-6D66-4540-B773-538B57C3EA1F",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 4670.834524870909
+    },
+    {
+      "createdAt" : "2026-05-03T03:48:30Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 4744.923708845962
+    },
+    {
+      "createdAt" : "2026-05-03T03:49:52Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "30C9A2E0-407A-4BC4-943A-30B224AB5363",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 4790.021519340595
+    },
+    {
+      "createdAt" : "2026-05-03T03:50:07Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "E9BA8E64-4C6E-44D5-93A1-8FEEDF810456",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 4809.334583792234
+    },
+    {
+      "createdAt" : "2026-05-03T03:52:05Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5078
+    },
+    {
+      "createdAt" : "2026-05-03T03:52:58Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "743C82D1-4D39-4A08-9F9B-B7311FDCFDC5",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5147.132885631428
+    },
+    {
+      "createdAt" : "2026-05-03T03:55:46Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "5C7D053D-6D66-4540-B773-538B57C3EA1F",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5348.787534091002
+    },
+    {
+      "createdAt" : "2026-05-03T03:58:33Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "2E00EC82-79BB-42DA-AEE7-2C0DB5D5F15C",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5521.986737366608
+    },
+    {
+      "createdAt" : "2026-05-03T04:01:53Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "7FF4FC81-3600-4CC9-87AA-9170A94A3CBD",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 5757.275316566185
+    },
+    {
+      "createdAt" : "2026-05-03T04:02:05Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "3A28E656-9392-47A1-A8CA-906BE8DA0AC7",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5758.10746635963
+    },
+    {
+      "createdAt" : "2026-05-03T04:09:21Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6396.163571214907
+    },
+    {
+      "createdAt" : "2026-05-03T04:09:53Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "A42920DE-8702-4A5E-887B-18636F0C61F6",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6414.632414005134
+    },
+    {
+      "createdAt" : "2026-05-03T04:10:21Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "F0AAA35C-8033-46F7-ABC3-D69AD345E0E7",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6460.9342123368315
+    },
+    {
+      "createdAt" : "2026-05-03T04:11:02Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "1EC9043F-8A01-4157-98A0-E4B400692A58",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6513.796036217279
+    },
+    {
+      "createdAt" : "2026-05-03T04:13:27Z",
+      "eventType" : 2,
+      "phase" : 1,
+      "playerKey" : "1EC9043F-8A01-4157-98A0-E4B400692A58",
+      "teamKey" : "away",
+      "videoTimeSeconds" : 6782.44848756008
+    }
+  ],
+  "match" : {
+    "date" : "2025-12-21T00:00:00Z",
+    "displayName" : "豊田合成ブルーファルコン vs ZEEKSTAR TOKYO",
+    "phaseDurationSeconds" : 1800,
+    "youtubeURL" : "https://youtu.be/z5KrsvC6VAA"
+  },
+  "schemaVersion" : 1,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "ZEEKSTAR TOKYO",
+      "players" : [
+        {
+          "jerseyNumber" : 1,
+          "key" : "3250D5CA-4A66-4DFC-94DC-F3166E607C27",
+          "name" : "大山翔伍"
+        },
+        {
+          "jerseyNumber" : 3,
+          "key" : "30C9A2E0-407A-4BC4-943A-30B224AB5363",
+          "name" : "部井久アダム勇樹"
+        },
+        {
+          "jerseyNumber" : 6,
+          "key" : "E4FF5D46-5BC9-49F0-8884-F07D7049E706",
+          "name" : "高橋颯汰"
+        },
+        {
+          "jerseyNumber" : 7,
+          "key" : "1EC9043F-8A01-4157-98A0-E4B400692A58",
+          "name" : "細川智晃"
+        },
+        {
+          "jerseyNumber" : 8,
+          "key" : "6B3C6EF7-A7FD-40B8-B2AE-5EC50A086240",
+          "name" : "元木博紀"
+        },
+        {
+          "jerseyNumber" : 9,
+          "key" : "C5BCF75E-A11F-422B-8ACF-DD134803410C",
+          "name" : "趙顯章"
+        },
+        {
+          "jerseyNumber" : 12,
+          "key" : "F688EEF8-9C96-458E-B436-6EA7179E4AE2",
+          "name" : "矢村裕斗"
+        },
+        {
+          "jerseyNumber" : 13,
+          "key" : "2E00EC82-79BB-42DA-AEE7-2C0DB5D5F15C",
+          "name" : "中村翼"
+        },
+        {
+          "jerseyNumber" : 17,
+          "key" : "7FF4FC81-3600-4CC9-87AA-9170A94A3CBD",
+          "name" : "泉本心"
+        },
+        {
+          "jerseyNumber" : 19,
+          "key" : "A42920DE-8702-4A5E-887B-18636F0C61F6",
+          "name" : "中沖 仁希太"
+        },
+        {
+          "jerseyNumber" : 21,
+          "key" : "C7F8778F-1F94-4D13-AC7B-2190CBF33EB6",
+          "name" : "岩下祐太"
+        },
+        {
+          "jerseyNumber" : 23,
+          "key" : "AB1CF8C4-C639-4EC3-912C-829CE368F69E",
+          "name" : "ピサノライアン海夏人"
+        },
+        {
+          "jerseyNumber" : 24,
+          "key" : "5C7D053D-6D66-4540-B773-538B57C3EA1F",
+          "name" : "宮本辰弥"
+        },
+        {
+          "jerseyNumber" : 27,
+          "key" : "387D9327-E82D-4B33-A662-DA6807C1088B",
+          "name" : "玉川裕康"
+        },
+        {
+          "jerseyNumber" : 32,
+          "key" : "D1FB02AC-A729-4E7B-A9BB-4FB3F0E70500",
+          "name" : "橋本明雄"
+        },
+        {
+          "jerseyNumber" : 33,
+          "key" : "EE09EEC3-9747-4DD6-9363-3B6EA2DC357C",
+          "name" : "信太弘樹"
+        },
+        {
+          "jerseyNumber" : 35,
+          "key" : "E9BA8E64-4C6E-44D5-93A1-8FEEDF810456",
+          "name" : "小山哲也"
+        },
+        {
+          "jerseyNumber" : 44,
+          "key" : "743C82D1-4D39-4A08-9F9B-B7311FDCFDC5",
+          "name" : "蔦谷大雅"
+        },
+        {
+          "jerseyNumber" : 46,
+          "key" : "5B064C02-293E-4F76-B5B5-AC2225DC247A",
+          "name" : "バティスト・ボンフォン"
+        },
+        {
+          "jerseyNumber" : 55,
+          "key" : "43D577AB-7A51-4B3F-B871-FBF0346C43B1",
+          "name" : "伊禮雅太"
+        },
+        {
+          "jerseyNumber" : 66,
+          "key" : "2130D471-0F58-489C-A16B-AFE404194260",
+          "name" : "甲斐昭人"
+        },
+        {
+          "jerseyNumber" : 77,
+          "key" : "999CD9EC-5442-45EC-89B1-BD5347AF4E30",
+          "name" : "東江雄斗"
+        },
+        {
+          "jerseyNumber" : 84,
+          "key" : "C067340A-9461-4CF1-800E-9CCC32C9FFEB",
+          "name" : "柴山裕貴博"
+        },
+        {
+          "jerseyNumber" : 88,
+          "key" : "100DDD41-8104-4AF4-BA28-89EA57506953",
+          "name" : "東長濱秀希"
+        }
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "豊田合成ブルーファルコン",
+      "players" : [
+        {
+          "jerseyNumber" : 2,
+          "key" : "D5D6E32F-BCBC-45FE-BD88-93F694619C6E",
+          "name" : "山口勇樹"
+        },
+        {
+          "jerseyNumber" : 3,
+          "key" : "3A28E656-9392-47A1-A8CA-906BE8DA0AC7",
+          "name" : "戸井凱音"
+        },
+        {
+          "jerseyNumber" : 4,
+          "key" : "F0AAA35C-8033-46F7-ABC3-D69AD345E0E7",
+          "name" : "朝野暉英"
+        },
+        {
+          "jerseyNumber" : 5,
+          "key" : "102C4081-C477-48AC-9854-BCB750A2A6E9",
+          "name" : "篠田凪"
+        },
+        {
+          "jerseyNumber" : 6,
+          "key" : "3362BB7D-0B1A-4B30-BFCF-9456CA5BE816",
+          "name" : "松中大輝"
+        },
+        {
+          "jerseyNumber" : 7,
+          "key" : "3C299AFD-1FEA-4CE9-86E0-795FDBF9BA28",
+          "name" : "ヨアン バラスケス"
+        },
+        {
+          "jerseyNumber" : 8,
+          "key" : "92C1431E-175D-43AB-B58C-A505D557A6C0",
+          "name" : "津波古駿介"
+        },
+        {
+          "jerseyNumber" : 9,
+          "key" : "B680714C-BA9B-4203-BF18-22865880619D",
+          "name" : "荒瀬廉"
+        },
+        {
+          "jerseyNumber" : 10,
+          "key" : "BEC43660-D57C-4C76-B514-895238764A97",
+          "name" : "水町孝太郎"
+        },
+        {
+          "jerseyNumber" : 11,
+          "key" : "C92455A6-A1A5-4DE6-824F-B56B10207F6E",
+          "name" : "服部將成"
+        },
+        {
+          "jerseyNumber" : 12,
+          "key" : "8ADB3398-7EF3-4F88-BE2D-00902619EA31",
+          "name" : "中村匠"
+        },
+        {
+          "jerseyNumber" : 13,
+          "key" : "DB6C80F7-352C-45FA-9317-2EAF7B76027C",
+          "name" : "矢野世人"
+        },
+        {
+          "jerseyNumber" : 14,
+          "key" : "C15644B3-14E7-41E9-9B92-11DD45C36FE0",
+          "name" : "田中大介"
+        },
+        {
+          "jerseyNumber" : 15,
+          "key" : "64DD338A-78E2-411E-81AC-D41F21C3140A",
+          "name" : "齋藤蓮"
+        },
+        {
+          "jerseyNumber" : 16,
+          "key" : "0DB3DC91-B0F4-42C1-837E-8294237F13C2",
+          "name" : "成田翔樹"
+        },
+        {
+          "jerseyNumber" : 17,
+          "key" : "D42617B8-5A27-46C8-B3C0-A986E0B98089",
+          "name" : "古屋悠生"
+        },
+        {
+          "jerseyNumber" : 18,
+          "key" : "066714E3-A34F-4BD6-B2D5-C6D0F07E2F74",
+          "name" : "市原宗弥"
+        },
+        {
+          "jerseyNumber" : 19,
+          "key" : "B3A306E5-86BC-4EAA-91A5-92883E2EACA4",
+          "name" : "石嶺秀"
+        },
+        {
+          "jerseyNumber" : 20,
+          "key" : "AC225267-B8E2-4AAF-B9A4-E1697FAA1A7C",
+          "name" : "出村直嗣"
+        },
+        {
+          "jerseyNumber" : 21,
+          "key" : "B0BBB4E9-2969-4FB8-A6D2-E30CEDCD80F1",
+          "name" : "小塩豪紀"
+        },
+        {
+          "jerseyNumber" : 22,
+          "key" : "F76095EC-1926-4BCC-A664-8851B10C55F8",
+          "name" : "藤勢流"
+        },
+        {
+          "jerseyNumber" : 23,
+          "key" : "BC2EF1EC-6BD2-4979-869A-4A879B394194",
+          "name" : "ディエゴ マルティン"
+        },
+        {
+          "jerseyNumber" : 24,
+          "key" : "7DFD6493-8E9A-4CBB-80CE-53486D4B0F13",
+          "name" : "宮城風太"
+        },
+        {
+          "jerseyNumber" : 25,
+          "key" : "D9990647-93F7-436F-B3D5-2D829457BB72",
+          "name" : "岡田広規"
+        },
+        {
+          "jerseyNumber" : 26,
+          "key" : "750BD8E8-BBFC-43E0-821A-BE924ACBB4AF",
+          "name" : "原田大夢"
+        },
+        {
+          "jerseyNumber" : 27,
+          "key" : "22CE1A78-7A18-4F45-8B8E-88E424014782",
+          "name" : "伊藤太一"
+        }
+      ]
+    }
+  }
+}

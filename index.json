@@ -2,6 +2,15 @@
   "schemaVersion" : 1,
   "matches" : [
     {
+      "slug" : "2025-12-21-5c775e8b",
+      "displayName" : "豊田合成ブルーファルコン vs ZEEKSTAR TOKYO",
+      "description" : null,
+      "date" : "2025-12-21T00:00:00Z",
+      "homeScore" : 41,
+      "awayScore" : 31,
+      "hasYouTubeURL" : true
+    },
+    {
       "slug" : "2025-12-20-f352ea46",
       "displayName" : "ZEEKSTAR TOKYO vs ブレイブキングス刈谷",
       "description" : null,
