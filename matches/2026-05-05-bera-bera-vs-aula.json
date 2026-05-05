@@ -1,0 +1,51 @@
+{
+  "events" : [
+    {
+      "createdAt" : "2026-05-05T09:30:35Z",
+      "eventType" : 0,
+      "phase" : 0,
+      "videoTimeSeconds" : 0
+    },
+    {
+      "createdAt" : "2026-05-05T09:30:53Z",
+      "eventType" : 7,
+      "phase" : 0,
+      "videoTimeSeconds" : 5821
+    },
+    {
+      "createdAt" : "2026-05-05T09:31:17Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "06741B18-4BD5-4440-BD32-6DE70D099AA2",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 4264.884848278387
+    }
+  ],
+  "match" : {
+    "date" : "2026-05-05T09:29:49Z",
+    "displayName" : "石川空選手の得点。",
+    "phaseDurationSeconds" : 5821,
+    "youtubeURL" : "https://youtu.be/5egklw4_Yv8"
+  },
+  "schemaVersion" : 1,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "AULA",
+      "players" : [
+
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "BERA BERA",
+      "players" : [
+        {
+          "jerseyNumber" : 89,
+          "key" : "06741B18-4BD5-4440-BD32-6DE70D099AA2",
+          "name" : "石川空"
+        }
+      ]
+    }
+  }
+}
