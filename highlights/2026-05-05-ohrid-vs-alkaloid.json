@@ -1,0 +1,146 @@
+{
+  "events" : [
+    {
+      "createdAt" : "2026-05-06T11:21:33Z",
+      "eventType" : 0,
+      "phase" : 0,
+      "videoTimeSeconds" : 0
+    },
+    {
+      "createdAt" : "2026-05-06T11:21:40Z",
+      "eventType" : 7,
+      "phase" : 0,
+      "videoTimeSeconds" : 7937
+    },
+    {
+      "createdAt" : "2026-05-06T11:26:37Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1882.045173036505
+    },
+    {
+      "createdAt" : "2026-05-06T11:38:44Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2306
+    },
+    {
+      "createdAt" : "2026-05-06T11:40:03Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2403.625092316043
+    },
+    {
+      "createdAt" : "2026-05-06T11:40:35Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2476.8038860322963
+    },
+    {
+      "createdAt" : "2026-05-06T11:46:08Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3438.889263472598
+    },
+    {
+      "createdAt" : "2026-05-06T11:47:58Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3671
+    },
+    {
+      "createdAt" : "2026-05-06T11:48:55Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3756
+    },
+    {
+      "createdAt" : "2026-05-06T11:49:30Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3821.2562172478374
+    },
+    {
+      "createdAt" : "2026-05-06T11:51:12Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 4701.102047352052
+    },
+    {
+      "createdAt" : "2026-05-06T11:55:49Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5368
+    },
+    {
+      "createdAt" : "2026-05-06T11:59:28Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5941.333021495504
+    },
+    {
+      "createdAt" : "2026-05-06T12:05:25Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 6902.734974639694
+    },
+    {
+      "createdAt" : "2026-05-06T12:08:25Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 7484.783534859771
+    }
+  ],
+  "match" : {
+    "date" : "2026-05-06T11:19:39Z",
+    "displayName" : "安平光佑選手のシュートなど",
+    "phaseDurationSeconds" : 7937,
+    "youtubeURL" : "https://youtu.be/x0lJcCqG654"
+  },
+  "schemaVersion" : 1,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "Alkaloid",
+      "players" : [
+
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "Ohrid",
+      "players" : [
+        {
+          "key" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+          "name" : "安平光佑"
+        }
+      ]
+    }
+  }
+}
