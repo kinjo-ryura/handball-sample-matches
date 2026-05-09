@@ -12,6 +12,16 @@
       "hasYouTubeURL" : true
     },
     {
+      "slug" : "2026-04-20-ohrid-vs-vardar",
+      "displayName" : "安平光佑選手ハイライト",
+      "description" : null,
+      "date" : "2026-04-20T07:40:00Z",
+      "homeTeamName" : "Ohrid",
+      "awayTeamName" : "Vardar",
+      "eventCount" : 22,
+      "hasYouTubeURL" : true
+    },
+    {
       "slug" : "2026-04-19-bera-bera-vs-aula",
       "displayName" : "石川空選手の得点。",
       "description" : null,
@@ -19,6 +29,26 @@
       "homeTeamName" : "BERA BERA",
       "awayTeamName" : "AULA",
       "eventCount" : 1,
+      "hasYouTubeURL" : true
+    },
+    {
+      "slug" : "2026-04-17-ohrid-vs-eurofarm",
+      "displayName" : "安平光佑選手ハイライト",
+      "description" : null,
+      "date" : "2026-04-17T06:38:00Z",
+      "homeTeamName" : "Ohrid",
+      "awayTeamName" : "Eurofarm",
+      "eventCount" : 19,
+      "hasYouTubeURL" : true
+    },
+    {
+      "slug" : "2026-04-10-ohrid-vs-tikvesh",
+      "displayName" : "安平光佑選手ハイライト",
+      "description" : null,
+      "date" : "2026-04-10T05:32:00Z",
+      "homeTeamName" : "Ohrid",
+      "awayTeamName" : "Tikvesh",
+      "eventCount" : 32,
       "hasYouTubeURL" : true
     }
   ]
