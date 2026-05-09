@@ -1,0 +1,281 @@
+{
+  "events" : [
+    {
+      "createdAt" : "2026-05-09T05:33:37Z",
+      "eventType" : 0,
+      "phase" : 0,
+      "videoTimeSeconds" : 0
+    },
+    {
+      "createdAt" : "2026-05-09T05:33:47Z",
+      "eventType" : 7,
+      "phase" : 0,
+      "videoTimeSeconds" : 5689.241
+    },
+    {
+      "createdAt" : "2026-05-09T05:35:54Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 262.96258529793334
+    },
+    {
+      "createdAt" : "2026-05-09T05:37:43Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 375
+    },
+    {
+      "createdAt" : "2026-05-09T05:38:12Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 394.0116787071628
+    },
+    {
+      "createdAt" : "2026-05-09T05:38:56Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 454
+    },
+    {
+      "createdAt" : "2026-05-09T05:39:36Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 501.33683027813925
+    },
+    {
+      "createdAt" : "2026-05-09T05:40:08Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 506.68198727196716
+    },
+    {
+      "createdAt" : "2026-05-09T05:40:59Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 596
+    },
+    {
+      "createdAt" : "2026-05-09T05:41:40Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 654
+    },
+    {
+      "createdAt" : "2026-05-09T05:43:03Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 765
+    },
+    {
+      "createdAt" : "2026-05-09T05:44:05Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 886
+    },
+    {
+      "createdAt" : "2026-05-09T05:45:02Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 951
+    },
+    {
+      "createdAt" : "2026-05-09T05:46:08Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1042.7655854053974
+    },
+    {
+      "createdAt" : "2026-05-09T05:46:44Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1112.3941283922436
+    },
+    {
+      "createdAt" : "2026-05-09T05:46:46Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1134
+    },
+    {
+      "createdAt" : "2026-05-09T05:48:13Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1336.5148625995294
+    },
+    {
+      "createdAt" : "2026-05-09T05:48:51Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1409.2356921813077
+    },
+    {
+      "createdAt" : "2026-05-09T05:48:54Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1430.576510732438
+    },
+    {
+      "createdAt" : "2026-05-09T05:49:49Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1511
+    },
+    {
+      "createdAt" : "2026-05-09T05:51:09Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1680
+    },
+    {
+      "createdAt" : "2026-05-09T05:52:20Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1788.8509812279667
+    },
+    {
+      "createdAt" : "2026-05-09T05:52:47Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1835.5768128342916
+    },
+    {
+      "createdAt" : "2026-05-09T05:53:47Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1979.4001363214986
+    },
+    {
+      "createdAt" : "2026-05-09T05:53:56Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1984.2083435720358
+    },
+    {
+      "createdAt" : "2026-05-09T05:54:34Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2119
+    },
+    {
+      "createdAt" : "2026-05-09T05:55:47Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2242.055636496647
+    },
+    {
+      "createdAt" : "2026-05-09T05:57:14Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3156.7936519852337
+    },
+    {
+      "createdAt" : "2026-05-09T06:00:51Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3715.072135028706
+    },
+    {
+      "createdAt" : "2026-05-09T06:01:49Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3827.5882960318513
+    },
+    {
+      "createdAt" : "2026-05-09T06:02:25Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3905.361377322115
+    },
+    {
+      "createdAt" : "2026-05-09T06:07:35Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 4444.981389712168
+    }
+  ],
+  "match" : {
+    "date" : "2026-04-10T05:32:00Z",
+    "displayName" : "安平光佑選手ハイライト",
+    "phaseDurationSeconds" : 5689.241,
+    "youtubeURL" : "https://www.youtube.com/watch?v=yS2priY-mg0"
+  },
+  "schemaVersion" : 1,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "Tikvesh",
+      "players" : [
+
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "Ohrid",
+      "players" : [
+        {
+          "key" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+          "name" : "安平光佑"
+        }
+      ]
+    }
+  }
+}
