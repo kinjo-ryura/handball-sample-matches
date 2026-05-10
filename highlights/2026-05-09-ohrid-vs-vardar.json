@@ -1,0 +1,154 @@
+{
+  "events" : [
+    {
+      "createdAt" : "2026-05-10T00:51:25Z",
+      "eventType" : 0,
+      "phase" : 0,
+      "videoTimeSeconds" : 0
+    },
+    {
+      "createdAt" : "2026-05-10T00:51:28Z",
+      "eventType" : 7,
+      "phase" : 0,
+      "videoTimeSeconds" : 6477.581
+    },
+    {
+      "createdAt" : "2026-05-10T06:24:10Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 785.6051773424238
+    },
+    {
+      "createdAt" : "2026-05-10T06:24:21Z",
+      "eventType" : 2,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 783
+    },
+    {
+      "createdAt" : "2026-05-10T06:26:24Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 923
+    },
+    {
+      "createdAt" : "2026-05-10T06:26:29Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 942.4872133484183
+    },
+    {
+      "createdAt" : "2026-05-10T06:28:13Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1188.8036509959513
+    },
+    {
+      "createdAt" : "2026-05-10T06:29:18Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1308.708077325591
+    },
+    {
+      "createdAt" : "2026-05-10T06:30:44Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1456
+    },
+    {
+      "createdAt" : "2026-05-10T06:32:17Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1703.0847451625634
+    },
+    {
+      "createdAt" : "2026-05-10T06:32:59Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 1798.035819464778
+    },
+    {
+      "createdAt" : "2026-05-10T06:35:12Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 2117
+    },
+    {
+      "createdAt" : "2026-05-10T06:48:40Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 3779
+    },
+    {
+      "createdAt" : "2026-05-10T06:53:54Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 4401
+    },
+    {
+      "createdAt" : "2026-05-10T06:56:22Z",
+      "eventType" : 12,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 4788.705437816391
+    },
+    {
+      "createdAt" : "2026-05-10T07:04:08Z",
+      "eventType" : 1,
+      "phase" : 0,
+      "playerKey" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+      "teamKey" : "home",
+      "videoTimeSeconds" : 5954.445334373319
+    }
+  ],
+  "match" : {
+    "date" : "2026-05-09T00:48:00Z",
+    "displayName" : "安平光佑選手ハイライト",
+    "phaseDurationSeconds" : 6477.581,
+    "youtubeURL" : "https://www.youtube.com/live/Wp2uz4mGxk4"
+  },
+  "schemaVersion" : 1,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "Vardar",
+      "players" : [
+
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "Ohrid",
+      "players" : [
+        {
+          "key" : "928DF2A4-A425-4C88-9F0D-D0F199EAA3A0",
+          "name" : "安平光佑"
+        }
+      ]
+    }
+  }
+}
