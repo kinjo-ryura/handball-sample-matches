@@ -1,0 +1,2879 @@
+{
+  "facts" : [
+    {
+      "id" : "1A264072-93D1-4549-8B71-D88973C152A3",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1613
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:01:42Z"
+    },
+    {
+      "id" : "0BAECA36-92E1-4FEC-A4A0-8BC1929717C5",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1643
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC39FB9B-BA77-41F4-948F-47AF5DEEBF43",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:02:07Z"
+    },
+    {
+      "id" : "71474CDB-C691-486F-AB5F-F351427C4694",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1677
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:02:40Z"
+    },
+    {
+      "id" : "DC685FCF-8F73-4D0E-8105-CCA2EE85CF79",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1737
+            }
+          },
+          "kind" : "shotMissed",
+          "note" : "7mスロー失敗",
+          "phase" : "firstHalf",
+          "playerKey" : "ADE3822C-86E7-4D06-AF33-64006B343225",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:03:36Z"
+    },
+    {
+      "id" : "F96ECD24-BAF7-45F2-BC11-1E021AB28350",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1772
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:04:16Z"
+    },
+    {
+      "id" : "BCC07512-E7CE-46ED-B0A9-25581A35137A",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1947
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:06:05Z"
+    },
+    {
+      "id" : "7574F3FD-D3A4-440C-951D-698F2364B85C",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2041
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:07:35Z"
+    },
+    {
+      "id" : "7DCACC3B-68FF-4D7C-AB61-B593E069E332",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2077
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "844706C1-2B4B-49D0-9E9C-5027A99D3F77",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:08:12Z"
+    },
+    {
+      "id" : "999586EE-20D2-4452-A7CE-FABE953105CB",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2149
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "A452FE22-91ED-4AEF-9752-A71DAAC85405",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:09:01Z"
+    },
+    {
+      "id" : "27ADE671-07D3-4E36-82EA-1394C4C87C21",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2176
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "EFDC2F7B-D6B7-42B6-A950-6A142F8288EF",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:09:26Z"
+    },
+    {
+      "id" : "F90BEA80-0035-434D-AFE3-4AEDB6B984B0",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2216
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "AD8C65AE-CA63-4AC7-A01D-A8A848C3A1D5",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:10:11Z"
+    },
+    {
+      "id" : "61DFFF3D-1DFC-42DC-9A4C-ADD5331B8471",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2253
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "1A50ED16-9446-44CF-9CBA-F32CCE06186E",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:10:42Z"
+    },
+    {
+      "id" : "D601F27E-77F0-429B-8BF6-69D24B171288",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2304
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "EF7D9E63-32BC-4141-A733-2B27CD9DE761",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:11:22Z"
+    },
+    {
+      "id" : "6B93D6D7-A65E-4E41-8F10-D801374334D0",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2374
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "B8C47B08-3151-437A-B909-255B27F34A46",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:12:29Z"
+    },
+    {
+      "id" : "224A6DFD-E585-4251-89BD-0B337BF83A38",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2411
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:13:19Z"
+    },
+    {
+      "id" : "F2CA9D16-ECA2-4664-9323-3590EA118F59",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2451
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "EF7D9E63-32BC-4141-A733-2B27CD9DE761",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:13:53Z"
+    },
+    {
+      "id" : "479B16A4-4EBC-40E0-8125-DF49AC3E9DA1",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2550
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "AD8C65AE-CA63-4AC7-A01D-A8A848C3A1D5",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:15:35Z"
+    },
+    {
+      "id" : "1E904A22-CC4C-4990-885E-FDFE1AF58271",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2587
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:16:07Z"
+    },
+    {
+      "id" : "69CBE73F-524D-4BA6-A9F2-FC117791EB2E",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2620
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "2CD482FA-189D-48F2-BC1D-9F9D9314B58C",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:16:42Z"
+    },
+    {
+      "id" : "5673BF82-9A85-4607-9DE2-3D8395F540B8",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2772
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "A452FE22-91ED-4AEF-9752-A71DAAC85405",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:18:44Z"
+    },
+    {
+      "id" : "768C2634-5710-41A6-B71F-7160A72E2DFE",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2836
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "6B4B1DB9-75E2-42CC-9E88-D619029AA0AD",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:19:55Z"
+    },
+    {
+      "id" : "EB4059F7-DFDF-460B-90BE-46E0DCDB2DEF",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2886
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "C88FF6D0-E67F-4FE4-AD89-4A3C147D527B",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:20:45Z"
+    },
+    {
+      "id" : "0008B07A-83F9-4350-8ED7-4EEB317F260B",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2895
+            }
+          },
+          "kind" : "timeoutStarted",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2025-12-21T00:20:46Z"
+    },
+    {
+      "id" : "EA80D11E-7C48-41B9-9AA0-D0B964100081",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3056
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "F0C98ACB-F49C-4944-9709-E169C0F4D330",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:22:15Z"
+    },
+    {
+      "id" : "5A86DAF2-06C5-4509-928A-4B1FC6E2AD18",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3115
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "F0C98ACB-F49C-4944-9709-E169C0F4D330",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:23:14Z"
+    },
+    {
+      "id" : "3055BE86-9896-45FE-8A70-85BE1C38714B",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3169
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "A6F9C0CD-62EE-4FC5-A6A0-ED2AB26AFE65",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:23:45Z"
+    },
+    {
+      "id" : "BFD6B438-08F5-4406-A929-F13D000FA690",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3237
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "ADE3822C-86E7-4D06-AF33-64006B343225",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:24:53Z"
+    },
+    {
+      "id" : "EC6B5E9F-D1C4-47B4-8614-7AC77CEB2BED",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3272
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:25:16Z"
+    },
+    {
+      "id" : "0D59AC65-1B24-4513-94F8-F8230F8CA0D2",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3287
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "ADE3822C-86E7-4D06-AF33-64006B343225",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:25:35Z"
+    },
+    {
+      "id" : "58AC83DD-88A8-44BD-AAA0-825A2C798665",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3420
+            }
+          },
+          "kind" : "timeoutStarted",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2025-12-21T00:26:46Z"
+    },
+    {
+      "id" : "4925A445-CC1C-47EB-87F0-0F679A384DC1",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3509
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:27:06Z"
+    },
+    {
+      "id" : "DCE7C583-D7B6-4E20-BA28-B017D29C5233",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3519
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "EFDC2F7B-D6B7-42B6-A950-6A142F8288EF",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:27:20Z"
+    },
+    {
+      "id" : "1C05940E-B626-4AB9-A077-9FA4FC388641",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3567
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "36C98408-B8BE-4F47-8AD7-2F9B78B38980",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:28:12Z"
+    },
+    {
+      "id" : "9A55D9B4-B48D-4CB1-8674-714DBAF65A4F",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3626
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "DC39FB9B-BA77-41F4-948F-47AF5DEEBF43",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:29:03Z"
+    },
+    {
+      "id" : "ACCB02DD-DEE7-42DA-A144-6F0C8032CEF1",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3654
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "54618B3D-E3CA-4B4F-AC4F-D3F292AC1A84",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:29:33Z"
+    },
+    {
+      "id" : "F2315A31-D4F7-4AD1-98EF-7B0E7B8DB16C",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3683
+            }
+          },
+          "kind" : "goal",
+          "phase" : "firstHalf",
+          "playerKey" : "32783953-669A-4AA3-A137-C4A3F39F39D7",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:29:59Z"
+    },
+    {
+      "id" : "C2CFC024-14C2-4A5A-B0A7-E3287F49ED29",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4626
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "AD8C65AE-CA63-4AC7-A01D-A8A848C3A1D5",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:30:36Z"
+    },
+    {
+      "id" : "F031C510-9D6A-4FBF-8E77-68100A222028",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4658
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "BD779669-8E80-4EF9-B4C2-70F2D6FB54BF",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:31:08Z"
+    },
+    {
+      "id" : "FBDB138D-FA6F-4F45-95BB-36095A329D34",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4712
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "ADE3822C-86E7-4D06-AF33-64006B343225",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:32:03Z"
+    },
+    {
+      "id" : "4F6302B6-FE84-43EA-80EC-804A1BD6B2A1",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4820
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "6B4B1DB9-75E2-42CC-9E88-D619029AA0AD",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:33:51Z"
+    },
+    {
+      "id" : "86D12221-7A4C-4814-A728-5A9E7CD25C3C",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5115
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "A452FE22-91ED-4AEF-9752-A71DAAC85405",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:36:06Z"
+    },
+    {
+      "id" : "FCDA879C-75FB-4ED5-A653-99E985625A30",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5167
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:37:05Z"
+    },
+    {
+      "id" : "95E01302-4D78-430F-AEFD-5EA771FCC8C5",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5234
+            }
+          },
+          "kind" : "shotMissed",
+          "note" : "7mスロー失敗",
+          "phase" : "secondHalf",
+          "playerKey" : "B8C47B08-3151-437A-B909-255B27F34A46",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:38:09Z"
+    },
+    {
+      "id" : "77CC54E2-31CA-44D6-8325-5B13BE0CBCE8",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5266
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "BD779669-8E80-4EF9-B4C2-70F2D6FB54BF",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:38:42Z"
+    },
+    {
+      "id" : "A0D6D630-2684-4FA2-83F3-17E36F5731C3",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5275
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "B8C47B08-3151-437A-B909-255B27F34A46",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:38:56Z"
+    },
+    {
+      "id" : "9596685B-E41A-4324-8211-6912F611E4DD",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5305
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:39:22Z"
+    },
+    {
+      "id" : "7031D6D0-9FD6-48DF-94FA-CB99C3E3067B",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5377
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "1A50ED16-9446-44CF-9CBA-F32CCE06186E",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:40:33Z"
+    },
+    {
+      "id" : "E550DCB3-BA73-4A54-B4ED-55D8C3235A29",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5387
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "AD8C65AE-CA63-4AC7-A01D-A8A848C3A1D5",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:40:46Z"
+    },
+    {
+      "id" : "15E26705-4510-41C7-80F0-792D947E5F98",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5420
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "AD8C65AE-CA63-4AC7-A01D-A8A848C3A1D5",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:41:23Z"
+    },
+    {
+      "id" : "386BBC47-1189-4417-89AC-8412AEF93F85",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5453
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:41:50Z"
+    },
+    {
+      "id" : "C75DBA57-48EC-4AA4-ACFD-A0F1930D9D72",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5486
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "54618B3D-E3CA-4B4F-AC4F-D3F292AC1A84",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:42:25Z"
+    },
+    {
+      "id" : "F32A009A-4C9A-49E5-9B0D-F3936218B509",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5549
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "73329C19-91E4-4B1E-BDE1-AFCA6E857918",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:43:25Z"
+    },
+    {
+      "id" : "097A0876-0E0B-4F27-B478-162209B3A8F5",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5585
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "2CD482FA-189D-48F2-BC1D-9F9D9314B58C",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:44:04Z"
+    },
+    {
+      "id" : "0CAE9EC4-CA45-4E09-8EA1-406111420AF2",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5651
+            }
+          },
+          "kind" : "shotMissed",
+          "note" : "7mスロー失敗",
+          "phase" : "secondHalf",
+          "playerKey" : "A452FE22-91ED-4AEF-9752-A71DAAC85405",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:44:34Z"
+    },
+    {
+      "id" : "73A86415-C440-48F7-AE00-3670C0797C01",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5701
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "FA05A09A-8DD7-4643-9916-46E82BCCADD6",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:45:33Z"
+    },
+    {
+      "id" : "0F958C3A-105F-4A7A-922A-8A43D303D627",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5727
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "6B4B1DB9-75E2-42CC-9E88-D619029AA0AD",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:45:56Z"
+    },
+    {
+      "id" : "99A7A3EC-43ED-4791-8C7E-F0412D3665AA",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5791
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "2CD482FA-189D-48F2-BC1D-9F9D9314B58C",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:47:04Z"
+    },
+    {
+      "id" : "C4670064-19C2-4393-BB9F-4374E3C91F91",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5832
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "6B4B1DB9-75E2-42CC-9E88-D619029AA0AD",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:47:38Z"
+    },
+    {
+      "id" : "ABAA95D9-1CDE-4189-88F2-0E55445693AA",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5897
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "6B4B1DB9-75E2-42CC-9E88-D619029AA0AD",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:48:10Z"
+    },
+    {
+      "id" : "9BDF862F-3B3C-45DD-8641-4EFD6BDD0889",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5908
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "B8C47B08-3151-437A-B909-255B27F34A46",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:48:24Z"
+    },
+    {
+      "id" : "1809ED90-7179-4004-9B1A-976F9F13F7B5",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5936
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "73329C19-91E4-4B1E-BDE1-AFCA6E857918",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:48:50Z"
+    },
+    {
+      "id" : "253BB44D-D59F-4F49-A8D8-95128797FAE2",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5957
+            }
+          },
+          "kind" : "timeoutStarted",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2025-12-21T00:49:05Z"
+    },
+    {
+      "id" : "C0648414-F9A4-4890-AB04-FBC7840AA5CB",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6040
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "E9AE3428-85D9-4817-BAF0-2EAB1E6921FC",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:49:20Z"
+    },
+    {
+      "id" : "E6981E05-9581-42C9-93ED-B15D9558F27C",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6066
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "A452FE22-91ED-4AEF-9752-A71DAAC85405",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:49:45Z"
+    },
+    {
+      "id" : "4C28F472-E024-4FD4-9AE4-34B93D474260",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6103
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "FC2C3CE2-3FB2-46D9-BA95-FE5368289A8F",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:50:24Z"
+    },
+    {
+      "id" : "E20FCFE8-3025-4232-8E3F-A9032A4C87E5",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6172
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:51:15Z"
+    },
+    {
+      "id" : "5EEF6BA9-DB77-47DC-9EC7-A58E6D7A39F9",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6223
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "F0C98ACB-F49C-4944-9709-E169C0F4D330",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:52:05Z"
+    },
+    {
+      "id" : "DF0AA89E-2231-4658-85EC-32E0B3892273",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6265
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "B8C47B08-3151-437A-B909-255B27F34A46",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:52:50Z"
+    },
+    {
+      "id" : "4701E400-22A9-4F14-AE36-404937570A0F",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6304
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "BD779669-8E80-4EF9-B4C2-70F2D6FB54BF",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:53:28Z"
+    },
+    {
+      "id" : "49E7F40A-AF95-4884-A21E-E2EDBD1FA5D1",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6310
+            }
+          },
+          "kind" : "timeoutStarted",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2025-12-21T00:53:28Z"
+    },
+    {
+      "id" : "5A7FCB7C-9B86-4927-8072-B5049DA1DD4D",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6471
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "54618B3D-E3CA-4B4F-AC4F-D3F292AC1A84",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:55:08Z"
+    },
+    {
+      "id" : "DFB39B3D-5FB5-45F3-B9A2-53B244BADD83",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6540
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "1A50ED16-9446-44CF-9CBA-F32CCE06186E",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:56:09Z"
+    },
+    {
+      "id" : "77C52AD8-7F13-4616-8A05-3EACB63020F6",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6575
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "DC39FB9B-BA77-41F4-948F-47AF5DEEBF43",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:56:50Z"
+    },
+    {
+      "id" : "354BDCA2-9E9C-4888-8BBE-691C0BED4ED0",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6628
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "6B4B1DB9-75E2-42CC-9E88-D619029AA0AD",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:57:39Z"
+    },
+    {
+      "id" : "680E216D-6F2A-4495-B2F0-755C501B074D",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6797
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "2CD482FA-189D-48F2-BC1D-9F9D9314B58C",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:58:44Z"
+    },
+    {
+      "id" : "A0135A18-964A-4B01-8FEC-594F5AC0E71A",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6811
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "EA2BC4DC-2274-4CF6-AC6C-0B3907606174",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:58:59Z"
+    },
+    {
+      "id" : "81DA204A-D04D-49D3-A2EE-6367CD227484",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6829
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "FC2C3CE2-3FB2-46D9-BA95-FE5368289A8F",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:59:17Z"
+    },
+    {
+      "id" : "3E965041-C956-4DC1-A645-20C54F754E1C",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6848
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "EA2BC4DC-2274-4CF6-AC6C-0B3907606174",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:59:35Z"
+    },
+    {
+      "id" : "49E46228-8D4E-4DF8-95B0-CEAD4A6F65B2",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6867
+            }
+          },
+          "kind" : "goal",
+          "phase" : "secondHalf",
+          "playerKey" : "FA05A09A-8DD7-4643-9916-46E82BCCADD6",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2025-12-21T00:59:57Z"
+    },
+    {
+      "id" : "E2B8F6DD-F5F1-4F72-8AF8-7289AEF5F7D1",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1521
+            }
+          },
+          "kind" : "phaseStarted",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "05367156-B625-4BFB-8AF0-861D257D553E",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3686
+            }
+          },
+          "kind" : "phaseEnded",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "A9A6CCC0-BC21-483B-A0E6-7ACE77061BF7",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4595
+            }
+          },
+          "kind" : "phaseStarted",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "2CFDA641-BB4E-4D89-976B-CBCFD9E01211",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6880
+            }
+          },
+          "kind" : "phaseEnded",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "6E300A88-21C1-43CF-87DC-B7D10A5E78D4",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2972
+            }
+          },
+          "kind" : "timeoutEnded",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "968064B0-DFD3-4973-B2C1-D65491BBFAB7",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3494
+            }
+          },
+          "kind" : "timeoutEnded",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "F3ACB053-B356-4806-AFBD-B31C06C7F311",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6031
+            }
+          },
+          "kind" : "timeoutEnded",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "80B4D1C6-CDDD-4E4A-9AA0-D5DA3B781BFF",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6382
+            }
+          },
+          "kind" : "timeoutEnded",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "A791742D-3072-4D50-BE6A-D4A46672E4CE",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1787
+            }
+          },
+          "kind" : "paused",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "5BA51E96-AA2B-4B3D-B7F6-DF4045A7C45F",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1843
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "7BAECF61-9CEE-4DCA-961D-5403C2CEFD8A",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1906
+            }
+          },
+          "kind" : "paused",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "41B745D3-B8A1-4BF1-95E7-B9C9E3D98542",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1921
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "54739946-8E11-4A3C-AD63-097CA4092CAF",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2123
+            }
+          },
+          "kind" : "paused",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "E41110B3-2948-4882-BA73-0F8AAAC46EF5",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2146
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "EAD15BB5-E37F-44ED-8189-014E048DF554",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2276
+            }
+          },
+          "kind" : "paused",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "72B87B3D-F447-414B-AAE8-D0F37381788E",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2287
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "2B2ED368-8B92-4003-A179-5E0587B9AAC7",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2747
+            }
+          },
+          "kind" : "paused",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "D93B0E82-2919-4FF5-8F67-6A6E8C731B93",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2769
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "4433B7DD-0C37-47DE-8833-507FD3C5D5CD",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3126
+            }
+          },
+          "kind" : "paused",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "B1B10771-2F82-4CB0-B3B2-F2FAD108EA94",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3154
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "3A22B4ED-8A35-487A-B493-1B72C9EBA0D3",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3364
+            }
+          },
+          "kind" : "paused",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "9C925D2E-3B15-4425-BA18-708F8EC53A85",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3413
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "487340D0-AD59-46A3-9F97-20330E70EDD9",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3244
+            }
+          },
+          "kind" : "paused",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "0EDC16CF-9862-4150-B73B-911936E5B932",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3254
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "firstHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "9E83C5DD-FC25-45CA-914F-84D7344E0FFD",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4934
+            }
+          },
+          "kind" : "paused",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "7B42E59D-1578-4F20-A759-880BC7B33185",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5068
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "570DA147-C071-4FF6-A844-F3B05833C176",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5091
+            }
+          },
+          "kind" : "paused",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "BB8D212E-1269-404E-98E8-0232FC3269AA",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5111
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "87CDCA1D-C46A-4225-BBA1-F1194B562B08",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5620
+            }
+          },
+          "kind" : "paused",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "081C2927-C06A-4120-AF19-3B3F18C55F46",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5650
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "4E6BD4B9-CE67-4008-8230-50F01FFA2096",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5840
+            }
+          },
+          "kind" : "paused",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "AD60475E-1531-4754-BC38-DAB00D38FDAD",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5871
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "4C47963F-85CD-4166-ABFD-2CFAA6232E8D",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6139
+            }
+          },
+          "kind" : "paused",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "AB5421DC-7CD6-4AC0-8D12-99F6F76FFC48",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6157
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "B9752ECE-66B1-486D-A3E4-50AB67FF4816",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6661
+            }
+          },
+          "kind" : "paused",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "4C83C77F-6F4F-4DEA-A587-8E8703CD5D37",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6767
+            }
+          },
+          "kind" : "resumed",
+          "phase" : "secondHalf"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-03T03:15:49Z"
+    },
+    {
+      "id" : "008A70F0-7254-487E-BD36-CF4F1E192F9A",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1898.97008510944
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "DC39FB9B-BA77-41F4-948F-47AF5DEEBF43",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:20:15Z"
+    },
+    {
+      "id" : "E4688FD0-393C-46F4-BFC1-6FE3D68EB940",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1984
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "ADE3822C-86E7-4D06-AF33-64006B343225",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:21:56Z"
+    },
+    {
+      "id" : "DA257515-A730-44D1-A88B-67ED465701A1",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2185.5333808132264
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "DB24F3FA-C14A-48BB-800A-40AA98B988E2",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:26:36Z"
+    },
+    {
+      "id" : "58D01361-5117-4BF2-956A-BA136CDA14DE",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2477
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "EFDC2F7B-D6B7-42B6-A950-6A142F8288EF",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:30:56Z"
+    },
+    {
+      "id" : "9C5DFF9A-4043-43E5-AD8E-1BBEFCF9FABE",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2543
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "DB24F3FA-C14A-48BB-800A-40AA98B988E2",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:31:47Z"
+    },
+    {
+      "id" : "70B0EDB4-FF3C-4A5E-90C3-7783793652E5",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2701
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:34:20Z"
+    },
+    {
+      "id" : "B913E548-217C-4A03-9AE2-E65407FC20FA",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2814.7386569600967
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "AD8C65AE-CA63-4AC7-A01D-A8A848C3A1D5",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:35:27Z"
+    },
+    {
+      "id" : "B264A17F-E4C5-4514-8634-8F7631158A76",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2991.052302724637
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "FA05A09A-8DD7-4643-9916-46E82BCCADD6",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:37:10Z"
+    },
+    {
+      "id" : "CE8B6CF7-871A-4E6E-B1D2-37B3ED9EE1A8",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3359.423620015925
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "FA05A09A-8DD7-4643-9916-46E82BCCADD6",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:43:10Z"
+    },
+    {
+      "id" : "8F4EE9E1-C41E-41F8-B00F-0640E7860C40",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3603.4455885878942
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "firstHalf",
+          "playerKey" : "EFDC2F7B-D6B7-42B6-A950-6A142F8288EF",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:45:18Z"
+    },
+    {
+      "id" : "A57C92FF-FF4D-4332-83D1-594EB9C5345F",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4670.834524870909
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "AD8C65AE-CA63-4AC7-A01D-A8A848C3A1D5",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:47:30Z"
+    },
+    {
+      "id" : "FBC3DB88-2CF1-4993-9D96-8C5A6E0398F0",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4744.923708845962
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:48:30Z"
+    },
+    {
+      "id" : "F3F6FAF8-A345-4943-89AD-88E4DDD25D94",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4790.021519340595
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "EFDC2F7B-D6B7-42B6-A950-6A142F8288EF",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:49:52Z"
+    },
+    {
+      "id" : "393AEC61-59DE-4E48-A13B-0474621DF418",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4809.334583792234
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "DC39FB9B-BA77-41F4-948F-47AF5DEEBF43",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:50:07Z"
+    },
+    {
+      "id" : "538FD2CA-FB3E-470A-A60D-E16171797208",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5078
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:52:05Z"
+    },
+    {
+      "id" : "BF80F787-EBA9-4E94-9EAA-1AA1C09D0084",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5147.132885631428
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "ADE3822C-86E7-4D06-AF33-64006B343225",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:52:58Z"
+    },
+    {
+      "id" : "A2916B5D-91CB-40F7-8CD8-30AED16A34C0",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5348.787534091002
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "AD8C65AE-CA63-4AC7-A01D-A8A848C3A1D5",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:55:46Z"
+    },
+    {
+      "id" : "18D8EB25-4EEA-4F02-986B-1BFA82C658FC",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5521.986737366608
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "B8C47B08-3151-437A-B909-255B27F34A46",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T03:58:33Z"
+    },
+    {
+      "id" : "D89A45A1-0FB4-4A83-89B1-C34ED9499546",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5757.275316566185
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "54618B3D-E3CA-4B4F-AC4F-D3F292AC1A84",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T04:01:53Z"
+    },
+    {
+      "id" : "B223428F-819B-4D32-8883-D55CFA58756D",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5758.10746635963
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "C88FF6D0-E67F-4FE4-AD89-4A3C147D527B",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-03T04:02:05Z"
+    },
+    {
+      "id" : "B47B9FE5-1A6D-4B80-AC89-A7346CA643F1",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6396.163571214907
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-03T04:09:21Z"
+    },
+    {
+      "id" : "BD9CCBCF-ED88-4378-9767-93E115A682B0",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6414.632414005134
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "A6F9C0CD-62EE-4FC5-A6A0-ED2AB26AFE65",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T04:09:53Z"
+    },
+    {
+      "id" : "2DD00314-E421-46C2-A5A7-A40DBFB0C499",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6460.9342123368315
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "6B4B1DB9-75E2-42CC-9E88-D619029AA0AD",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-03T04:10:21Z"
+    },
+    {
+      "id" : "C9AE90FC-AA4A-4FDB-868E-02F98CCC3EFD",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6513.796036217279
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "FA05A09A-8DD7-4643-9916-46E82BCCADD6",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T04:11:02Z"
+    },
+    {
+      "id" : "56697EA9-E7F4-4875-B1EF-DBFDD29CD438",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6782.44848756008
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "secondHalf",
+          "playerKey" : "FA05A09A-8DD7-4643-9916-46E82BCCADD6",
+          "teamKey" : "away"
+        }
+      },
+      "recordedAt" : "2026-05-03T04:13:27Z"
+    }
+  ],
+  "match" : {
+    "configuration" : {
+      "captureMethod" : "video",
+      "contentKind" : "fullMatch",
+      "phaseRules" : {
+        "phases" : [
+          {
+            "label" : "前半",
+            "nominalDurationSeconds" : 1800,
+            "phase" : "firstHalf"
+          },
+          {
+            "label" : "後半",
+            "nominalDurationSeconds" : 1800,
+            "phase" : "secondHalf"
+          }
+        ]
+      },
+      "videoSource" : {
+        "externalID" : "z5KrsvC6VAA",
+        "provider" : "youtube"
+      }
+    },
+    "date" : "2025-12-21T00:00:00Z",
+    "displayName" : "豊田合成ブルーファルコン vs ZEEKSTAR TOKYO",
+    "isHomeOnLeft" : true
+  },
+  "schemaVersion" : 2,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "ZEEKSTAR TOKYO",
+      "players" : [
+        {
+          "jerseyNumber" : 1,
+          "key" : "D7CAA744-B8D7-421D-A78D-49656076CC11",
+          "name" : "大山翔伍"
+        },
+        {
+          "jerseyNumber" : 3,
+          "key" : "EFDC2F7B-D6B7-42B6-A950-6A142F8288EF",
+          "name" : "部井久アダム勇樹"
+        },
+        {
+          "jerseyNumber" : 6,
+          "key" : "BEE13876-6373-4135-BD9E-69DABD8ECAD0",
+          "name" : "高橋颯汰"
+        },
+        {
+          "jerseyNumber" : 7,
+          "key" : "FA05A09A-8DD7-4643-9916-46E82BCCADD6",
+          "name" : "細川智晃"
+        },
+        {
+          "jerseyNumber" : 8,
+          "key" : "FC2C3CE2-3FB2-46D9-BA95-FE5368289A8F",
+          "name" : "元木博紀"
+        },
+        {
+          "jerseyNumber" : 9,
+          "key" : "39F2A291-CC1E-482B-A448-97D1042A16D4",
+          "name" : "趙顯章"
+        },
+        {
+          "jerseyNumber" : 12,
+          "key" : "9A5C0334-2BDB-4816-B7C8-50B0C5F00794",
+          "name" : "矢村裕斗"
+        },
+        {
+          "jerseyNumber" : 13,
+          "key" : "B8C47B08-3151-437A-B909-255B27F34A46",
+          "name" : "中村翼"
+        },
+        {
+          "jerseyNumber" : 17,
+          "key" : "54618B3D-E3CA-4B4F-AC4F-D3F292AC1A84",
+          "name" : "泉本心"
+        },
+        {
+          "jerseyNumber" : 19,
+          "key" : "A6F9C0CD-62EE-4FC5-A6A0-ED2AB26AFE65",
+          "name" : "中沖 仁希太"
+        },
+        {
+          "jerseyNumber" : 21,
+          "key" : "5A016FFB-EE9C-433A-B0D3-132022D7DFE5",
+          "name" : "岩下祐太"
+        },
+        {
+          "jerseyNumber" : 23,
+          "key" : "7A8F4484-E2E9-423C-A7C4-C2B42FB04DF5",
+          "name" : "ピサノライアン海夏人"
+        },
+        {
+          "jerseyNumber" : 24,
+          "key" : "AD8C65AE-CA63-4AC7-A01D-A8A848C3A1D5",
+          "name" : "宮本辰弥"
+        },
+        {
+          "jerseyNumber" : 27,
+          "key" : "7D73F905-7105-40A9-BD7C-8A2D7AD6B7B7",
+          "name" : "玉川裕康"
+        },
+        {
+          "jerseyNumber" : 32,
+          "key" : "E9AE3428-85D9-4817-BAF0-2EAB1E6921FC",
+          "name" : "橋本明雄"
+        },
+        {
+          "jerseyNumber" : 33,
+          "key" : "D74C1F32-DD2B-4938-A173-147E5098F2E1",
+          "name" : "信太弘樹"
+        },
+        {
+          "jerseyNumber" : 35,
+          "key" : "DC39FB9B-BA77-41F4-948F-47AF5DEEBF43",
+          "name" : "小山哲也"
+        },
+        {
+          "jerseyNumber" : 44,
+          "key" : "ADE3822C-86E7-4D06-AF33-64006B343225",
+          "name" : "蔦谷大雅"
+        },
+        {
+          "jerseyNumber" : 46,
+          "key" : "34742A0A-841C-4ACE-93EE-00A09F2708AC",
+          "name" : "バティスト・ボンフォン"
+        },
+        {
+          "jerseyNumber" : 55,
+          "key" : "2CD482FA-189D-48F2-BC1D-9F9D9314B58C",
+          "name" : "伊禮雅太"
+        },
+        {
+          "jerseyNumber" : 66,
+          "key" : "0A90585B-A6B4-4579-9D83-CFEA1D57B5AD",
+          "name" : "甲斐昭人"
+        },
+        {
+          "jerseyNumber" : 77,
+          "key" : "D2FE4417-7AE0-4DD1-A1AE-C0A3CB28AA2E",
+          "name" : "東江雄斗"
+        },
+        {
+          "jerseyNumber" : 84,
+          "key" : "844706C1-2B4B-49D0-9E9C-5027A99D3F77",
+          "name" : "柴山裕貴博"
+        },
+        {
+          "jerseyNumber" : 88,
+          "key" : "5D9203BF-9D05-4E06-921F-ADA05A82878A",
+          "name" : "東長濱秀希"
+        }
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "豊田合成ブルーファルコン",
+      "players" : [
+        {
+          "jerseyNumber" : 2,
+          "key" : "D8C9CED8-0BFB-4C81-A34B-25963B04BEA6",
+          "name" : "山口勇樹"
+        },
+        {
+          "jerseyNumber" : 3,
+          "key" : "C88FF6D0-E67F-4FE4-AD89-4A3C147D527B",
+          "name" : "戸井凱音"
+        },
+        {
+          "jerseyNumber" : 4,
+          "key" : "6B4B1DB9-75E2-42CC-9E88-D619029AA0AD",
+          "name" : "朝野暉英"
+        },
+        {
+          "jerseyNumber" : 5,
+          "key" : "DD842224-65C6-472E-998C-0C75DD45C21F",
+          "name" : "篠田凪"
+        },
+        {
+          "jerseyNumber" : 6,
+          "key" : "811ED16B-2F33-4BB1-9106-92DCA227934D",
+          "name" : "松中大輝"
+        },
+        {
+          "jerseyNumber" : 7,
+          "key" : "DC74557A-5762-4CB0-B40E-F690E1AEC7A8",
+          "name" : "ヨアン バラスケス"
+        },
+        {
+          "jerseyNumber" : 8,
+          "key" : "CB278179-88E8-41D2-8575-8E1B83DAB3FB",
+          "name" : "津波古駿介"
+        },
+        {
+          "jerseyNumber" : 9,
+          "key" : "BD779669-8E80-4EF9-B4C2-70F2D6FB54BF",
+          "name" : "荒瀬廉"
+        },
+        {
+          "jerseyNumber" : 10,
+          "key" : "73A217CD-DD93-42FC-AAA4-C5158FCA7E8B",
+          "name" : "水町孝太郎"
+        },
+        {
+          "jerseyNumber" : 11,
+          "key" : "0A06E068-088A-4E98-B8AE-BA02A5A45640",
+          "name" : "服部將成"
+        },
+        {
+          "jerseyNumber" : 12,
+          "key" : "70104BD6-FCC0-455B-B86D-D0384B3B0280",
+          "name" : "中村匠"
+        },
+        {
+          "jerseyNumber" : 13,
+          "key" : "EA2BC4DC-2274-4CF6-AC6C-0B3907606174",
+          "name" : "矢野世人"
+        },
+        {
+          "jerseyNumber" : 14,
+          "key" : "F0C98ACB-F49C-4944-9709-E169C0F4D330",
+          "name" : "田中大介"
+        },
+        {
+          "jerseyNumber" : 15,
+          "key" : "F6E7456E-D6D8-4C35-9488-9500A343E715",
+          "name" : "齋藤蓮"
+        },
+        {
+          "jerseyNumber" : 16,
+          "key" : "78B0202E-34A7-48C9-889C-BFB36A2467B3",
+          "name" : "成田翔樹"
+        },
+        {
+          "jerseyNumber" : 17,
+          "key" : "1A50ED16-9446-44CF-9CBA-F32CCE06186E",
+          "name" : "古屋悠生"
+        },
+        {
+          "jerseyNumber" : 18,
+          "key" : "36C98408-B8BE-4F47-8AD7-2F9B78B38980",
+          "name" : "市原宗弥"
+        },
+        {
+          "jerseyNumber" : 19,
+          "key" : "EF7D9E63-32BC-4141-A733-2B27CD9DE761",
+          "name" : "石嶺秀"
+        },
+        {
+          "jerseyNumber" : 20,
+          "key" : "DB24F3FA-C14A-48BB-800A-40AA98B988E2",
+          "name" : "出村直嗣"
+        },
+        {
+          "jerseyNumber" : 21,
+          "key" : "A452FE22-91ED-4AEF-9752-A71DAAC85405",
+          "name" : "小塩豪紀"
+        },
+        {
+          "jerseyNumber" : 22,
+          "key" : "1A009B34-46C8-414A-BE52-852A6C0018EF",
+          "name" : "藤勢流"
+        },
+        {
+          "jerseyNumber" : 23,
+          "key" : "73329C19-91E4-4B1E-BDE1-AFCA6E857918",
+          "name" : "ディエゴ マルティン"
+        },
+        {
+          "jerseyNumber" : 24,
+          "key" : "9CD95829-6E83-4CEB-B9BA-848C8D370C81",
+          "name" : "宮城風太"
+        },
+        {
+          "jerseyNumber" : 25,
+          "key" : "69CA9CEC-0E94-46F0-B280-1E0209E87262",
+          "name" : "岡田広規"
+        },
+        {
+          "jerseyNumber" : 26,
+          "key" : "32783953-669A-4AA3-A137-C4A3F39F39D7",
+          "name" : "原田大夢"
+        },
+        {
+          "jerseyNumber" : 27,
+          "key" : "A88AB101-B32E-4FEE-854B-7E9D4A79615E",
+          "name" : "伊藤太一"
+        }
+      ]
+    }
+  }
+}

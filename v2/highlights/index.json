@@ -1,0 +1,59 @@
+{
+  "highlights" : [
+    {
+      "awayTeamName" : "Vardar",
+      "date" : "2026-05-09T00:48:00Z",
+      "displayName" : "安平光佑選手ハイライト",
+      "eventCount" : 14,
+      "hasYouTubeURL" : true,
+      "homeTeamName" : "Ohrid",
+      "slug" : "2026-05-09-ohrid-vs-vardar"
+    },
+    {
+      "awayTeamName" : "Alkaloid",
+      "date" : "2026-05-06T11:19:39Z",
+      "displayName" : "安平光佑選手のシュートなど",
+      "eventCount" : 13,
+      "hasYouTubeURL" : true,
+      "homeTeamName" : "Ohrid",
+      "slug" : "2026-05-05-ohrid-vs-alkaloid"
+    },
+    {
+      "awayTeamName" : "Vardar",
+      "date" : "2026-04-20T07:40:00Z",
+      "displayName" : "安平光佑選手ハイライト",
+      "eventCount" : 20,
+      "hasYouTubeURL" : true,
+      "homeTeamName" : "Ohrid",
+      "slug" : "2026-04-20-ohrid-vs-vardar"
+    },
+    {
+      "awayTeamName" : "AULA",
+      "date" : "2026-05-05T09:29:49Z",
+      "displayName" : "石川空選手の得点。",
+      "eventCount" : 1,
+      "hasYouTubeURL" : true,
+      "homeTeamName" : "BERA BERA",
+      "slug" : "2026-04-19-bera-bera-vs-aula"
+    },
+    {
+      "awayTeamName" : "Eurofarm",
+      "date" : "2026-04-17T06:38:00Z",
+      "displayName" : "安平光佑選手ハイライト",
+      "eventCount" : 17,
+      "hasYouTubeURL" : true,
+      "homeTeamName" : "Ohrid",
+      "slug" : "2026-04-17-ohrid-vs-eurofarm"
+    },
+    {
+      "awayTeamName" : "Tikvesh",
+      "date" : "2026-04-10T05:32:00Z",
+      "displayName" : "安平光佑選手ハイライト",
+      "eventCount" : 30,
+      "hasYouTubeURL" : true,
+      "homeTeamName" : "Ohrid",
+      "slug" : "2026-04-10-ohrid-vs-tikvesh"
+    }
+  ],
+  "schemaVersion" : 2
+}

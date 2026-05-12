@@ -1,0 +1,326 @@
+{
+  "facts" : [
+    {
+      "id" : "D9D2C565-FB55-4725-88A5-4957E8C2F02F",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 0
+            }
+          },
+          "kind" : "phaseStarted",
+          "phase" : "timeline"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-06T11:21:33Z"
+    },
+    {
+      "id" : "EACD118B-A321-410D-AB13-E29E22F22EDC",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 7937
+            }
+          },
+          "kind" : "phaseEnded",
+          "phase" : "timeline"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-06T11:21:40Z"
+    },
+    {
+      "id" : "EC70D26D-458D-4429-98F3-7BF76056BC0D",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1882.045173036505
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:26:37Z"
+    },
+    {
+      "id" : "1519DF70-9A88-409C-AB40-128FAD5D1666",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2306
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:38:44Z"
+    },
+    {
+      "id" : "BDF0EDFB-3716-4FF6-A554-AAE785BE16D1",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2403.625092316043
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:40:03Z"
+    },
+    {
+      "id" : "CDB559D8-BBAA-41EC-B539-2175FE2F7092",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2476.8038860322963
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:40:35Z"
+    },
+    {
+      "id" : "6BABEA19-FBF1-4A25-B5D4-92E2D8F4887C",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3438.889263472598
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:46:08Z"
+    },
+    {
+      "id" : "02424326-B6FC-474E-AEA9-BA7D3E9F1DC3",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3671
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:47:58Z"
+    },
+    {
+      "id" : "1E17E91C-84B9-4E68-B7AE-102652FF4744",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3756
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:48:55Z"
+    },
+    {
+      "id" : "E9586180-B2F0-465C-A28E-46C71E25B185",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3821.2562172478374
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:49:30Z"
+    },
+    {
+      "id" : "CD9EA7CE-C5EB-454E-9D1E-549D6BC04897",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4701.102047352052
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:51:12Z"
+    },
+    {
+      "id" : "E608C517-746D-4958-8290-DDAC710F6F50",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5368
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:55:49Z"
+    },
+    {
+      "id" : "4DFBCB8A-976B-41F1-B2F8-5C7CBBAF8C14",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5941.333021495504
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T11:59:28Z"
+    },
+    {
+      "id" : "B2AD733D-821F-443C-A452-1D06E4EF84E4",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 6902.734974639694
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T12:05:25Z"
+    },
+    {
+      "id" : "5CF21148-9123-4A7E-BE67-385F83040EDF",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 7484.783534859771
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-06T12:08:25Z"
+    }
+  ],
+  "match" : {
+    "configuration" : {
+      "captureMethod" : "video",
+      "contentKind" : "highlights",
+      "phaseRules" : {
+        "phases" : [
+          {
+            "label" : "ハイライト",
+            "phase" : "timeline"
+          }
+        ]
+      },
+      "videoSource" : {
+        "externalID" : "x0lJcCqG654",
+        "provider" : "youtube"
+      }
+    },
+    "date" : "2026-05-06T11:19:39Z",
+    "displayName" : "安平光佑選手のシュートなど",
+    "isHomeOnLeft" : true
+  },
+  "schemaVersion" : 2,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "Alkaloid",
+      "players" : [
+
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "Ohrid",
+      "players" : [
+        {
+          "key" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "name" : "安平光佑"
+        }
+      ]
+    }
+  }
+}

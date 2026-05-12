@@ -1,0 +1,648 @@
+{
+  "facts" : [
+    {
+      "id" : "AF229834-8182-495B-AB6A-F471DB532DFE",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 0
+            }
+          },
+          "kind" : "phaseStarted",
+          "phase" : "timeline"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-09T05:33:37Z"
+    },
+    {
+      "id" : "F284EEE8-0377-4464-8FF7-9CEDB0920FF8",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5689.241
+            }
+          },
+          "kind" : "phaseEnded",
+          "phase" : "timeline"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-09T05:33:47Z"
+    },
+    {
+      "id" : "6D999DA1-E2D7-4F9A-8103-B24093711E04",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 262.96258529793334
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:35:54Z"
+    },
+    {
+      "id" : "329AD2E8-94E8-4FA6-A921-34C1324FCB3D",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 375
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:37:43Z"
+    },
+    {
+      "id" : "C1A7781D-6978-4326-8398-B59A351D672A",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 394.0116787071628
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:38:12Z"
+    },
+    {
+      "id" : "22CF97F0-DF36-478D-A1DA-A0851CC58011",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 454
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:38:56Z"
+    },
+    {
+      "id" : "1462F1B1-9B88-4D1B-BE52-ED7500CFFD15",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 501.33683027813925
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:39:36Z"
+    },
+    {
+      "id" : "0D3143EE-FCFE-4162-B0D4-CB6B536AEDEA",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 506.68198727196716
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:40:08Z"
+    },
+    {
+      "id" : "56DDE2E6-070B-4E45-A4F9-87CA357E8876",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 596
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:40:59Z"
+    },
+    {
+      "id" : "28CEBCCC-2DC8-419C-85D3-1BF02D55E3DA",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 654
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:41:40Z"
+    },
+    {
+      "id" : "1E5DFD43-762A-4D0E-A02C-E6E4AC67F37C",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 765
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:43:03Z"
+    },
+    {
+      "id" : "FF989FF2-4378-43CB-8B0C-70D21DDB6DC7",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 886
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:44:05Z"
+    },
+    {
+      "id" : "C0DA9D64-3177-49E5-B46F-9A864FB927B0",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 951
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:45:02Z"
+    },
+    {
+      "id" : "048BB24B-8CA5-4080-AE7C-B32E99EE7FAF",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1042.7655854053974
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:46:08Z"
+    },
+    {
+      "id" : "02E33261-0726-4B2F-B6D4-8B58622AFD9D",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1112.3941283922436
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:46:44Z"
+    },
+    {
+      "id" : "E6E0BC51-C8DF-476A-AF2F-8A49C78AE440",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1134
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:46:46Z"
+    },
+    {
+      "id" : "55AD4172-E460-4447-A55A-95B3A2D03E19",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1336.5148625995294
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:48:13Z"
+    },
+    {
+      "id" : "9F4EB121-BD28-4043-84F7-0B69D11F3829",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1409.2356921813077
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:48:51Z"
+    },
+    {
+      "id" : "D5BEA00E-C033-4CF9-84B1-38ACA13A3E9E",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1430.576510732438
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:48:54Z"
+    },
+    {
+      "id" : "E2CE2E72-8326-4354-9E2D-436DD3CCFCCB",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1511
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:49:49Z"
+    },
+    {
+      "id" : "84EBFD60-ABDF-4AC7-B78B-C37BFBAE3F7E",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1680
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:51:09Z"
+    },
+    {
+      "id" : "4DCE52B6-DBD2-41A2-A34C-05A4364D40B3",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1788.8509812279667
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:52:20Z"
+    },
+    {
+      "id" : "FD107419-6E2E-480A-8FE5-D82AD6599390",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1835.5768128342916
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:52:47Z"
+    },
+    {
+      "id" : "7E1B40DC-FDB9-4BDA-94CD-3960DFD7EEFF",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1979.4001363214986
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:53:47Z"
+    },
+    {
+      "id" : "35AE9771-8B74-4012-8825-D77EE3BE5637",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 1984.2083435720358
+            }
+          },
+          "kind" : "shotMissed",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:53:56Z"
+    },
+    {
+      "id" : "BE2FC10F-59C3-4A81-9635-CE34513B5DE0",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2119
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:54:34Z"
+    },
+    {
+      "id" : "5241D513-A7A4-49F4-AD94-7990FD65C45F",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 2242.055636496647
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:55:47Z"
+    },
+    {
+      "id" : "45D84AA3-A029-43C8-BF9D-4029191B8F94",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3156.7936519852337
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T05:57:14Z"
+    },
+    {
+      "id" : "F5A1C37D-6BDC-40D0-9E59-10DEC6092A2C",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3715.072135028706
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T06:00:51Z"
+    },
+    {
+      "id" : "1D27185F-021E-453E-B1E3-AF9F25FAA615",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3827.5882960318513
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T06:01:49Z"
+    },
+    {
+      "id" : "59D10E80-3EC9-4056-8E81-B86925508246",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 3905.361377322115
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T06:02:25Z"
+    },
+    {
+      "id" : "B94D20C8-1681-4BD0-835A-45F83161127E",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4444.981389712168
+            }
+          },
+          "kind" : "freeNote",
+          "phase" : "timeline",
+          "playerKey" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-09T06:07:35Z"
+    }
+  ],
+  "match" : {
+    "configuration" : {
+      "captureMethod" : "video",
+      "contentKind" : "highlights",
+      "phaseRules" : {
+        "phases" : [
+          {
+            "label" : "ハイライト",
+            "phase" : "timeline"
+          }
+        ]
+      },
+      "videoSource" : {
+        "externalID" : "yS2priY-mg0",
+        "provider" : "youtube"
+      }
+    },
+    "date" : "2026-04-10T05:32:00Z",
+    "displayName" : "安平光佑選手ハイライト",
+    "isHomeOnLeft" : true
+  },
+  "schemaVersion" : 2,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "Tikvesh",
+      "players" : [
+
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "Ohrid",
+      "players" : [
+        {
+          "key" : "CA385D2C-CA51-48D1-A306-91E9E880DA31",
+          "name" : "安平光佑"
+        }
+      ]
+    }
+  }
+}

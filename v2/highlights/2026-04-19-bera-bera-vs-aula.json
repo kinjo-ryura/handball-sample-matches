@@ -1,0 +1,99 @@
+{
+  "facts" : [
+    {
+      "id" : "071E4CCB-B454-4CFF-9572-249902BCB4BD",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 0
+            }
+          },
+          "kind" : "phaseStarted",
+          "phase" : "timeline"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-05T09:30:35Z"
+    },
+    {
+      "id" : "72E3FF93-92A7-4682-B4A7-AEF3957811BA",
+      "payload" : {
+        "control" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 5821
+            }
+          },
+          "kind" : "phaseEnded",
+          "phase" : "timeline"
+        },
+        "kind" : "control"
+      },
+      "recordedAt" : "2026-05-05T09:30:53Z"
+    },
+    {
+      "id" : "6FE445E0-DEAF-4056-924C-C073B0022121",
+      "payload" : {
+        "kind" : "play",
+        "play" : {
+          "anchor" : {
+            "kind" : "videoClock",
+            "videoClock" : {
+              "elapsedSeconds" : 4264.884848278387
+            }
+          },
+          "kind" : "goal",
+          "phase" : "timeline",
+          "playerKey" : "B9FE2E7E-82B6-4D48-8C3D-52E4C466DC81",
+          "teamKey" : "home"
+        }
+      },
+      "recordedAt" : "2026-05-05T09:31:17Z"
+    }
+  ],
+  "match" : {
+    "configuration" : {
+      "captureMethod" : "video",
+      "contentKind" : "highlights",
+      "phaseRules" : {
+        "phases" : [
+          {
+            "label" : "ハイライト",
+            "phase" : "timeline"
+          }
+        ]
+      },
+      "videoSource" : {
+        "externalID" : "5egklw4_Yv8",
+        "provider" : "youtube"
+      }
+    },
+    "date" : "2026-05-05T09:29:49Z",
+    "displayName" : "石川空選手の得点。",
+    "isHomeOnLeft" : true
+  },
+  "schemaVersion" : 2,
+  "teams" : {
+    "away" : {
+      "key" : "away",
+      "name" : "AULA",
+      "players" : [
+
+      ]
+    },
+    "home" : {
+      "key" : "home",
+      "name" : "BERA BERA",
+      "players" : [
+        {
+          "jerseyNumber" : 89,
+          "key" : "B9FE2E7E-82B6-4D48-8C3D-52E4C466DC81",
+          "name" : "石川空"
+        }
+      ]
+    }
+  }
+}
