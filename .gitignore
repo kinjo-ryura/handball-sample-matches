@@ -3,3 +3,6 @@ pdf/
 
 # JHL公式PDFから自動抽出したサンプル試合は当面 git に含めない（合成イベント込みで品質要レビュー）
 pdf-matches/
+
+# 動画モード移行 wizard の snapshot (DEBUG 機能で export/import するローカル限定アーティファクト)
+migration-snapshots/
