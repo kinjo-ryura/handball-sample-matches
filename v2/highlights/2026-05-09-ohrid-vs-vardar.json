@@ -377,12 +377,15 @@
   ],
   "match": {
     "configuration": {
-      "kind": "timer",
-      "timer": {
-        "phaseDurationSeconds": 6477.581
-      },
+      "kind": "videoHighlight",
+      "timer": null,
       "video": null,
-      "videoHighlight": null
+      "videoHighlight": {
+        "source": {
+          "externalID": "Wp2uz4mGxk4",
+          "provider": "youtube"
+        }
+      }
     },
     "date": "2026-05-09T00:48:00Z",
     "displayName": "安平光佑選手ハイライト"
