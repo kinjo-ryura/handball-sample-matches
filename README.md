@@ -69,17 +69,20 @@ cd ../handball-toolkit
 cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
 ```
 
+親リポ (`handball-project/`) の root から実行する（`cd` して相対パスで叩かない）:
+
 ```sh
-cd ../../tools/jhl-pdf-importer    # 親リポのツール置き場へ
-python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
-.venv/bin/python parse_jhl_pdf.py \
-  ../../apps/handball-sample-matches/pdf/running_501M156.pdf \
-  --out ../../apps/handball-sample-matches/pdf-matches/2026-04-25-jeekstar-vs-corazon.json
+(cd tools/jhl-pdf-importer && uv sync)
+tools/jhl-pdf-importer/.venv/bin/python tools/jhl-pdf-importer/parse_jhl_pdf.py \
+  apps/handball-sample-matches/pdf/jhl/running_501M156.pdf \
+  --out apps/handball-sample-matches/pdf-matches/jhl/2026-04-25-jeekstar-vs-corazon.json
 ```
 
-詳細・オプション・既知の制約は [tools/jhl-pdf-importer/README.md](../../tools/jhl-pdf-importer/README.md) を参照。
+JHA 主催試合の PDF は `tools/jha-pdf-importer/parse_jha_pdf.py` と `pdf/jha/` → `pdf-matches/jha/` を使う（CLI・出力スキーマは同一）。
 
-Claude Code の `/import-jhl-pdf` skill 経由でも実行できる（PDF からの抽出・検算まで対話で案内する）。
+詳細・オプション・既知の制約は [tools/jhl-pdf-importer/README.md](../../tools/jhl-pdf-importer/README.md) / [tools/jha-pdf-importer/README.md](../../tools/jha-pdf-importer/README.md) を参照。
+
+Claude Code の `/import-pdf` skill 経由でも実行できる（リーグ判定・PDF からの抽出・検算まで対話で案内する）。
 
 ## ハイライトの追加手順
 
