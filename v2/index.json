@@ -10,6 +10,15 @@
       "slug": "2025-12-20-f352ea46"
     },
     {
+      "awayScore": 33,
+      "date": "2025-12-20T00:00:00Z",
+      "description": "公式ランニングスコアから起こしたタイマーモード版（動画なし）",
+      "displayName": "ジークスター東京 vs ブレイブキングス刈谷",
+      "hasVideo": false,
+      "homeScore": 34,
+      "slug": "2025-12-20-zeekstar-tokyo-vs-bravekings-kariya"
+    },
+    {
       "awayScore": 31,
       "date": "2025-12-21T00:00:00Z",
       "description": null,
@@ -17,6 +26,15 @@
       "hasVideo": true,
       "homeScore": 41,
       "slug": "2025-12-21-5c775e8b"
+    },
+    {
+      "awayScore": 31,
+      "date": "2025-12-21T00:00:00Z",
+      "description": "公式ランニングスコアから起こしたタイマーモード版（動画なし）",
+      "displayName": "豊田合成ブルーファルコン名古屋 vs ジークスター東京",
+      "hasVideo": false,
+      "homeScore": 41,
+      "slug": "2025-12-21-bluefalcon-vs-zeekstar-tokyo"
     }
   ],
   "schemaVersion": 2
