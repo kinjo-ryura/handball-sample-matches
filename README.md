@@ -16,8 +16,9 @@ iOS アプリ「ハンド記録」で配信するサンプル試合データの�
 ├── highlights/          ハイライト集（試合とは別配信、専用 index 持ち）
 │   ├── index.json       ハイライト一覧の軽量メタデータ
 │   └── {slug}.json      1 ハイライト = 1 ファイル
-├── pdf/                 元ネタの JHL 公式ランニングスコア PDF（**.gitignore 済み**、ローカル専用）
-└── pdf-matches/         PDF から自動抽出した中間 JSON（**.gitignore 済み**、ローカル専用）
+├── v2/                  schemaVersion=2 の配信データ（index.json / matches/ / highlights/ / SCHEMA.md）
+├── pdf/                 元ネタの公式ランニングスコア PDF（**.gitignore 済み**、ローカル専用）
+└── pdf-matches/         PDF から自動抽出した中間 JSON（**.gitignore 済み**、ローカル専用の staging）
 ```
 
 PDF → JSON 変換スクリプトは親リポの [`tools/jhl-pdf-importer/`](../../tools/jhl-pdf-importer/) に置いている。
@@ -50,7 +51,23 @@ PDF → JSON 変換スクリプトは親リポの [`tools/jhl-pdf-importer/`](..
 
 JHL公式ランニングスコア PDF（`pdf/{試合コード}.pdf`）から、両チームのロースター・全得点・選手別シュート総数を抽出して JSON 化する。動画タイムスタンプは含まれない（タイマーモード前提）。
 
-出力先は **`pdf-matches/` (gitignore 済み)** で、当面は配信対象外。`shotMissed` イベントの時刻が合成（フッター総数からの逆算）になっており、品質要レビューのため。手動で内容を確認 → OK と判断したら `matches/` に手動コピーして `index.json` に追加することで配信対象にできる。
+出力先は **`pdf-matches/` (gitignore 済み)** で、ここは配信前の staging。手動で内容を確認 → OK と判断したら `v2/matches/` に手動コピーして `v2/index.json` に追加することで配信対象にできる。
+
+かつては `shotMissed` の時刻が合成（フッター総数からの逆算）で品質要レビューだったが、importer が現行 SAMPLE_DTO_V2 を直接出力するようになった時点（handball-project#54）で解消済み。現在の `shotMissed` は PDF に明示記録された 7m スロー失敗のみで、時刻も実記録。
+
+昇格済みの `.timer` サンプル（handball-project#53）:
+
+| slug | 出所 |
+|---|---|
+| `2025-12-20-zeekstar-tokyo-vs-bravekings-kariya` | JHA 公式ランニングスコア |
+| `2025-12-21-bluefalcon-vs-zeekstar-tokyo` | JHA 公式ランニングスコア |
+
+この 2 件は公開済み `.video` サンプル（同一試合を動画から手記録したもの）と突き合わせ済みで、背番号別の得点内訳が全選手一致することを確認している。昇格前の検証は `handball-toolkit` の検証 CLI で行う:
+
+```sh
+cd ../handball-toolkit
+cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
+```
 
 ```sh
 cd ../../tools/jhl-pdf-importer    # 親リポのツール置き場へ

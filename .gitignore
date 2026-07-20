@@ -1,7 +1,8 @@
 # 元ネタの JHL 公式 PDF は git に含めない（再配布権の都合）
 pdf/
 
-# JHL公式PDFから自動抽出したサンプル試合は当面 git に含めない（合成イベント込みで品質要レビュー）
+# 公式 PDF から自動抽出したサンプル試合の中間出力は git に含めない。
+# ここは配信前の staging であり、レビューを通したものだけ v2/matches/ へ昇格して公開する
 pdf-matches/
 
 # 動画モード移行 wizard の snapshot (DEBUG 機能で export/import するローカル限定アーティファクト)
