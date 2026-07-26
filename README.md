@@ -2,50 +2,62 @@
 
 iOS アプリ「ハンド記録」で配信するサンプル試合データの公開リポジトリ。
 
-アプリは起動時にこの repo の `index.json` を取得 → 各試合本体 (`matches/{slug}.json`) を取得して、ユーザーの自分の試合と並べて「サンプル試合」として表示する。サンプル試合は端末側に永続化されない（毎回 fetch）。
+アプリは起動時にこの repo の `v2/index.json` を取得 → 各試合本体 (`v2/matches/{slug}.json`) を取得して、ユーザーの自分の試合と並べて「サンプル試合」として表示する。サンプル試合は端末側に永続化されない（毎回 fetch）。
 
 ## ディレクトリ構成
 
 ```
 .
 ├── README.md            この repo の説明
-├── SCHEMA.md            JSON スキーマ仕様（schemaVersion=1）
-├── index.json           試合一覧の軽量メタデータ（必須）
-├── matches/             試合本体 JSON（必須、アプリに配信される）
-│   └── {slug}.json      1 試合 = 1 ファイル
-├── highlights/          ハイライト集（試合とは別配信、専用 index 持ち）
-│   ├── index.json       ハイライト一覧の軽量メタデータ
-│   └── {slug}.json      1 ハイライト = 1 ファイル
-├── v2/                  schemaVersion=2 の配信データ（index.json / matches/ / highlights/ / SCHEMA.md）
+├── v2/                  配信データ（schemaVersion=2。現行かつ唯一の配信経路）
+│   ├── SCHEMA.md        JSON スキーマ仕様（schemaVersion=2）
+│   ├── index.json       試合一覧の軽量メタデータ（必須）
+│   ├── matches/         試合本体 JSON（必須、アプリに配信される）
+│   │   └── {slug}.json  1 試合 = 1 ファイル
+│   └── highlights/      ハイライト集（試合とは別配信、専用 index 持ち）
+│       ├── index.json   ハイライト一覧の軽量メタデータ
+│       └── {slug}.json  1 ハイライト = 1 ファイル
+├── migration-snapshots/ V1 → V2 移行時の突合用スナップショット（配信対象外）
 ├── pdf/                 元ネタの公式ランニングスコア PDF（**.gitignore 済み**、ローカル専用）
 └── pdf-matches/         PDF から自動抽出した中間 JSON（**.gitignore 済み**、ローカル専用の staging）
 ```
 
 PDF → JSON 変換スクリプトは親リポの [`tools/jhl-pdf-importer/`](../../tools/jhl-pdf-importer/) に置いている。
 
-`index.json` と `matches/{slug}.json` のパスはアプリ側 (`SampleMatchLoader`) で固定。**変えると読めなくなる**。
+`v2/index.json` と `v2/matches/{slug}.json` のパスはアプリ側 (`SampleMatchLoaderV2`) で固定。**変えると読めなくなる**。
 
 ## URL
 
-- 試合一覧: `https://raw.githubusercontent.com/kinjo-ryura/handball-sample-matches/main/index.json`
-- 試合本体: `https://raw.githubusercontent.com/kinjo-ryura/handball-sample-matches/main/matches/{slug}.json`
-- ハイライト一覧: `https://raw.githubusercontent.com/kinjo-ryura/handball-sample-matches/main/highlights/index.json`
-- ハイライト本体: `https://raw.githubusercontent.com/kinjo-ryura/handball-sample-matches/main/highlights/{slug}.json`
+- 試合一覧: `https://raw.githubusercontent.com/kinjo-ryura/handball-sample-matches/main/v2/index.json`
+- 試合本体: `https://raw.githubusercontent.com/kinjo-ryura/handball-sample-matches/main/v2/matches/{slug}.json`
+- ハイライト一覧: `https://raw.githubusercontent.com/kinjo-ryura/handball-sample-matches/main/v2/highlights/index.json`
+- ハイライト本体: `https://raw.githubusercontent.com/kinjo-ryura/handball-sample-matches/main/v2/highlights/{slug}.json`
 
 `raw.githubusercontent.com` は HTTPS（ATS 対応）+ Fastly CDN（デフォルト約 5 分キャッシュ）。
 
+## V1 配信（root の `index.json` / `matches/` / `highlights/`）は廃止済み
+
+**2026-07-26 に repo から削除した。** schemaVersion=1 の配信経路はもう存在しない。
+
+- **経緯**: アプリ側は 2026-05-28 の V2 cutover（`HandballRecorder` の `af6eae2`）で V1 loader を削除済みで、以降 V1 は誰も更新していなかった。最終更新 2026-05-10 の時点で V1 は 2 試合 / 6 ハイライト、V2 は 45 試合。差分を埋め続けるコストに見合う利用者がおらず、**メンテナンス負荷を理由に凍結ではなく削除を選んだ**（[handball-project#116](https://github.com/kinjo-ryura/handball-project/issues/116)）。
+- **影響範囲**: V1 を読むのは App Store 版 **1.0.1 (build 9, 2026-05-07 公開) 以前**のみ。現行 1.1.0（2026-07-11 公開）は V2 のみを読む。1.0.x のままのユーザーはサンプル試合の取得が 404 になり、一覧がエラー表示になる（V1 の `SampleMatchStore` は fetch 失敗を `.failed` 状態として扱うのでクラッシュはしない）。復旧手段はアプリの更新。
+- **放置していた既知の不正確さ**: V1 の `2025-12-20-f352ea46`（ZEEKSTAR TOKYO vs ブレイブキングス刈谷）は前半のみの記録なのに、完全な試合として 19-16（実際の最終スコアは 34-33）で配信され続けていた。V2 では [handball-project#89](https://github.com/kinjo-ryura/handball-project/issues/89) で「（前半のみ）」の付記と注記を入れて修正済み。削除によりこの誤配信も解消した。
+- **schemaVersion=1 のスキーマ仕様**（旧 root `SCHEMA.md`）は git 履歴から参照できる。
+
 ## 試合の追加手順
 
-### 方法 A: アプリエクスポートから
+### 方法 A: アプリエクスポートから — **現在は通らない（要再整備）**
 
-1. **試合本体 JSON を作成して `matches/{slug}.json` に置く**
-   - ハンド記録アプリの DEBUG ビルドで「データ」タブ → 試合詳細 → 共有ボタン → JSON を書き出すのが最短
-   - エクスポータが出力する slug は `{yyyy-MM-dd}-{home}-vs-{away}` 形式（日本語チーム名は `{date}-{8桁hex}` フォールバック）。意味のあるファイル名にリネーム推奨
-2. **`index.json` の `matches` 配列に summary を 1 件追加**
-   - `slug` はファイル名（拡張子除く）と完全一致させる
-   - `homeScore` / `awayScore` / `hasYouTubeURL` は試合本体から手動で転記（軽量メタとして index 単独で表示するため重複を許容）
-   - 配列は date 降順（新しい試合が上）で維持する
-3. commit & push
+> ⚠️ **この経路は V1 配信の削除（2026-07-26）で塞がっている。** 新規サンプルの追加は当面 方法 B のみ。
+>
+> ハンド記録アプリの DEBUG エクスポータ (`MatchExporter`) は現在も **schemaVersion=1** を出力する（`SampleMatchSchemaVersion.current = 1`）。従来はその出力を root の `matches/` + `index.json` に置き、親リポの `tools/sample-converter-v2-py/` で repo 全体を V1 → V2 一括変換して `v2/` を再生成していた。V1 の置き場を削除したことで、この「V1 に置く → 変換する」段が成立しなくなった。
+>
+> 再整備には次のいずれかが要る:
+>
+> - エクスポータを V2 直接出力へ変更する（`SampleMatchConversionV2` 相当を DEBUG 経路にも通す）
+> - 単一ファイルを V1 → V2 変換する CLI を用意し、`v2/` へ直接昇格させる
+>
+> 詳細と現況は [handball-project#116](https://github.com/kinjo-ryura/handball-project/issues/116) を参照。
 
 ### 方法 B: JHL 公式 PDF からの自動生成（タイマーモード、ローカル専用）
 
@@ -99,12 +111,14 @@ Claude Code の `/import-pdf` skill 経由でも実行できる（リーグ判�
 
 ## ハイライトの追加手順
 
-1. **本体 JSON を作成して `highlights/{slug}.json` に置く**
-   - HandballRecorder のハイライトモードで作成 → DEBUG エクスポートが最短（schema は `matches/{slug}.json` と共通）
-   - schema 詳細は [SCHEMA.md](SCHEMA.md) の `highlights/{slug}.json` 節を参照
-2. **`highlights/index.json` の `highlights` 配列に summary を 1 件追加**
+配信先は `v2/highlights/`。schema 詳細は [v2/SCHEMA.md](v2/SCHEMA.md) の `/v2/highlights/{slug}.json` 節を参照。
+
+1. **本体 JSON を作成して `v2/highlights/{slug}.json` に置く**
+   - schema は `v2/matches/{slug}.json` と共通
+   - HandballRecorder のハイライトモード + DEBUG エクスポートは **schemaVersion=1 を出力する**ため、そのままでは置けない（方法 A と同じ制約。上の ⚠️ を参照）
+2. **`v2/highlights/index.json` の `highlights` 配列に summary を 1 件追加**
    - `slug` はファイル名（拡張子除く）と完全一致させる
-   - `homeTeamName` / `awayTeamName` / `eventCount` / `hasYouTubeURL` は本体から手動転記
+   - `homeTeamName` / `awayTeamName` / `factCount` / `hasVideo` は本体から手動転記
    - 配列は date 降順で維持
 3. commit & push
 
@@ -130,6 +144,8 @@ Claude Code の `/import-pdf` skill 経由でも実行できる（リーグ判�
 
 ## スキーマバージョン
 
-現行: `schemaVersion: 1`。詳細は [SCHEMA.md](SCHEMA.md) 参照。
+現行: `schemaVersion: 2`。詳細は [v2/SCHEMA.md](v2/SCHEMA.md) 参照。
+
+`schemaVersion: 1` の配信は 2026-07-26 に廃止・削除した（上の「V1 配信は廃止済み」節）。旧仕様は git 履歴の root `SCHEMA.md` を参照。
 
 後方互換破壊変更時は `schemaVersion` を上げる。アプリ側は不一致を検出して当該試合をスキップする実装。
