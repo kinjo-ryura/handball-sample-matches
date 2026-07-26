@@ -12,9 +12,11 @@ V1 schema との主な差分:
 
 ## ステータス
 
-V2 schema は 2026-05 現在 cutover 中。 `/v2/index.json` には matches が空配列で配置されており、 既存 V1 サンプルからの conversion は別 task で実施予定。
+**現行かつ唯一の配信経路。** cutover は完了済みで、`/v2/index.json` は 45 試合、`/v2/highlights/index.json` は 6 ハイライトを配信中。
 
-V1 schema (`/matches/` / `/highlights/`) は引き続き運用中で、 アプリの V1 経路はこちらを参照する。
+アプリは 1.1.0（2026-07-11 公開）以降 `SampleMatchLoaderV2` でこの `/v2/` 経路のみを読む。
+
+V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHEMA.md`) は **2026-07-26 に削除した**。旧仕様は git 履歴を参照。経緯は README「V1 配信は廃止済み」節。
 
 ## ファイル配置
 

@@ -22,7 +22,9 @@ iOS アプリ「ハンド記録」で配信するサンプル試合データの�
 └── pdf-matches/         PDF から自動抽出した中間 JSON（**.gitignore 済み**、ローカル専用の staging）
 ```
 
-PDF → JSON 変換スクリプトは親リポの [`tools/jhl-pdf-importer/`](../../tools/jhl-pdf-importer/) に置いている。
+PDF → JSON 変換スクリプトは親リポ `handball-project` の `tools/jhl-pdf-importer/` に置いている。
+
+> ℹ️ **この README 内の `tools/...` はすべて親リポ `handball-project`（非公開）のパス。** 本 repo は submodule として parent の `apps/handball-sample-matches/` に置かれる前提で、コマンド例も親リポ root からの実行を想定している。公開 repo 単体を clone しただけでは実行できない。
 
 `v2/index.json` と `v2/matches/{slug}.json` のパスはアプリ側 (`SampleMatchLoaderV2`) で固定。**変えると読めなくなる**。
 
@@ -63,7 +65,7 @@ PDF → JSON 変換スクリプトは親リポの [`tools/jhl-pdf-importer/`](..
 
 JHL公式ランニングスコア PDF（`pdf/{試合コード}.pdf`）から、両チームのロースター・全得点・選手別シュート総数を抽出して JSON 化する。動画タイムスタンプは含まれない（タイマーモード前提）。
 
-出力先は **`pdf-matches/` (gitignore 済み)** で、ここは配信前の staging。ここには**実名のロースターが入る**ので、そのまま `v2/` へコピーしてはいけない。内容を確認 → OK と判断したら、親リポの [`tools/promote-sample-matches/`](../../tools/promote-sample-matches/) で昇格する（選手名の置き換え・`v2/index.json` の更新・同一試合の二重配信検出をまとめて行う）:
+出力先は **`pdf-matches/` (gitignore 済み)** で、ここは配信前の staging。ここには**実名のロースターが入る**ので、そのまま `v2/` へコピーしてはいけない。内容を確認 → OK と判断したら、親リポの `tools/promote-sample-matches/` で昇格する（選手名の置き換え・`v2/index.json` の更新・同一試合の二重配信検出をまとめて行う）:
 
 ```sh
 (cd tools/promote-sample-matches && uv sync)
@@ -105,7 +107,7 @@ tools/jhl-pdf-importer/.venv/bin/python tools/jhl-pdf-importer/parse_jhl_pdf.py 
 
 JHA 主催試合の PDF は `tools/jha-pdf-importer/parse_jha_pdf.py` と `pdf/jha/` → `pdf-matches/jha/` を使う（CLI・出力スキーマは同一）。
 
-詳細・オプション・既知の制約は [tools/jhl-pdf-importer/README.md](../../tools/jhl-pdf-importer/README.md) / [tools/jha-pdf-importer/README.md](../../tools/jha-pdf-importer/README.md) を参照。
+詳細・オプション・既知の制約は親リポの `tools/jhl-pdf-importer/README.md` / `tools/jha-pdf-importer/README.md` を参照。
 
 Claude Code の `/import-pdf` skill 経由でも実行できる（リーグ判定・PDF からの抽出・検算まで対話で案内する）。
 
@@ -138,7 +140,7 @@ Claude Code の `/import-pdf` skill 経由でも実行できる（リーグ判�
 
 > ⚠️ **これは仮名化であって匿名化ではない。** 背番号・チーム名・日付が分かれば、大会主催者が公開している公式記録 PDF を引くことで実名に戻せる。「配信データが実名を含まない」ことは満たすが「個人を特定できない」ことは満たさない、と理解したうえで運用する。
 
-置き換えは親リポの [`tools/promote-sample-matches/`](../../tools/promote-sample-matches/) が昇格時に行い、実行時に「元の実名が公開 JSON に残っていないか」を全文照合で検査する。**手でコピーせずこのツールを通すこと。**
+置き換えは親リポの `tools/promote-sample-matches/` が昇格時に行い、実行時に「元の実名が公開 JSON に残っていないか」を全文照合で検査する。**手でコピーせずこのツールを通すこと。**
 
 エクスポータはアプリ内のデータをそのまま JSON 化するため、アプリ由来の JSON を push する場合は内容を必ず目視確認すること。
 
