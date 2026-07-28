@@ -10,6 +10,14 @@ V1 schema との主な差分:
 
 すべての日付フィールドは ISO 8601 文字列。
 
+### `date` と `recordedAt` の使い分け
+
+- **`date`（`index.json` / `match.date`）は試合開始日時**。「いつ記録したか」ではなく「いつ試合が行われたか」を表す。動画から後日記録したハイライトでも、`date` は試合当日を指す（例: 2026-04-10 の試合を 2026-05-09 に記録した場合も `date` は `2026-04-10T05:32:00Z`）。slug の先頭 `{yyyy-MM-dd}` と日付部分が一致することが不変条件。
+- **試合開始時刻が不明な場合は `T00:00:00Z`** を使う（PDF 由来の試合など、日付しか分からないもの）。分かっている場合のみ実際の開始時刻を入れる。
+- **`facts[].recordedAt` が記録日時**。アプリが fact を記録した実時刻で、`date` とは独立に動く。
+
+> ⚠️ V1 → V2 backfill 時に一部ハイライトの `date` へ記録日時が転記される退行があり、2026-07-28 に修正した（[handball-project#115](https://github.com/kinjo-ryura/handball-project/issues/115)）。`date` に `recordedAt` を流し込まないこと。
+
 ## ステータス
 
 **現行かつ唯一の配信経路。** cutover は完了済みで、`/v2/index.json` は 45 試合、`/v2/highlights/index.json` は 6 ハイライトを配信中。
@@ -55,10 +63,12 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `matches[].slug` | String | ✓ | `matches/{slug}.json` のファイル名 (拡張子除く) と完全一致 |
 | `matches[].displayName` | String | ✓ | 表示名 |
 | `matches[].description` | String? | | 1 文の見どころ |
-| `matches[].date` | Date | ✓ | ISO 8601 |
+| `matches[].date` | Date | ✓ | 試合開始日時。本体の `match.date` と一致必須（検証 CLI の `corpus/dateMismatch`） |
 | `matches[].homeScore` | Int | ✓ | goal 集計結果を手動転記 |
 | `matches[].awayScore` | Int | ✓ | 同上 |
 | `matches[].hasVideo` | Bool | ✓ | `.video` / `.videoHighlight` のとき true |
+
+`matches` 配列は **`date` 降順**（新しい試合が上）で維持する。アプリは配列順をそのまま表示に使う。
 
 ## `/v2/matches/{slug}.json`
 
@@ -203,10 +213,10 @@ V1 は phase 内秒数 (`phaseTimeSeconds`) だったが、 V2 は試合通算 (
   "schemaVersion": 2,
   "highlights": [
     {
-      "slug": "2026-05-05-bera-bera-vs-aula",
+      "slug": "2026-04-19-bera-bera-vs-aula",
       "displayName": "石川空選手の得点。",
       "description": null,
-      "date": "2026-05-05T09:29:49Z",
+      "date": "2026-04-19T00:00:00Z",
       "homeTeamName": "BERA BERA",
       "awayTeamName": "AULA",
       "factCount": 1,
@@ -219,7 +229,10 @@ V1 は phase 内秒数 (`phaseTimeSeconds`) だったが、 V2 は試合通算 (
 | フィールド | 型 | 説明 |
 |---|---|---|
 | `factCount` | Int | 本体の facts 配列の長さ |
+| `date` | Date | 試合開始日時。本体の `match.date` と一致必須（`corpus/dateMismatch`） |
 | 他 | | matches/index と同等。 chart は `homeTeamName` / `awayTeamName` 必須 |
+
+`highlights` 配列は **`date` 降順**（新しい試合が上）で維持する。アプリの `HighlightStoreV2` は index の順序をそのまま保持し、`MatchListViewV2` はソートせず配列順で描画するため、ここの順序が画面の並びになる。
 
 ## `/v2/highlights/{slug}.json`
 
