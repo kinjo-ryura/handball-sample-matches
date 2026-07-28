@@ -1,0 +1,43 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# 同一ブランチで走行中のジョブは新しい push で打ち切る。
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    # 配信 JSON を読むだけで、クロスコンパイルもリンクも要らないので Linux ランナーで足りる
+    # （handball-toolkit 本体の CI は flake の都合で macOS を使うが、ここは無関係）。
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 配信データを checkout
+        uses: actions/checkout@v4
+        with:
+          path: sample-matches
+
+      # 検証 CLI は handball-toolkit（public）が持つ。main を追うので、コア側で
+      # validators が強化されればこの CI にもそのまま効く。
+      - name: 検証 CLI（handball-toolkit）を checkout
+        uses: actions/checkout@v4
+        with:
+          repository: kinjo-ryura/handball-toolkit
+          path: toolkit
+
+      # ubuntu ランナーにプリインストールされた rustup の stable を使う。
+      # `+stable` は toolkit の rust-toolchain.toml（1.97.0 + iOS / wasm / Android
+      # ターゲット）を意図的に外すため — ここで要るのはホスト向け CLI のビルドだけで、
+      # クロスターゲットの rust-std を毎回ダウンロードする理由がない。
+      # CLI + コアの依存は serde / serde_json / chrono / uuid のみで、クリーンな
+      # debug ビルドで約 10 秒。キャッシュを挟むほうが割に合わないので素で毎回ビルドする。
+      - name: v2 配信データを検証
+        working-directory: toolkit
+        # exit code は CLI 既定に従う: 0 = error なし（warning のみも通過）/
+        # 1 = error あり / 2 = 使い方・パス誤り。
+        run: cargo +stable run -p handball-toolkit-cli -- validate ../sample-matches/v2

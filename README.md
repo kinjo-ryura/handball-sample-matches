@@ -9,6 +9,7 @@ iOS アプリ「ハンド記録」で配信するサンプル試合データの�
 ```
 .
 ├── README.md            この repo の説明
+├── .github/workflows/   CI（push / PR で v2/ を検証する。下の「配信データの検証」節）
 ├── v2/                  配信データ（schemaVersion=2。現行かつ唯一の配信経路）
 │   ├── SCHEMA.md        JSON スキーマ仕様（schemaVersion=2）
 │   ├── index.json       試合一覧の軽量メタデータ（必須）
@@ -89,12 +90,7 @@ tools/promote-sample-matches/.venv/bin/python tools/promote-sample-matches/promo
 - `w17`（ブルーサクヤ鹿児島 vs HC名古屋）— **延長戦**。出力 DTO が 1800 秒ハーフ × 2 固定のため importer が明示的に fail する
 - `m09`（大阪体育大学 vs 福井永平寺ブルーサンダー）— **元 PDF 側の欠落**。ランニングスコアの列が満杯で最後の 1 点が行として印字されておらず、集計側にのみ含まれるため検算が通らない
 
-前者 2 件は公開済み `.video` サンプル（同一試合を動画から手記録したもの）と突き合わせ済みで、背番号別の得点内訳が全選手一致することを確認している。昇格前の検証は `handball-toolkit` の検証 CLI で行う:
-
-```sh
-cd ../handball-toolkit
-cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
-```
+前者 2 件は公開済み `.video` サンプル（同一試合を動画から手記録したもの）と突き合わせ済みで、背番号別の得点内訳が全選手一致することを確認している。昇格前の検証は `handball-toolkit` の検証 CLI で行う（→「[配信データの検証](#配信データの検証)」）。push 後は CI が同じ検証を回す。
 
 親リポ (`handball-project/`) の root から実行する（`cd` して相対パスで叩かない）:
 
@@ -123,6 +119,23 @@ Claude Code の `/import-pdf` skill 経由でも実行できる（リーグ判�
    - `homeTeamName` / `awayTeamName` / `factCount` / `hasVideo` は本体から手動転記
    - 配列は date 降順で維持
 3. commit & push
+
+## 配信データの検証
+
+`.github/workflows/validate.yml` が push（main）と PR のたびに [handball-toolkit](https://github.com/kinjo-ryura/handball-toolkit) の検証 CLI を走らせ、`v2/` 全体を検証する。index ↔ ファイルの突合と、スコア / `factCount` / `hasVideo` / `date` の転記整合まで見るので、手で index を書き換えたときの取りこぼしはここで落ちる。
+
+- **失敗条件は CLI の exit code に従う**: error が 1 件でもあれば失敗、warning のみなら通過。現状は 53 ファイル / warning 1 件（`2025-12-20-f352ea46.json` の「前半のみ」= `corpus/matchCoverageIncomplete`）で green
+- CI は toolkit の **main** をその場で checkout してビルドする。コア側で validators が強化されればこの検証にも自動で効く（＝ toolkit の変更でこちらが赤くなることもある）
+- ビルドはクリーンで約 10 秒（依存が serde / serde_json / chrono / uuid だけ）なので、キャッシュは置いていない
+
+手元で先に確認するときは同じコマンドを直接叩く（親リポ checkout 前提）:
+
+```sh
+cd ../handball-toolkit
+cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
+```
+
+`--json` を付けると機械可読出力になる。詳細は toolkit README の「CLI」節。
 
 ## 命名ルール
 
