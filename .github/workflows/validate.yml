@@ -18,14 +18,14 @@ jobs:
 
     steps:
       - name: 配信データを checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: sample-matches
 
       # 検証 CLI は handball-toolkit（public）が持つ。main を追うので、コア側で
       # validators が強化されればこの CI にもそのまま効く。
       - name: 検証 CLI（handball-toolkit）を checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: kinjo-ryura/handball-toolkit
           path: toolkit
