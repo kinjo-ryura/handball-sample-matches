@@ -49,18 +49,28 @@ PDF → JSON 変換スクリプトは親リポ `handball-project` の `tools/jhl
 
 ## 試合の追加手順
 
-### 方法 A: アプリエクスポートから — **現在は通らない（要再整備）**
+### 方法 A: アプリエクスポートから（動画モード）
 
-> ⚠️ **この経路は V1 配信の削除（2026-07-26）で塞がっている。** 新規サンプルの追加は当面 方法 B のみ。
+**動画モードのサンプルはこの経路が唯一の出所**（PDF には動画タイムスタンプが無いため方法 B では作れない）。
+
+1. HandballRecorder の **DEBUG ビルド**で「V2データ」タブ → 対象の試合 → ツールバー「JSON エクスポート」→ 共有。出力は SAMPLE_DTO_V2（`schemaVersion: 2`）で、Rust コアの `exportSampleMatch` / `encodeSampleMatch` が生成する
+2. 受け取った JSON を staging（gitignore 済みの場所）へ `{slug}.json` として置く。slug の規約は「[命名ルール](#命名ルール)」節
+3. 親リポの `tools/promote-sample-matches/` で `v2/` へ昇格する（`v2/index.json` の更新・同一試合の二重配信検出をまとめて行う）:
+
+   ```sh
+   (cd tools/promote-sample-matches && uv sync)
+   tools/promote-sample-matches/.venv/bin/python tools/promote-sample-matches/promote.py \
+     --staging <JSON を置いたディレクトリ> \
+     --dist apps/handball-sample-matches/v2 \
+     --description "..." --dry-run
+   ```
+
+   実名を残すトップリーグ戦なら `--keep-player-names` を付ける（→「[個人情報の扱い](#個人情報の扱い)」）。付けない場合は選手名を背番号ラベルへ置き換えるため、**全選手に背番号が必要**（アプリは背番号なしの選手を登録できるが、無いと昇格が FAIL する）
+4. `--dry-run` を外して本実行 → 検証 CLI（→「[配信データの検証](#配信データの検証)」）→ commit & push
+
+> **経緯**: 2026-07-26〜07-30 はこの節で「V1 配信の削除で経路が塞がっている」と案内していたが**誤りだった**（[handball-project#137](https://github.com/kinjo-ryura/handball-project/issues/137)）。V2 直接出力はアプリ内に `ExportMatchSheetV2` として存在しており、`schemaVersion=1` を出力するのは V1 legacy の `MatchExporter`（`DevDataView` 専用で配信経路ではない）だった。V1 → V2 一括変換 CLI（`tools/sample-converter-v2-py/`）は入力ごと廃止済みで、この経路には関係しない。
 >
-> ハンド記録アプリの DEBUG エクスポータ (`MatchExporter`) は現在も **schemaVersion=1** を出力する（`SampleMatchSchemaVersion.current = 1`）。従来はその出力を root の `matches/` + `index.json` に置き、親リポの `tools/sample-converter-v2-py/` で repo 全体を V1 → V2 一括変換して `v2/` を再生成していた。V1 の置き場を削除したことで、この「V1 に置く → 変換する」段が成立しなくなった。
->
-> 再整備には次のいずれかが要る:
->
-> - エクスポータを V2 直接出力へ変更する（`SampleMatchConversionV2` 相当を DEBUG 経路にも通す）
-> - 単一ファイルを V1 → V2 変換する CLI を用意し、`v2/` へ直接昇格させる
->
-> 詳細と現況は [handball-project#116](https://github.com/kinjo-ryura/handball-project/issues/116) を参照。
+> 手順 3 の昇格は exporter の golden fixture（バイト正のオラクル出力）で通ることを確認済み。手順 1 の実機 export からの通し確認は #137 で追跡中。
 
 ### 方法 B: JHL 公式 PDF からの自動生成（タイマーモード、ローカル専用）
 
@@ -113,7 +123,8 @@ Claude Code の `/import-pdf` skill 経由でも実行できる（リーグ判�
 
 1. **本体 JSON を作成して `v2/highlights/{slug}.json` に置く**
    - schema は `v2/matches/{slug}.json` と共通
-   - HandballRecorder のハイライトモード + DEBUG エクスポートは **schemaVersion=1 を出力する**ため、そのままでは置けない（方法 A と同じ制約。上の ⚠️ を参照）
+   - ハイライトモード（`.videoHighlight`）の DEBUG エクスポートも SAMPLE_DTO_V2（`schemaVersion: 2`）を出力するので、方法 A の手順 1 と同じ手順で取り出せる
+   - ただし `tools/promote-sample-matches/` は `v2/matches/` + `v2/index.json` 専用で、**highlights の index は扱わない**（エントリの形が違う）。ハイライトは手順 2 の index 追記を手で行う
 2. **`v2/highlights/index.json` の `highlights` 配列に summary を 1 件追加**
    - `slug` はファイル名（拡張子除く）と完全一致させる
    - `homeTeamName` / `awayTeamName` / `factCount` / `hasVideo` は本体から手動転記
@@ -147,15 +158,22 @@ cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
 
 **関係者の本名を含むデータは push しない。**
 
-プロ選手の実名は職業上の公開情報として扱い、JHL 所属チーム同士の試合では残している（`2025-12-20-zeekstar-tokyo-vs-bravekings-kariya` など 4 件）。それ以外は**選手名を背番号ラベル（`7番`）へ置き換えて配信する**。
+判断基準は「**その試合の公式記録・公開配信で選手の実名が既に公表されているか**」。公表済みのトップリーグ戦は実名を残し、それ以外は**選手名を背番号ラベル（`7番`）へ置き換えて配信する**。実名で配信しているのは現在 10 件:
 
-置き換えても選手別スタッツは失われない。`playerKey` が `{home,away}_{背番号}` なので、得点・シュートの集計は背番号だけで完全に成立する。失われるのは表示名のみ。チーム名（`国分中央高校` 等）は組織名なのでそのまま残す。
+| 件数 | 内容 | 出所 |
+|---|---|---|
+| 4 | ZEEKSTAR TOKYO / ブレイブキングス刈谷 / 豊田合成ブルーファルコン（`.video` 2 + `.timer` 2） | JHL 公式ランニングスコア・公式配信 |
+| 6 | Ohrid / Vardar / Eurofarm / Alkaloid / Tikvesh（北マケドニア）、BERA BERA / AULA（スペイン）の `.videoHighlight` | 各リーグの公開配信 |
+
+アマチュア（高校・大学）・未成年を含む試合は必ず仮名化する。日本選手権のようなオープン大会はこれに該当する。
+
+置き換えても選手別スタッツは失われない。fact は `playerKey` で選手を参照し、置き換えは `name` だけを差し替えてキーには触らないため。失われるのは表示名のみ。チーム名（`国分中央高校` 等）は組織名なのでそのまま残す。
 
 > ⚠️ **これは仮名化であって匿名化ではない。** 背番号・チーム名・日付が分かれば、大会主催者が公開している公式記録 PDF を引くことで実名に戻せる。「配信データが実名を含まない」ことは満たすが「個人を特定できない」ことは満たさない、と理解したうえで運用する。
 
-置き換えは親リポの `tools/promote-sample-matches/` が昇格時に行い、実行時に「元の実名が公開 JSON に残っていないか」を全文照合で検査する。**手でコピーせずこのツールを通すこと。**
+置き換えは親リポの `tools/promote-sample-matches/` が昇格時に行い、実行時に「元の実名が公開 JSON に残っていないか」を全文照合で検査する。**手でコピーせずこのツールを通すこと。** PDF 由来・アプリ export 由来のどちらも同じツールを通す。
 
-エクスポータはアプリ内のデータをそのまま JSON 化するため、アプリ由来の JSON を push する場合は内容を必ず目視確認すること。
+実名を残す場合も同じツールを通し、`--keep-player-names` で明示 opt-in する。このモードでは仮名化と全文照合を行わないため、**目視確認が唯一の歯止めになる**（実行時に対象人数とチーム名を表示する）。エクスポータはアプリ内のデータをそのまま JSON 化するので、アプリ由来の JSON は特に内容を必ず確認すること。
 
 ## スキーマバージョン
 
