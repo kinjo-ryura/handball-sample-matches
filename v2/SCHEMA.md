@@ -141,6 +141,20 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
           "note": null
         }
       }
+    },
+    {
+      "factID": "...",
+      "recordedAt": "2025-04-15T13:01:37Z",
+      "payload": {
+        "kind": "possession",
+        "possession": {
+          "teamKey": "away",
+          "anchor": {
+            "kind": "videoClock",
+            "videoClock": { "elapsedSeconds": 97.0 }
+          }
+        }
+      }
     }
   ]
 }
@@ -164,6 +178,7 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 |---|---|
 | `"play"` | `play: SamplePlayFact` |
 | `"control"` | `control: SampleControlFact` |
+| `"possession"` | `possession: SamplePossessionFact` |
 
 #### `SamplePlayFact`
 
@@ -186,6 +201,21 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `stoppage` | `{ stoppageKind: String, note: String? }` | `stoppageKind = "timeout"` / `"pause"` |
 | `anchor` | `SampleFactAnchor` | 後述。 `phaseStart` は end 必須、 `stoppage` は end optional |
 
+#### `SamplePossessionFact`
+
+**ポゼッション開始**（あるチームのポゼッションがそこから始まった、という点の事実）。
+
+| フィールド | 型 | 説明 |
+|---|---|---|
+| `teamKey` | String | `"home"` / `"away"`。**必須** (`SamplePlayFact.teamKey` と違い null 不可) |
+| `anchor` | `SampleFactAnchor` | 点。end 系は**両方 null** |
+
+判別子 (`kind`) を持たない。ポゼッションの fact は「開始」1 種類だけで、2 つ目が出た時点でどのみちスキーマ変更になるため、空の判別子を先置きしない。
+
+**`anchor` が指すのは「ボールを保持した瞬間」**。GK のキャッチ / ルーズボールの確保 / ターンオーバーの成立 / 被得点の瞬間であって、**再開のスローが実行された瞬間でも、相手コートへ入った瞬間でもない**。攻撃効率 (1 ポゼッションあたり得点) は世界共通でこの区切りで計算されるので、生成側と消費側でここがズレると**エラーにならず統計だけが静かに間違う**。
+
+区間 (どこまでがそのポゼッションか) は**記録しない** — 次のポゼッション開始まで、無ければその phase の end までを消費側が導出する。同じチームの `possession` が 2 件続くのは**矛盾ではなく 2 件目が冗長なだけ**で、区間は「チームが切り替わった所」で区切る。
+
 ### `SampleFactAnchor`
 
 | フィールド | 型 | 説明 |
@@ -196,7 +226,7 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `endMatchElapsedSeconds` | Double? | 範囲の end (matchClock 側) |
 | `endVideoElapsedSeconds` | Double? | 範囲の end (videoClock 側) |
 
-end 系は `phaseStart` (必須) / `stoppage` (任意) で使用。 `play` では両方 null。
+end 系は `phaseStart` (必須) / `stoppage` (任意) で使用。 `play` / `possession` では両方 null。
 
 end の `kind` は start の `kind` を継承する (両方 nil なら range なし)。
 
