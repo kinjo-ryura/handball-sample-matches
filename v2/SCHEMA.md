@@ -12,7 +12,7 @@ V1 schema との主な差分:
 
 ### `date` と `recordedAt` の使い分け
 
-- **`date`（`index.json` / `match.date`）は試合開始日時**。「いつ記録したか」ではなく「いつ試合が行われたか」を表す。動画から後日記録したハイライトでも、`date` は試合当日を指す（例: 2026-04-10 の試合を 2026-05-09 に記録した場合も `date` は `2026-04-10T05:32:00Z`）。slug の先頭 `{yyyy-MM-dd}` と日付部分が一致することが不変条件。
+- **`date`（`index.json` / `match.date`）は試合開始日時**。「いつ記録したか」ではなく「いつ試合が行われたか」を表す。動画から後日記録したハイライトでも、`date` は試合当日を指す（例: 2026-04-10 の試合を 2026-05-09 に記録した場合も `date` は `2026-04-10T05:32:00Z`）。slug の先頭 `{yyyy-MM-dd}` と日付部分が一致することが不変条件（検証 CLI の `corpus/slugDateMismatch`）。
 - **試合開始時刻が不明な場合は `T00:00:00Z`** を使う（PDF 由来の試合など、日付しか分からないもの）。分かっている場合のみ実際の開始時刻を入れる。
 - **`facts[].recordedAt` が記録日時**。アプリが fact を記録した実時刻で、`date` とは独立に動く。
 
@@ -68,7 +68,7 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `matches[].awayScore` | Int | ✓ | 同上 |
 | `matches[].hasVideo` | Bool | ✓ | `.video` / `.videoHighlight` のとき true |
 
-`matches` 配列は **`date` 降順**（新しい試合が上）で維持する。アプリは配列順をそのまま表示に使う。
+`matches` 配列は **`date` 降順**（新しい試合が上）で維持する（検証 CLI の `corpus/indexNotDateDescending`）。アプリは配列順をそのまま表示に使う。
 
 ## `/v2/matches/{slug}.json`
 
@@ -172,6 +172,14 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 
 `provider` は `"youtube"` のみ。
 
+### `facts[]`
+
+| フィールド | 型 | 必須 | 説明 |
+|---|---|---|---|
+| `factID` | String? | | fact の同一性。**同一試合内で一意**（検証 CLI の `corpus/duplicateFactID`）。省略時はアプリ側が採番する |
+| `recordedAt` | Date | ✓ | アプリが fact を記録した実時刻（`date` とは独立） |
+| `payload` | tagged union | ✓ | 後述 |
+
 ### `facts[].payload` (tagged union)
 
 | `kind` | サブペイロード |
@@ -226,7 +234,7 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `endMatchElapsedSeconds` | Double? | 範囲の end (matchClock 側) |
 | `endVideoElapsedSeconds` | Double? | 範囲の end (videoClock 側) |
 
-end 系は `phaseStart` (必須) / `stoppage` (任意) で使用。 `play` / `possession` では両方 null。
+end 系は `phaseStart` (必須) / `stoppage` (任意) で使用。 `play` / `possession` では両方 null（非 null は検証 CLI の `corpus/unexpectedAnchorEnd`。 デコードは値を黙って捨てるため、 書いても区間にはならない）。
 
 end の `kind` は start の `kind` を継承する (両方 nil なら range なし)。
 
@@ -262,7 +270,7 @@ V1 は phase 内秒数 (`phaseTimeSeconds`) だったが、 V2 は試合通算 (
 | `date` | Date | 試合開始日時。本体の `match.date` と一致必須（`corpus/dateMismatch`） |
 | 他 | | matches/index と同等。 chart は `homeTeamName` / `awayTeamName` 必須 |
 
-`highlights` 配列は **`date` 降順**（新しい試合が上）で維持する。アプリの `HighlightStoreV2` は index の順序をそのまま保持し、`MatchListViewV2` はソートせず配列順で描画するため、ここの順序が画面の並びになる。
+`highlights` 配列は **`date` 降順**（新しい試合が上）で維持する（`corpus/indexNotDateDescending`）。アプリの `HighlightStoreV2` は index の順序をそのまま保持し、`MatchListViewV2` はソートせず配列順で描画するため、ここの順序が画面の並びになる。
 
 ## `/v2/highlights/{slug}.json`
 
