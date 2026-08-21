@@ -41,3 +41,33 @@ jobs:
         # exit code は CLI 既定に従う: 0 = error なし（warning のみも通過）/
         # 1 = error あり / 2 = 使い方・パス誤り。
         run: cargo +stable run -p handball-toolkit-cli -- validate ../sample-matches/v2
+
+      # 出荷済み HandballRecorder 1.2.0 は possession fact を変換できず、含む試合は
+      # 一覧から「無言で」脱落する（handball-project#194）。schemaVersion を上げれば
+      # 明示エラーにはなるが、版チェックは index 単位の全体ゲート（SampleMatchStoreV2
+      # の `guard index.schemaVersion == current` は return で一覧ごと落とす）なので、
+      # 「その 1 件だけ明示エラー」にはできない。1.2.0 に届く粒度は「全部か、無言脱落か」
+      # の二択。よって possession を含む試合は /v2/ に配信しない、を機械で守る。
+      #
+      # 検査は toolkit の検証 CLI ではなくここに置く。possession は SAMPLE_DTO_V2 として
+      # 正当で、汎用 OSS の validator に禁止を焼くと他の利用者の正当なデータを弾くため。
+      # この禁止は 1.2.0 が現役の間だけの時限措置で、期限が来たらこのステップごと消す。
+      - name: possession fact が配信データに混入していないか検査
+        run: |
+          set -uo pipefail
+          found=0
+          for file in sample-matches/v2/matches/*.json sample-matches/v2/highlights/*.json; do
+            [ -e "$file" ] || continue
+            # decode 失敗を「possession なし」に落とさない（不正 JSON は前段の CLI が
+            # 落とすが、ここも fail-closed にしておく）。
+            if ! hit=$(jq -r 'any(.facts[]?; .payload.kind == "possession")' "$file"); then
+              echo "::error file=$file::jq が JSON を読めなかったため possession 検査を実施できない"
+              found=1
+              continue
+            fi
+            if [ "$hit" = "true" ]; then
+              echo "::error file=$file::possession fact を含む試合は /v2/ に配信できない（出荷済み 1.2.0 が無言で脱落する。handball-project#194）"
+              found=1
+            fi
+          done
+          exit "$found"

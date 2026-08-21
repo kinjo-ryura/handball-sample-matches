@@ -138,6 +138,7 @@ Claude Code の `/import-pdf` skill 経由でも実行できる（リーグ判�
 - **失敗条件は CLI の exit code に従う**: error が 1 件でもあれば失敗、warning のみなら通過。現状は 53 ファイル / warning 1 件（`2025-12-20-f352ea46.json` の「前半のみ」= `corpus/matchCoverageIncomplete`）で green
 - CI は toolkit の **main** をその場で checkout してビルドする。コア側で validators が強化されればこの検証にも自動で効く（＝ toolkit の変更でこちらが赤くなることもある）
 - ビルドはクリーンで約 10 秒（依存が serde / serde_json / chrono / uuid だけ）なので、キャッシュは置いていない
+- **同じ workflow が possession fact の混入も検査する**（`jq` で `facts[].payload.kind` を見る）。理由と解除条件は下の「possession fact は配信しない」節
 
 手元で先に確認するときは同じコマンドを直接叩く（親リポ checkout 前提）:
 
@@ -181,4 +182,20 @@ cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
 
 `schemaVersion: 1` の配信は 2026-07-26 に廃止・削除した（上の「V1 配信は廃止済み」節）。旧仕様は git 履歴の root `SCHEMA.md` を参照。
 
-後方互換破壊変更時は `schemaVersion` を上げる。アプリ側は不一致を検出して当該試合をスキップする実装。
+後方互換破壊変更時は `schemaVersion` を上げる。ただし **版チェックは index 単位の全体ゲート**で、アプリは `v2/index.json` の `schemaVersion` が自分の対応版と違えば「未対応のスキーマです (vN)」を出して**一覧ごと表示を止める**（`SampleMatchStoreV2.reload()`）。個別の match JSON は `schemaVersion` を持たないため、「1 件だけ版が新しい」は表現できない。
+
+対して**個別ファイルの変換失敗は無言で脱落する** — 変換できなかった試合は `catch → continue` で一覧から消え、エラー表示も出ない（全滅したときだけ「取得に失敗しました」になる）。この非対称が次節の制約を生む。
+
+## possession fact は配信しない（2026-08-21〜）
+
+`schemaVersion` を上げずに possession fact（3 つめの fact 種別）を v2 契約へ足したため、**出荷済み 1.2.0 は possession 入りの試合を変換できず、その試合だけが一覧から無言で消える**。possession を parse できるのは **1.3.0 以降**。
+
+`schemaVersion` を 3 に上げれば無言脱落は明示エラーに変わるが、上記のとおり版チェックは全体ゲートなので**配信中の全試合が 1.2.0 端末から消える**。1 件のために全体を落とす取引は割に合わない。1.2.0 に届く粒度は「全部か、無言脱落か」の二択しかない。
+
+そこで **possession fact を含む試合は `/v2/` に配信しない**。
+
+- **方針だけでは守れないので CI で守る**。エクスポータは fact を選別せず、試合が possession を持てば無条件で JSON に載る（toolkit の `encode_payload`）。配信データに possession が 0 件なのは方針の結果ではなく、possession を持つ試合をまだエクスポートしていないだけ。`validate.yml` の検査が唯一の歯止め
+- **1.2.0 の利用者を能動的に押し上げる手段は無い**。アプリ内アップデート導線（[#150](https://github.com/kinjo-ryura/handball-project/issues/150)）は 1.3.0 で入ったため 1.2.0 端末には届かない。自然な更新を待つしかない
+- **供給側は増えている**。macOS には possession 記録の導線があり、video-analysis も possession を出力経路に持つ。「表示する予定がない」ことは混入を防がない
+- **解除の条件**: 1.2.0 の実利用が十分に落ちたと判断できた時点で、`validate.yml` の該当ステップとこの節を消す
+- 経緯と判断: [handball-project#194](https://github.com/kinjo-ryura/handball-project/issues/194)
