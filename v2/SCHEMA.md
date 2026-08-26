@@ -151,7 +151,9 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
           "teamKey": "away",
           "anchor": {
             "kind": "videoClock",
-            "videoClock": { "elapsedSeconds": 97.0 }
+            "videoClock": { "elapsedSeconds": 97.0 },
+            // 終わりは任意。省けば消費側が導出する
+            "endVideoElapsedSeconds": 118.5
           }
         }
       }
@@ -216,7 +218,7 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | フィールド | 型 | 説明 |
 |---|---|---|
 | `teamKey` | String | `"home"` / `"away"`。**必須** (`SamplePlayFact.teamKey` と違い null 不可) |
-| `anchor` | `SampleFactAnchor` | 点。end 系は**両方 null** |
+| `anchor` | `SampleFactAnchor` | 始まり。end 系は**任意** (後述) |
 
 判別子 (`kind`) を持たない。ポゼッションの fact は「開始」1 種類だけで、2 つ目が出た時点でどのみちスキーマ変更になるため、空の判別子を先置きしない。
 
@@ -224,7 +226,17 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 
 > ⚠️ 2026-08-22 に改めた（[handball-project#220](https://github.com/kinjo-ryura/handball-project/issues/220)）。旧仕様は「ボールを保持した瞬間 (GK のキャッチ / ルーズボールの確保 / ターンオーバーの成立 / **被得点の瞬間**)」で、攻撃効率が世界共通でその区切りで計算されることを根拠にしていた。**その根拠は数え方の境界 (手が替わったら 1 ポゼッション) を守るものであって、境界の秒を縛らない** — 点を保持からプレー再開へ動かしてもポゼッション数は 1 件も変わらないので、攻撃効率の比較可能性は失われない。加えて旧仕様は生成側が原理的に満たせなかった (カメラの向きの変化から検出する経路では、カメラが動かない被得点の瞬間に手がかりが無い)。**旧仕様で生成した既存データはそのまま有効**（この差は数秒で、`unexpectedAnchorEnd` のような検証エラーにはならない）。
 
-区間 (どこまでがそのポゼッションか) は**記録しない** — 次のポゼッション開始まで、無ければその phase の end までを消費側が導出する。同じチームの `possession` が 2 件続くのは**矛盾ではなく 2 件目が冗長なだけ**で、区間は「チームが切り替わった所」で区切る。
+**終わり (`anchor` の end 系) は任意**。書けるなら書き、出せないなら省く — どちらも正常な入力で、省いた場合は消費側が導出する。
+
+> ⚠️ 2026-08-22 に改めた（[handball-project#220](https://github.com/kinjo-ryura/handball-project/issues/220)）。旧仕様は「end 系は両方 null」で、書いても検証 CLI が `unexpectedAnchorEnd` で弾いていた。**必須にはしない** — 必須化すると同じことを言う 2 つの fact (この end と次のポゼッション開始) が食い違え、終わりを出せない生成側の出力が一切取り込めなくなる。**end を持たない既存データはそのまま有効**。
+
+消費側の導出は **`明示 end` → `区間内の同チーム goal` → `次のポゼッション開始 / その phase の end`** の順で、いずれも最後の「次の開始 / phase end」で**クランプする**。したがって:
+
+- **end が次のポゼッション開始より後ろでも検証エラーにしない**。生成側は 1 試合あたり 100 件超を書き、goal の時刻と次の開始は独立に推定されるので順序の逆転は常態。消費側がクランプするので区間の重なりは起こりえない
+- **区間が隙間なく phase を覆う必要は無い**。隙間はボールデッド (得点後、次の攻撃が始まるまで) であって取りこぼしとは限らない
+- 検証されるのは **`start < end`** だけ (逆順 / 0 長は `possessionEndBeforeStart`)
+
+同じチームの `possession` が 2 件続くのは**矛盾ではなく 2 件目が冗長なだけ**で、ポゼッション数は「チームが切り替わった回数」で数える。
 
 ### `SampleFactAnchor`
 
@@ -236,7 +248,7 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `endMatchElapsedSeconds` | Double? | 範囲の end (matchClock 側) |
 | `endVideoElapsedSeconds` | Double? | 範囲の end (videoClock 側) |
 
-end 系は `phaseStart` (必須) / `stoppage` (任意) で使用。 `play` / `possession` では両方 null（非 null は検証 CLI の `corpus/unexpectedAnchorEnd`。 デコードは値を黙って捨てるため、 書いても区間にはならない）。
+end 系は `phaseStart` (必須) / `stoppage` (任意) / `possession` (任意) で使用。 `play` では両方 null（非 null は検証 CLI の `corpus/unexpectedAnchorEnd`。 デコードは値を黙って捨てるため、 書いても区間にはならない）。
 
 end の `kind` は start の `kind` を継承する (両方 nil なら range なし)。
 
