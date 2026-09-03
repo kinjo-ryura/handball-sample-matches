@@ -5,6 +5,17 @@ on:
     branches: [main]
   pull_request:
 
+# 既定の GITHUB_TOKEN を読み取りのみに絞る（handball-project#284）。この CI は配信
+# データを検証するだけで、追記も push もしない。リポジトリ設定の
+# default_workflow_permissions も read だが、設定は UI から変えられるので workflow 側
+# にも明示して差分に残す。
+permissions:
+  contents: read
+
+# Action は完全な commit SHA でピン留めする（handball-project#284）。可変タグは
+# 差し替えが効くので、タグを奪われるとランナーで任意コードが走る。追随するときは
+# `git ls-remote --tags <repo>` で引き直し、**末尾コメントのバージョンも直す**こと。
+
 # 同一ブランチで走行中のジョブは新しい push で打ち切る。
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -18,14 +29,14 @@ jobs:
 
     steps:
       - name: 配信データを checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           path: sample-matches
 
       # 検証 CLI は handball-toolkit（public）が持つ。main を追うので、コア側で
       # validators が強化されればこの CI にもそのまま効く。
       - name: 検証 CLI（handball-toolkit）を checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           repository: kinjo-ryura/handball-toolkit
           path: toolkit

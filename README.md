@@ -163,8 +163,15 @@ cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
 
 | 件数 | 内容 | 出所 |
 |---|---|---|
-| 4 | ZEEKSTAR TOKYO / ブレイブキングス刈谷 / 豊田合成ブルーファルコン（`.video` 2 + `.timer` 2） | JHL 公式ランニングスコア・公式配信 |
+| 2 | ZEEKSTAR TOKYO / ブレイブキングス刈谷 / 豊田合成ブルーファルコン の `.timer` | JHA 公式ランニングスコア（第77回日本選手権。handball-project#53） |
+| 2 | 同じ 2 カードの `.video` | 各試合の公開配信から手記録 |
 | 6 | Ohrid / Vardar / Eurofarm / Alkaloid / Tikvesh（北マケドニア）、BERA BERA / AULA（スペイン）の `.videoHighlight` | 各リーグの公開配信 |
+
+> ℹ️ 実名 4 件は**同じ 2 カードを 2 モードで持っている**（`.timer` は公式ランニングスコア
+> から起こした全体、`.video` は配信映像から手記録したもの）。以前この表は 4 件をまとめて
+> 「JHL 公式ランニングスコア・公式配信」と書いており、「試合の追加手順」の表の
+> 「JHA 公式ランニングスコア」と食い違っていた（handball-project#284 で解消）。
+> **主催は JHA（第77回日本選手権）で、出場クラブが JHL 所属という関係**。
 
 アマチュア（高校・大学）・未成年を含む試合は必ず仮名化する。日本選手権のようなオープン大会はこれに該当する。
 
@@ -173,6 +180,13 @@ cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
 > ⚠️ **これは仮名化であって匿名化ではない。** 背番号・チーム名・日付が分かれば、大会主催者が公開している公式記録 PDF を引くことで実名に戻せる。「配信データが実名を含まない」ことは満たすが「個人を特定できない」ことは満たさない、と理解したうえで運用する。
 
 置き換えは親リポの `tools/promote-sample-matches/` が昇格時に行い、実行時に「元の実名が公開 JSON に残っていないか」を全文照合で検査する。**手でコピーせずこのツールを通すこと。** PDF 由来・アプリ export 由来のどちらも同じツールを通す。
+
+> ⚠️ **同じ 10 件が [handball-toolkit](https://github.com/kinjo-ryura/handball-toolkit) の
+> ゴールデンコーパス（`crates/handball-toolkit/tests/golden/inputs/`）にもバイト同一で
+> 複製されている**（パリティ検証の入力。実名 4 件 + 仮名化ハイライト 6 件）。
+> `promote-sample-matches` の仮名化と全文照合は **この repo の `v2/` だけ**が対象なので、
+> ここで削除・仮名化しても toolkit 側の複製は残る。**選手データを消す・仮名化する
+> 判断をしたら両方を直すこと**（handball-project#284）。
 
 実名を残す場合も同じツールを通し、`--keep-player-names` で明示 opt-in する。このモードでは仮名化と全文照合を行わないため、**目視確認が唯一の歯止めになる**（実行時に対象人数とチーム名を表示する）。エクスポータはアプリ内のデータをそのまま JSON 化するので、アプリ由来の JSON は特に内容を必ず確認すること。
 
