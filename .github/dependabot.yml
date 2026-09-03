@@ -1,0 +1,21 @@
+# Dependabot の更新設定（handball-project#284）。
+#
+# **SHA ピン留めと対で要る。** `validate.yml` の `actions/checkout` を可変タグから
+# 完全な commit SHA へ固定したので、放置すると上流の修正が入ってこない。手で
+# `git ls-remote` を叩き直す運用は必ず忘れるため、機械に PR を出させる。Dependabot は
+# SHA と末尾コメントのバージョンを両方書き換える。
+#
+# **対象は github-actions だけ。** この repo は配信データ（JSON）と README しか持たず、
+# パッケージマニフェストが無い（検証 CLI は handball-toolkit 側）。
+#
+# public リポなので無償。頻度は週次で、PR は自動 merge しない（main は ruleset
+# `protect-main` で PR + `validate` green 必須）。
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ['*']
