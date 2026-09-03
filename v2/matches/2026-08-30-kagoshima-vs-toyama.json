@@ -416,7 +416,7 @@
           },
           "kind": "stoppage",
           "stoppage": {
-            "note": "自動検出 (未検証): handball-video-analysis 段階2。公式記録には無い停止",
+            "note": "自動検出 (未検証): カメラの動きから検出。公式記録には無い停止",
             "stoppageKind": "pause"
           }
         },
