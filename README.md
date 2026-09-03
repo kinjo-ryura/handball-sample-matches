@@ -25,7 +25,7 @@ iOS アプリ「ハンド記録」で配信するサンプル試合データの�
 
 PDF → JSON 変換スクリプトは親リポ `handball-project` の `tools/jhl-pdf-importer/` に置いている。
 
-> ℹ️ **この README 内の `tools/...` はすべて親リポ `handball-project`（非公開）のパス。** 本 repo は submodule として parent の `apps/handball-sample-matches/` に置かれる前提で、コマンド例も親リポ root からの実行を想定している。公開 repo 単体を clone しただけでは実行できない。
+> ℹ️ **この README 内の `tools/...` はすべて親リポ `handball-project` のパス。** 本 repo は submodule として parent の `apps/handball-sample-matches/` に置かれる前提で、コマンド例も親リポ root からの実行を想定している。公開 repo 単体を clone しただけでは実行できない。
 
 `v2/index.json` と `v2/matches/{slug}.json` のパスはアプリ側 (`SampleMatchLoaderV2`) で固定。**変えると読めなくなる**。
 
