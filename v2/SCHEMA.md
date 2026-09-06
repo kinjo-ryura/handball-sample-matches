@@ -162,6 +162,14 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 }
 ```
 
+### トップレベルの任意フィールド（試合ファイル用）
+
+| フィールド | 型 | 必須 | 説明 |
+|---|---|---|---|
+| `generator` | Object? | | このファイルを書いたアプリ。`{ "name": String, "version": String, "build": String? }`（例: `{"name": "HandballRecorder", "version": "1.6.1", "build": "29"}`）。**配信物には乗せない**（本リポの JSON は python 生成で、アプリではない）。アプリ間で試合を移す「試合ファイル」（`.handrec`。中身はこの schema と同一）がサポート用に書く — 「外部生成」と「自アプリ + version 差」を切り分けるためのもので、改竄防止ではない（[handball-project#298](https://github.com/kinjo-ryura/handball-project/issues/298) / [#300](https://github.com/kinjo-ryura/handball-project/issues/300)） |
+
+任意フィールドの追加は `schemaVersion` を上げない（読む側の serde は未知のキーを無視するので、旧アプリも読める）。
+
 ### `match.configuration` (tagged union)
 
 `kind` discriminator で case を分岐:
@@ -169,10 +177,17 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `kind` | サブペイロード | 説明 |
 |---|---|---|
 | `"timer"` | `timer.phaseDurationSeconds: Double` | タイマーモード (動画なし) |
-| `"video"` | `video.source: { provider, externalID }` | 動画モード (フル試合) |
-| `"videoHighlight"` | `videoHighlight.source: { provider, externalID }` | ハイライト経路 (内部経路フラグ、 通常 `/v2/highlights/` で使う) |
+| `"video"` | `video.source: { provider, externalID, cloudIdentifier?, durationSeconds? }` | 動画モード (フル試合) |
+| `"videoHighlight"` | `videoHighlight.source: { provider, externalID, cloudIdentifier?, durationSeconds? }` | ハイライト経路 (内部経路フラグ、 通常 `/v2/highlights/` で使う) |
 
-`provider` は `"youtube"` のみ。
+#### `source`
+
+| フィールド | 型 | 必須 | 説明 |
+|---|---|---|---|
+| `provider` | String | ✓ | `"youtube"` \| `"local"`。**配信物は `"youtube"` のみ**。`"local"` は試合ファイルだけに現れる（端末「写真」の動画。参照は端末固有で、別の端末では再生できない） |
+| `externalID` | String | ✓ | `youtube`: 動画 ID / `local`: PHAsset の localIdentifier |
+| `cloudIdentifier` | String? | | `local` のみ。PhotoKit の cloud identifier（端末をまたいで安定）。受け取った端末が同じ Apple ID で iCloud 写真を使っていれば、これをその端末の localIdentifier へ引き直して再生を復旧する。送り側で引けなければ省略（[#300](https://github.com/kinjo-ryura/handball-project/issues/300)） |
+| `durationSeconds` | Double? | | `local` のみ。送り側で紐付いていた動画の尺（秒）。受け取った端末で動画を選び直すとき、別の切り出しへ差し替えて記録の時刻が静かにずれるのを止めるために比べる |
 
 ### `facts[]`
 
