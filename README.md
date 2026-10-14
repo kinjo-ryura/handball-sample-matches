@@ -15,9 +15,12 @@ iOS アプリ「ハンド記録」で配信するサンプル試合データの�
 │   ├── index.json       試合一覧の軽量メタデータ（必須）
 │   ├── matches/         試合本体 JSON（必須、アプリに配信される）
 │   │   └── {slug}.json  1 試合 = 1 ファイル
-│   └── highlights/      ハイライト集（試合とは別配信、専用 index 持ち）
-│       ├── index.json   ハイライト一覧の軽量メタデータ
-│       └── {slug}.json  1 ハイライト = 1 ファイル
+│   ├── highlights/      ハイライト集（試合とは別配信、専用 index 持ち）
+│   │   ├── index.json   ハイライト一覧の軽量メタデータ
+│   │   └── {slug}.json  1 ハイライト = 1 ファイル
+│   └── competitions/    大会（注目の試合とは別配信。試合本体は matches/ を共有。SCHEMA の「大会」節）
+│       ├── index.json   大会の一覧（無ければ大会を配信していない）
+│       └── {id}.json    1 大会の試合一覧（index.json と同じ形）
 ├── migration-snapshots/ V1 → V2 移行時の突合用スナップショット（配信対象外）
 ├── pdf/                 元ネタの公式ランニングスコア PDF（**.gitignore 済み**、ローカル専用）
 └── pdf-matches/         PDF から自動抽出した中間 JSON（**.gitignore 済み**、ローカル専用の staging）
@@ -159,13 +162,14 @@ cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
 
 **関係者の本名を含むデータは push しない。**
 
-判断基準は「**その試合の公式記録・公開配信で選手の実名が既に公表されているか**」。公表済みのトップリーグ戦は実名を残し、それ以外は**選手名を背番号ラベル（`7番`）へ置き換えて配信する**。実名で配信しているのは現在 10 件:
+判断基準は「**その試合の主催者の発表・公開配信で選手の実名が既に公表されているか**」。公表済みのトップリーグ戦は実名を残し、それ以外は**選手名を背番号ラベル（`7番`）へ置き換えて配信する**。実名で配信しているもの:
 
 | 件数 | 内容 | 出所 |
 |---|---|---|
 | 2 | ZEEKSTAR TOKYO / ブレイブキングス刈谷 / 豊田合成ブルーファルコン の `.timer` | JHA 公式ランニングスコア（第77回日本選手権。handball-project#53） |
 | 2 | 同じ 2 カードの `.video` | 各試合の公開配信から手記録 |
 | 6 | Ohrid / Vardar / Eurofarm / Alkaloid / Tikvesh（北マケドニア）、BERA BERA / AULA（スペイン）の `.videoHighlight` | 各リーグの公開配信 |
+| 試合ごとに増える | リーグH（2026-27 シーズンから）の全試合の `.timer` | リーグH（handball-project#562） |
 
 > ℹ️ 実名 4 件は**同じ 2 カードを 2 モードで持っている**（`.timer` は公式ランニングスコア
 > から起こした全体、`.video` は配信映像から手記録したもの）。以前この表は 4 件をまとめて
@@ -181,7 +185,7 @@ cargo run -p handball-toolkit-cli -- validate ../handball-sample-matches/v2
 
 置き換えは親リポの `tools/promote-sample-matches/` が昇格時に行い、実行時に「元の実名が公開 JSON に残っていないか」を全文照合で検査する。**手でコピーせずこのツールを通すこと。** PDF 由来・アプリ export 由来のどちらも同じツールを通す。
 
-> ⚠️ **同じ 10 件が [handball-toolkit](https://github.com/kinjo-ryura/handball-toolkit) の
+> ⚠️ **リーグH を除く 10 件が [handball-toolkit](https://github.com/kinjo-ryura/handball-toolkit) の
 > ゴールデンコーパス（`crates/handball-toolkit/tests/golden/inputs/`）にもバイト同一で
 > 複製されている**（パリティ検証の入力。実名 4 件 + 仮名化ハイライト 6 件）。
 > `promote-sample-matches` の仮名化と全文照合は **この repo の `v2/` だけ**が対象なので、
