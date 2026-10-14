@@ -20,7 +20,7 @@ V1 schema との主な差分:
 
 ## ステータス
 
-**現行かつ唯一の配信経路。** cutover は完了済みで、`/v2/index.json` は 45 試合、`/v2/highlights/index.json` は 6 ハイライトを配信中。
+**現行かつ唯一の配信経路。** cutover は完了済みで、`/v2/index.json` は 45 試合、`/v2/highlights/index.json` は 6 ハイライトを配信中。大会（`/v2/competitions/`）は 2026-10 に足した（下の「大会」節）。
 
 アプリは 1.1.0（2026-07-11 公開）以降 `SampleMatchLoaderV2` でこの `/v2/` 経路のみを読む。
 
@@ -36,6 +36,9 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
   highlights/
     index.json
     {slug}.json
+  competitions/
+    index.json
+    {id}.json
 ```
 
 ## `/v2/index.json`
@@ -67,8 +70,67 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `matches[].homeScore` | Int | ✓ | goal 集計結果を手動転記 |
 | `matches[].awayScore` | Int | ✓ | 同上 |
 | `matches[].hasVideo` | Bool | ✓ | `.video` / `.videoHighlight` のとき true |
+| `matches[].homeTeamName` | String? | | 本体 `teams.home.name` の転記。**大会の一覧では必須**（下の「大会」節）。書いてあれば本体と一致必須（`corpus/teamNameMismatch`） |
+| `matches[].awayTeamName` | String? | | 同上（`teams.away.name`） |
 
 `matches` 配列は **`date` 降順**（新しい試合が上）で維持する（検証 CLI の `corpus/indexNotDateDescending`）。アプリは配列順をそのまま表示に使う。
+
+## `/v2/competitions/`（大会）
+
+**大会**は、「注目の試合」（`/v2/index.json`）とは別に配信する試合のまとまり（[handball-project#566](https://github.com/kinjo-ryura/handball-project/issues/566)。2026-10-14 に「index には載せず、別のものとして 1 つの大会として扱う」と決めた）。
+1 シーズン分のリーグ戦のように数百試合になるものを、注目の試合の一覧に混ぜずに出すためのもの。
+アプリは「注目の試合」の上に大会ごとのバナーを出し、タップでその大会の試合だけを一覧にする。
+季が終わったら `competitions/index.json` から外す（本体と一覧ファイルは残してよい。試合 URL は開き続ける）。
+
+```jsonc
+// /v2/competitions/index.json
+{
+  "schemaVersion": 2,
+  "competitions": [
+    {
+      "id": "league-h-2026-27",
+      "title": "リーグH 2026-27",
+      "description": "2026-27 シーズンの全試合（タイマーモード・動画なし）"
+    }
+  ]
+}
+```
+
+| フィールド | 型 | 必須 | 説明 |
+|---|---|---|---|
+| `schemaVersion` | Int | ✓ | `2` |
+| `competitions[].id` | String | ✓ | `competitions/{id}.json` のファイル名（拡張子除く）と完全一致。字種は slug と同じ（英数字と `-`、1〜64 文字）。`index` は予約語（`corpus/unsafeCompetitionID`） |
+| `competitions[].title` | String | ✓ | 画面に出す大会名 |
+| `competitions[].description` | String? | | 1 文の説明（バナーの副題） |
+
+`competitions` 配列は**アプリがバナーを出す順**。並びの規則は持たない（配列順をそのまま使う）。
+`competitions/index.json` が無い（404）ことは「大会を配信していない」として扱い、アプリは失敗にしない。
+
+```jsonc
+// /v2/competitions/{id}.json — /v2/index.json と同じ形
+{
+  "schemaVersion": 2,
+  "matches": [
+    {
+      "slug": "2026-10-12-tigers-vs-falcons",
+      "displayName": "Tigers vs Falcons",
+      "description": "2026-27 レギュラーシーズンのタイマーモード版（動画なし）",
+      "date": "2026-10-12T04:00:00Z",
+      "homeScore": 24,
+      "awayScore": 22,
+      "hasVideo": false,
+      "homeTeamName": "Tigers",
+      "awayTeamName": "Falcons"
+    }
+  ]
+}
+```
+
+- 項目の形・`date` 降順・slug の規則は `/v2/index.json` と同じ。**`homeTeamName` / `awayTeamName` は必須**（`corpus/missingTeamName`）— アプリは大会の一覧を**本体を取らずに**項目だけで描く（数百試合の本体を一覧のたびに取らないため）
+- **本体は `/v2/matches/{slug}.json` を共有する。** 試合 URL（`?match=<slug>`）とアプリの直接取得は本体の置き場しか見ないので、大会の試合も同じ URL で開ける
+- **1 つの本体は `/v2/index.json` か 1 つの大会のどちらか一方にだけ載せる**（`corpus/slugListedTwice`）。どこにも載らない本体は `corpus/orphanMatchFile`
+- 大会の一覧にはフル試合だけを載せる（ハイライトは `/v2/highlights/`）。アプリは `hasVideo` からモードを決める（false = タイマー、true = 動画）
+- 検証 CLI の突合: `competitions/index.json` の id に一覧ファイルが無い（`corpus/missingCompetitionFile`）・index に無い一覧ファイル（`corpus/orphanCompetitionFile`）・id の重複（`corpus/duplicateCompetitionID`）
 
 ## `/v2/matches/{slug}.json`
 

@@ -1,0 +1,2039 @@
+{
+  "facts": [
+    {
+      "factID": "28dfa123-7645-5fc2-af4e-371c106a736d",
+      "payload": {
+        "control": {
+          "anchor": {
+            "endMatchElapsedSeconds": 1800.0,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 0.0
+            },
+            "videoClock": null
+          },
+          "kind": "phaseStart",
+          "phaseStart": {
+            "kind": "regular"
+          },
+          "stoppage": null
+        },
+        "kind": "control",
+        "play": null
+      },
+      "recordedAt": "2026-10-12T00:00:00Z"
+    },
+    {
+      "factID": "af41ae6d-09a9-5b13-8b04-735a8553dcab",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 39.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_02",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:00:39Z"
+    },
+    {
+      "factID": "c92e5ec9-a3a8-55c1-b2ef-f8aa2c593614",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 100.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_07",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:01:40Z"
+    },
+    {
+      "factID": "0c4536b6-2ebd-5a0c-b048-c7ae3a0472c1",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 137.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_08",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:02:17Z"
+    },
+    {
+      "factID": "176856ba-62b3-50d2-86e6-b6acb750738b",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 175.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_21",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:02:55Z"
+    },
+    {
+      "factID": "de3f4ba7-33e8-506a-a4cf-2048f137eaf4",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 210.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_21",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:03:30Z"
+    },
+    {
+      "factID": "0dce9915-8596-513b-9010-86247b453c47",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 268.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_15",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:04:28Z"
+    },
+    {
+      "factID": "f08b94b2-9705-52d4-9bdc-dfa67bdd85c7",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 309.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_23",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:05:09Z"
+    },
+    {
+      "factID": "e66d1c2d-62e7-554d-91c2-35538961ff7d",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 342.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_11",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:05:42Z"
+    },
+    {
+      "factID": "6eb7258e-c324-5d27-b08f-003b4b8ac55c",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 371.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_17",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:06:11Z"
+    },
+    {
+      "factID": "8a266802-1a43-5a64-9b36-3b6d67ead328",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 388.0
+            },
+            "videoClock": null
+          },
+          "kind": "yellowCard",
+          "note": null,
+          "playerKey": "away_23",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:06:28Z"
+    },
+    {
+      "factID": "2974f25d-017c-53f6-98e6-519629bea2d6",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 555.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_02",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:09:15Z"
+    },
+    {
+      "factID": "8108ba50-e427-57f8-b380-6695087c3a94",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 642.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_23",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:10:42Z"
+    },
+    {
+      "factID": "75ed8419-bece-5f27-b1a2-f6cfca45598b",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 644.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_11",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:10:44Z"
+    },
+    {
+      "factID": "a4f91549-418e-5a3d-94f3-c559f38b8f3a",
+      "payload": {
+        "control": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 644.0
+            },
+            "videoClock": null
+          },
+          "kind": "stoppage",
+          "phaseStart": null,
+          "stoppage": {
+            "note": null,
+            "stoppageKind": "timeout"
+          }
+        },
+        "kind": "control",
+        "play": null
+      },
+      "recordedAt": "2026-10-12T00:10:44Z"
+    },
+    {
+      "factID": "8be244f3-bf14-5699-9459-ce6234be1854",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 824.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_17",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:13:44Z"
+    },
+    {
+      "factID": "c0bf7885-1a14-5434-9fa1-67ed659a38db",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 857.0
+            },
+            "videoClock": null
+          },
+          "kind": "twoMinuteSuspension",
+          "note": null,
+          "playerKey": "away_23",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:14:17Z"
+    },
+    {
+      "factID": "c98d7c5c-280c-5523-a0cc-9737d80b741f",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 878.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_11",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:14:38Z"
+    },
+    {
+      "factID": "71580827-b78c-52b9-9378-cb8e117348a2",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 910.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_07",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:15:10Z"
+    },
+    {
+      "factID": "962915f9-6384-598e-881b-e19f714bfcbc",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 955.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_07",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:15:55Z"
+    },
+    {
+      "factID": "6a2077f4-380f-5f24-bc8d-d459921243f9",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 969.0
+            },
+            "videoClock": null
+          },
+          "kind": "twoMinuteSuspension",
+          "note": null,
+          "playerKey": "away_18",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:16:09Z"
+    },
+    {
+      "factID": "512f5dc7-fbd8-54bf-9103-e9c70b5288e1",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 970.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_19",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:16:10Z"
+    },
+    {
+      "factID": "fd6f0d2f-eb95-55f5-b951-2f0276820d34",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1059.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_19",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:17:39Z"
+    },
+    {
+      "factID": "2d02e81a-29d1-5c06-ba45-f19b1671d1db",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1083.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_03",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:18:03Z"
+    },
+    {
+      "factID": "7807a9d0-c7c6-554b-8c86-4946b28c86b2",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1130.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_03",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:18:50Z"
+    },
+    {
+      "factID": "0d4ee1ab-da2e-56b6-b38e-9beb584ad911",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1156.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_07",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:19:16Z"
+    },
+    {
+      "factID": "53b23ae0-77bc-5328-a487-d7a128b5d5b5",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1225.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_18",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:20:25Z"
+    },
+    {
+      "factID": "f08954ea-95dd-5779-86fe-c1f84c69f833",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1326.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_19",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:22:06Z"
+    },
+    {
+      "factID": "7487e29c-4830-542c-9165-89fc32d7a129",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1374.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_27",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:22:54Z"
+    },
+    {
+      "factID": "eac7c976-f8a5-5f84-a47b-45e7df7a2782",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1420.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_05",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:23:40Z"
+    },
+    {
+      "factID": "83ad01d5-98b5-563c-a0b9-1ab45b38d007",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1486.0
+            },
+            "videoClock": null
+          },
+          "kind": "shotMissed",
+          "note": "7mスロー失敗",
+          "playerKey": "home_11",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:24:46Z"
+    },
+    {
+      "factID": "1e25bd34-525d-5766-a654-b4d4f433b1a2",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1595.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_13",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:26:35Z"
+    },
+    {
+      "factID": "7b5a502a-3b48-5a2c-9406-bee151f6d016",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1637.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_13",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:27:17Z"
+    },
+    {
+      "factID": "48687c14-2b02-5c89-ade7-caa4917a75b6",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1664.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_13",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:27:44Z"
+    },
+    {
+      "factID": "0dd55874-985b-5874-89b2-6972f408f3ba",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1675.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_04",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:27:55Z"
+    },
+    {
+      "factID": "40d955d8-8e7d-526e-a1d1-27a41e51c39f",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1749.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_04",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:29:09Z"
+    },
+    {
+      "factID": "af12b49e-9d7f-526c-83ed-b6471b22fd1b",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1788.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_27",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:29:48Z"
+    },
+    {
+      "factID": "c240e07b-0e38-5600-8078-606df2cbb880",
+      "payload": {
+        "control": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1790.0
+            },
+            "videoClock": null
+          },
+          "kind": "stoppage",
+          "phaseStart": null,
+          "stoppage": {
+            "note": null,
+            "stoppageKind": "timeout"
+          }
+        },
+        "kind": "control",
+        "play": null
+      },
+      "recordedAt": "2026-10-12T00:29:50Z"
+    },
+    {
+      "factID": "fadbaa92-9e46-53bc-a73c-2e8aff5f22b5",
+      "payload": {
+        "control": {
+          "anchor": {
+            "endMatchElapsedSeconds": 3600.0,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1800.0
+            },
+            "videoClock": null
+          },
+          "kind": "phaseStart",
+          "phaseStart": {
+            "kind": "regular"
+          },
+          "stoppage": null
+        },
+        "kind": "control",
+        "play": null
+      },
+      "recordedAt": "2026-10-12T00:30:00Z"
+    },
+    {
+      "factID": "a9cf16ee-8dbe-5e02-a042-220473ddc23b",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1952.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_02",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:32:32Z"
+    },
+    {
+      "factID": "aa61e1e6-3a16-5da7-8942-1166f9c41fdf",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 1995.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_19",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:33:15Z"
+    },
+    {
+      "factID": "b48ad6c0-2701-5096-9559-2190f247eff7",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2026.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_23",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:33:46Z"
+    },
+    {
+      "factID": "0196efc7-3a7e-5107-9cf1-327fbc46573b",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2044.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_11",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:34:04Z"
+    },
+    {
+      "factID": "2f9dc7d3-02fa-5afe-98b8-1eaca5c7240a",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2077.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_11",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:34:37Z"
+    },
+    {
+      "factID": "67ece970-e6f0-5d21-ad45-a68805a1285d",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2089.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_17",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:34:49Z"
+    },
+    {
+      "factID": "b44d3637-f960-5e6b-bfa9-3671d2476f97",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2154.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_19",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:35:54Z"
+    },
+    {
+      "factID": "301963e6-c0f8-5fcc-8d8d-3603849492c8",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2186.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_02",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:36:26Z"
+    },
+    {
+      "factID": "0ca513a5-318a-5990-a692-3a54636dbd6b",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2252.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_15",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:37:32Z"
+    },
+    {
+      "factID": "ab81975e-f631-5d36-9e8c-b28f662db344",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2308.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_07",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:38:28Z"
+    },
+    {
+      "factID": "c7d732c8-6177-5c1b-a6db-65d9d7524a3b",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2389.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_03",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:39:49Z"
+    },
+    {
+      "factID": "9453fd15-dbcb-5252-8c63-40fa4a83b051",
+      "payload": {
+        "control": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2392.0
+            },
+            "videoClock": null
+          },
+          "kind": "stoppage",
+          "phaseStart": null,
+          "stoppage": {
+            "note": null,
+            "stoppageKind": "timeout"
+          }
+        },
+        "kind": "control",
+        "play": null
+      },
+      "recordedAt": "2026-10-12T00:39:52Z"
+    },
+    {
+      "factID": "000274e3-2c05-5a47-888b-1b488e1fdc65",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2452.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_23",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:40:52Z"
+    },
+    {
+      "factID": "395b05a4-8c07-50e1-abd1-5911004a5243",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2517.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_21",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:41:57Z"
+    },
+    {
+      "factID": "d9d0497b-d946-53b3-8d85-1f6bcf1f18de",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2587.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_19",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:43:07Z"
+    },
+    {
+      "factID": "c20285c3-cef1-5a19-af67-55de6730918d",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2618.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_23",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:43:38Z"
+    },
+    {
+      "factID": "ffdf4f53-3086-5d40-98c0-6ae4cfd54014",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2685.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_24",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:44:45Z"
+    },
+    {
+      "factID": "33797f48-19cd-5250-829a-e0c7bac6e268",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2697.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_15",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:44:57Z"
+    },
+    {
+      "factID": "bde8caff-8aa0-57e9-af26-b38f92483970",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2769.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_07",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:46:09Z"
+    },
+    {
+      "factID": "2183923d-dbe0-508c-a8ee-fae479fc1fe0",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2819.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_23",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:46:59Z"
+    },
+    {
+      "factID": "7b45083c-4316-56e5-8bb6-e1558d94f017",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2883.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_30",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:48:03Z"
+    },
+    {
+      "factID": "492da3ed-05a5-568b-a5ec-b757a432965f",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2951.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_22",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:49:11Z"
+    },
+    {
+      "factID": "4190f646-0561-5f9d-ba3e-ce74e2e765c8",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 2961.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_17",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:49:21Z"
+    },
+    {
+      "factID": "bc6c645a-31cf-526d-b5ff-00fdf47904a9",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3021.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_20",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:50:21Z"
+    },
+    {
+      "factID": "c7e6c294-da7e-531c-b2f4-f278e3a29941",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3083.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_02",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:51:23Z"
+    },
+    {
+      "factID": "4cb8baab-e1d8-5af1-bc48-640523b3611c",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3143.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_19",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:52:23Z"
+    },
+    {
+      "factID": "76e4e692-b19c-5848-a2bd-86ab0e5dd664",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3223.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_08",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:53:43Z"
+    },
+    {
+      "factID": "a744550e-c6a3-516b-a79b-721e7771533a",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3285.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_25",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:54:45Z"
+    },
+    {
+      "factID": "1c0b6f1c-9884-558a-bd3e-0e72b3fd5a64",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3329.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_13",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:55:29Z"
+    },
+    {
+      "factID": "fe069937-e1cb-5e53-95f5-6b1fd650cb52",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3417.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_20",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:56:57Z"
+    },
+    {
+      "factID": "1e20d53a-82b2-5332-b626-d6111a81b13d",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3443.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_19",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:57:23Z"
+    },
+    {
+      "factID": "a036eea1-16b7-5ae9-aa69-7a016cef3843",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3477.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "home_22",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:57:57Z"
+    },
+    {
+      "factID": "5d80fcbb-cb75-5beb-adcb-cee1a1a35bee",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3514.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_21",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:58:34Z"
+    },
+    {
+      "factID": "e1393527-535c-5f7a-9748-4a285e2a5653",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3514.0
+            },
+            "videoClock": null
+          },
+          "kind": "twoMinuteSuspension",
+          "note": null,
+          "playerKey": "home_24",
+          "relatedPlayerKey": null,
+          "teamKey": "home",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:58:34Z"
+    },
+    {
+      "factID": "c567eb58-e68e-5bee-9f00-3b741c438a7e",
+      "payload": {
+        "control": null,
+        "kind": "play",
+        "play": {
+          "anchor": {
+            "endMatchElapsedSeconds": null,
+            "endVideoElapsedSeconds": null,
+            "kind": "matchClock",
+            "matchClock": {
+              "elapsedSeconds": 3581.0
+            },
+            "videoClock": null
+          },
+          "kind": "goal",
+          "note": null,
+          "playerKey": "away_04",
+          "relatedPlayerKey": null,
+          "teamKey": "away",
+          "title": null
+        }
+      },
+      "recordedAt": "2026-10-12T00:59:41Z"
+    }
+  ],
+  "match": {
+    "configuration": {
+      "kind": "timer",
+      "timer": {
+        "phaseDurationSeconds": 1800.0
+      },
+      "video": null,
+      "videoHighlight": null
+    },
+    "date": "2026-10-12T00:00:00Z",
+    "displayName": "堺リエゾン vs 豊田合成ブルーファルコン名古屋"
+  },
+  "schemaVersion": 2,
+  "teams": {
+    "away": {
+      "key": "away",
+      "name": "豊田合成ブルーファルコン名古屋",
+      "players": [
+        {
+          "jerseyNumber": 1,
+          "key": "away_01",
+          "name": "松下 幸祐"
+        },
+        {
+          "jerseyNumber": 2,
+          "key": "away_02",
+          "name": "Mendez Cabrera Rolando"
+        },
+        {
+          "jerseyNumber": 3,
+          "key": "away_03",
+          "name": "戸井 凱音"
+        },
+        {
+          "jerseyNumber": 4,
+          "key": "away_04",
+          "name": "朝野 暉英"
+        },
+        {
+          "jerseyNumber": 5,
+          "key": "away_05",
+          "name": "篠田 凪"
+        },
+        {
+          "jerseyNumber": 7,
+          "key": "away_07",
+          "name": "Yoan Balazquez"
+        },
+        {
+          "jerseyNumber": 13,
+          "key": "away_13",
+          "name": "矢野 世人"
+        },
+        {
+          "jerseyNumber": 15,
+          "key": "away_15",
+          "name": "齋藤 蓮"
+        },
+        {
+          "jerseyNumber": 16,
+          "key": "away_16",
+          "name": "成田 翔樹"
+        },
+        {
+          "jerseyNumber": 17,
+          "key": "away_17",
+          "name": "古屋 悠生"
+        },
+        {
+          "jerseyNumber": 18,
+          "key": "away_18",
+          "name": "市原 宗弥"
+        },
+        {
+          "jerseyNumber": 19,
+          "key": "away_19",
+          "name": "石嶺 秀"
+        },
+        {
+          "jerseyNumber": 21,
+          "key": "away_21",
+          "name": "小塩 豪紀"
+        },
+        {
+          "jerseyNumber": 23,
+          "key": "away_23",
+          "name": "Diego Martin"
+        },
+        {
+          "jerseyNumber": 25,
+          "key": "away_25",
+          "name": "岡田 広規"
+        },
+        {
+          "jerseyNumber": 27,
+          "key": "away_27",
+          "name": "伊藤 太一"
+        }
+      ]
+    },
+    "home": {
+      "key": "home",
+      "name": "堺リエゾン",
+      "players": [
+        {
+          "jerseyNumber": 3,
+          "key": "home_03",
+          "name": "東江 太輝"
+        },
+        {
+          "jerseyNumber": 6,
+          "key": "home_06",
+          "name": "早瀬 遥"
+        },
+        {
+          "jerseyNumber": 8,
+          "key": "home_08",
+          "name": "野々下 敦己"
+        },
+        {
+          "jerseyNumber": 11,
+          "key": "home_11",
+          "name": "矢田 路人"
+        },
+        {
+          "jerseyNumber": 13,
+          "key": "home_13",
+          "name": "井上 太陽"
+        },
+        {
+          "jerseyNumber": 19,
+          "key": "home_19",
+          "name": "青戸 和樹"
+        },
+        {
+          "jerseyNumber": 20,
+          "key": "home_20",
+          "name": "土佐 竜眞"
+        },
+        {
+          "jerseyNumber": 21,
+          "key": "home_21",
+          "name": "林 優尊"
+        },
+        {
+          "jerseyNumber": 22,
+          "key": "home_22",
+          "name": "松川 兼心"
+        },
+        {
+          "jerseyNumber": 24,
+          "key": "home_24",
+          "name": "土田 航平"
+        },
+        {
+          "jerseyNumber": 27,
+          "key": "home_27",
+          "name": "田代 優樹"
+        },
+        {
+          "jerseyNumber": 30,
+          "key": "home_30",
+          "name": "江藤 辰紀"
+        },
+        {
+          "jerseyNumber": 32,
+          "key": "home_32",
+          "name": "横田 怜"
+        },
+        {
+          "jerseyNumber": 45,
+          "key": "home_45",
+          "name": "衣笠 友貴"
+        },
+        {
+          "jerseyNumber": 46,
+          "key": "home_46",
+          "name": "金川 颯汰"
+        },
+        {
+          "jerseyNumber": 77,
+          "key": "home_77",
+          "name": "小野 竜慎"
+        }
+      ]
+    }
+  }
+}

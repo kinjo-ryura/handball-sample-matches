@@ -1,0 +1,137 @@
+{
+  "matches": [
+    {
+      "awayScore": 26,
+      "awayTeamName": "富山ドリームス",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "ジークスター東京 vs 富山ドリームス",
+      "hasVideo": false,
+      "homeScore": 33,
+      "homeTeamName": "ジークスター東京",
+      "slug": "2026-10-12-zeekstar-vs-dreams"
+    },
+    {
+      "awayScore": 25,
+      "awayTeamName": "大崎オーソル埼玉",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "安芸高田わくながハンドボールクラブ vs 大崎オーソル埼玉",
+      "hasVideo": false,
+      "homeScore": 25,
+      "homeTeamName": "安芸高田わくながハンドボールクラブ",
+      "slug": "2026-10-12-wakunaga-vs-osaki"
+    },
+    {
+      "awayScore": 19,
+      "awayTeamName": "アースフレンズBM東京・神奈川",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "トヨタ自動車東日本レガロッソ宮城 vs アースフレンズBM東京・神奈川",
+      "hasVideo": false,
+      "homeScore": 40,
+      "homeTeamName": "トヨタ自動車東日本レガロッソ宮城",
+      "slug": "2026-10-12-toyotaej-vs-earthfriends"
+    },
+    {
+      "awayScore": 27,
+      "awayTeamName": "アルバモス大阪高石",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "レッドトルネード佐賀 vs アルバモス大阪高石",
+      "hasVideo": false,
+      "homeScore": 34,
+      "homeTeamName": "レッドトルネード佐賀",
+      "slug": "2026-10-12-redtornado-vs-alvamos"
+    },
+    {
+      "awayScore": 33,
+      "awayTeamName": "ザ・テラスホテルズ ラティーダ琉球",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "熊本ビューストピンディーズ vs ザ・テラスホテルズ ラティーダ琉球",
+      "hasVideo": false,
+      "homeScore": 29,
+      "homeTeamName": "熊本ビューストピンディーズ",
+      "slug": "2026-10-12-pindys-vs-terrace"
+    },
+    {
+      "awayScore": 37,
+      "awayTeamName": "豊田合成ブルーファルコン名古屋",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "堺リエゾン vs 豊田合成ブルーファルコン名古屋",
+      "hasVideo": false,
+      "homeScore": 27,
+      "homeTeamName": "堺リエゾン",
+      "slug": "2026-10-12-liaison-vs-toyodagosei"
+    },
+    {
+      "awayScore": 27,
+      "awayTeamName": "ＨＣ名古屋",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "香川銀行シラソル香川 vs ＨＣ名古屋",
+      "hasVideo": false,
+      "homeScore": 27,
+      "homeTeamName": "香川銀行シラソル香川",
+      "slug": "2026-10-12-kagawabank-vs-hcnagoya"
+    },
+    {
+      "awayScore": 22,
+      "awayTeamName": "三重バイオレットアイリス",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "ハニービー石川 vs 三重バイオレットアイリス",
+      "hasVideo": false,
+      "homeScore": 30,
+      "homeTeamName": "ハニービー石川",
+      "slug": "2026-10-12-honeybee-vs-violetiris"
+    },
+    {
+      "awayScore": 38,
+      "awayTeamName": "ブレイヴキングス刈谷",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "ゴールデンウルヴス福岡 vs ブレイヴキングス刈谷",
+      "hasVideo": false,
+      "homeScore": 18,
+      "homeTeamName": "ゴールデンウルヴス福岡",
+      "slug": "2026-10-12-goldenwolves-vs-bravekings"
+    },
+    {
+      "awayScore": 29,
+      "awayTeamName": "琉球コラソン",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "大同フェニックス東海 vs 琉球コラソン",
+      "hasVideo": false,
+      "homeScore": 36,
+      "homeTeamName": "大同フェニックス東海",
+      "slug": "2026-10-12-daido-vs-corazon"
+    },
+    {
+      "awayScore": 19,
+      "awayTeamName": "大阪ラヴィッツ",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "ブルーサクヤ鹿児島 vs 大阪ラヴィッツ",
+      "hasVideo": false,
+      "homeScore": 38,
+      "homeTeamName": "ブルーサクヤ鹿児島",
+      "slug": "2026-10-12-bluesakuya-vs-lovvits"
+    },
+    {
+      "awayScore": 14,
+      "awayTeamName": "飛騨高山ブラックブルズ岐阜",
+      "date": "2026-10-12T00:00:00Z",
+      "description": "2026-27 リーグH レギュラーシーズンのタイマーモード版（動画なし）",
+      "displayName": "アランマーレ富山 vs 飛騨高山ブラックブルズ岐阜",
+      "hasVideo": false,
+      "homeScore": 27,
+      "homeTeamName": "アランマーレ富山",
+      "slug": "2026-10-12-aranmare-vs-blackbulls"
+    }
+  ],
+  "schemaVersion": 2
+}
