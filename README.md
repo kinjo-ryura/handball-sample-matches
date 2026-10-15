@@ -20,7 +20,7 @@ iOS アプリ「ハンド記録」で配信するサンプル試合データの�
 │   │   └── {slug}.json  1 ハイライト = 1 ファイル
 │   └── competitions/    大会（注目の試合とは別配信。試合本体は matches/ を共有。SCHEMA の「大会」節）
 │       ├── index.json   大会の一覧（無ければ大会を配信していない）
-│       └── {id}.json    1 大会の試合一覧（index.json と同じ形）
+│       └── {id}.json    1 大会の試合一覧（index.json と同じ形 + 節 / 回戦のラベルと順位表などの表）
 ├── migration-snapshots/ V1 → V2 移行時の突合用スナップショット（配信対象外）
 ├── pdf/                 元ネタの公式ランニングスコア PDF（**.gitignore 済み**、ローカル専用）
 └── pdf-matches/         PDF から自動抽出した中間 JSON（**.gitignore 済み**、ローカル専用の staging）

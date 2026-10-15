@@ -1,9 +1,14 @@
 {
   "competitions": [
     {
-      "description": "2026-27 シーズンの全試合（タイマーモード・動画なし）",
-      "id": "league-h-2026-27",
-      "title": "リーグH 2026-27"
+      "description": "2026-27 シーズンの男子の全試合（タイマーモード・動画なし）",
+      "id": "league-h-2026-27-men",
+      "title": "リーグH 2026-27 男子"
+    },
+    {
+      "description": "2026-27 シーズンの女子の全試合（タイマーモード・動画なし）",
+      "id": "league-h-2026-27-women",
+      "title": "リーグH 2026-27 女子"
     }
   ],
   "schemaVersion": 2
