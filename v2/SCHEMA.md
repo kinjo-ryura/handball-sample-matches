@@ -80,6 +80,7 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 **大会**は、「注目の試合」（`/v2/index.json`）とは別に配信する試合のまとまり（[handball-project#566](https://github.com/kinjo-ryura/handball-project/issues/566)。2026-10-14 に「index には載せず、別のものとして 1 つの大会として扱う」と決めた）。
 1 シーズン分のリーグ戦のように数百試合になるものを、注目の試合の一覧に混ぜずに出すためのもの。
 アプリは「注目の試合」の上に大会ごとのバナーを出し、タップでその大会の試合だけを一覧にする。
+大会が男子・女子・年代のような**部門**に分かれるときは、バナーは大会に 1 本で、押した先で部門を切り替える（下の「部門」）。
 季が終わったら `competitions/index.json` から外す（本体と一覧ファイルは残してよい。試合 URL は開き続ける）。
 
 ```jsonc
@@ -88,14 +89,18 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
   "schemaVersion": 2,
   "competitions": [
     {
-      "id": "league-h-2026-27-men",
-      "title": "リーグH 2026-27 男子",
-      "description": "2026-27 シーズンの男子の全試合（タイマーモード・動画なし）"
+      "id": "league-h-2026-27",
+      "title": "リーグH 2026-27",
+      "description": "2026-27 シーズンの全試合（タイマーモード・動画なし）",
+      "divisions": [
+        { "id": "league-h-2026-27-men", "title": "男子" },
+        { "id": "league-h-2026-27-women", "title": "女子" }
+      ]
     },
     {
-      "id": "league-h-2026-27-women",
-      "title": "リーグH 2026-27 女子",
-      "description": "2026-27 シーズンの女子の全試合（タイマーモード・動画なし）"
+      "id": "spring-cup-2027",
+      "title": "春季大会 2027",
+      "description": "部門を持たない大会（大会の id がそのまま一覧ファイルの名前）"
     }
   ]
 }
@@ -104,15 +109,19 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | フィールド | 型 | 必須 | 説明 |
 |---|---|---|---|
 | `schemaVersion` | Int | ✓ | `2` |
-| `competitions[].id` | String | ✓ | `competitions/{id}.json` のファイル名（拡張子除く）と完全一致。字種は slug と同じ（英数字と `-`、1〜64 文字）。`index` は予約語（`corpus/unsafeCompetitionID`） |
-| `competitions[].title` | String | ✓ | 画面に出す大会名 |
+| `competitions[].id` | String | ✓ | 大会の識別子。**部門を持たない大会では** `competitions/{id}.json` のファイル名（拡張子除く）と完全一致。字種は slug と同じ（英数字と `-`、1〜64 文字）。`index` は予約語（`corpus/unsafeCompetitionID`） |
+| `competitions[].title` | String | ✓ | 画面に出す大会名（バナーの題）。部門名は入れない |
 | `competitions[].description` | String? | | 1 文の説明（バナーの副題） |
+| `competitions[].divisions[]` | Object[]? | | 部門（下の「部門」）。書くなら 1 つ以上（`corpus/emptyCompetitionDivisions`）。無ければ部門を持たない大会 |
+| `competitions[].divisions[].id` | String | ✓ | `competitions/{id}.json` のファイル名（拡張子除く）と完全一致。字種と予約語は大会の id と同じ |
+| `competitions[].divisions[].title` | String | ✓ | 切替に出す部門名（例: `"男子"`）。大会名は繰り返さない |
 
-`competitions` 配列は**アプリがバナーを出す順**。並びの規則は持たない（配列順をそのまま使う）。
+`competitions` 配列は**アプリがバナーを出す順**、`divisions` 配列は**部門の切替の順**。並びの規則は持たない（配列順をそのまま使う）。
+**大会と部門の id は名簿全体で一意**（`corpus/duplicateCompetitionID`）— どちらも同じ置き場のファイル名になるので、片方の中だけで一意にしても同じファイルを 2 つの項目が指しうる。
 `competitions/index.json` が無い（404）ことは「大会を配信していない」として扱い、アプリは失敗にしない。
 
 ```jsonc
-// /v2/competitions/{id}.json — /v2/index.json と同じ形に、節 / 回戦のラベルと表を足したもの
+// /v2/competitions/{id}.json（部門を持つ大会は部門の id）— /v2/index.json と同じ形に、節 / 回戦のラベルと表を足したもの
 {
   "schemaVersion": 2,
   "matches": [
@@ -151,15 +160,26 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 - **`matches[].round`（String、任意）は節 / 回戦の表示ラベル**（例: `"第1節"`・`"準決勝"`・`"プレーオフ 準決勝"`・`"予選リーグ A組"`）。アプリは一覧の並びのまま、**同じラベルが続く行を 1 つのセクション**にまとめ、ラベルを見出しに出す。ラベルの無い行は見出しの無いセクションになる。文言は配信側が組む（アプリは語を足さない）
 - **大会の一覧の並びは配信側が決める**（`date` 降順の縛りは `/v2/index.json` だけ）。`promote.py` は節 / 回戦の新しい順 → `date` 降順に並べる（ラベル中の数字で順を取り、数字の無いラベル — 決勝・プレーオフなど — を先頭に置く）。延期した試合も本来の節に入る。検証 CLI は、同じ `round` が離れて 2 回現れないこと（`corpus/roundNotContiguous`）と、同じ `round` の中が `date` 降順であること（`corpus/indexNotDateDescending`）を見る
 - **本体は `/v2/matches/{slug}.json` を共有する。** 試合 URL（`?match=<slug>`）とアプリの直接取得は本体の置き場しか見ないので、大会の試合も同じ URL で開ける
-- **1 つの本体は `/v2/index.json` か 1 つの大会のどちらか一方にだけ載せる**（`corpus/slugListedTwice`）。どこにも載らない本体は `corpus/orphanMatchFile`
+- **1 つの本体は `/v2/index.json` か 1 つの一覧（大会か部門）のどちらか一方にだけ載せる**（`corpus/slugListedTwice`）。どこにも載らない本体は `corpus/orphanMatchFile`
 - 大会の一覧にはフル試合だけを載せる（ハイライトは `/v2/highlights/`）。アプリは `hasVideo` からモードを決める（false = タイマー、true = 動画）
-- 検証 CLI の突合: `competitions/index.json` の id に一覧ファイルが無い（`corpus/missingCompetitionFile`）・index に無い一覧ファイル（`corpus/orphanCompetitionFile`）・id の重複（`corpus/duplicateCompetitionID`）
+- 検証 CLI の突合: 名簿の一覧の id（部門を持たない大会の id と、部門の id）に一覧ファイルが無い（`corpus/missingCompetitionFile`）・名簿のどの一覧の id でもない一覧ファイル（`corpus/orphanCompetitionFile`。部門を持つ大会の id の名前のファイルもこれになる）・id の重複（`corpus/duplicateCompetitionID`）
 
-### 大会 1 つ = 順位表 1 つ・山 1 つ（2026-10-15 — [handball-project#567](https://github.com/kinjo-ryura/handball-project/issues/567)）
+### 一覧 1 つ = 順位表 1 つ・山 1 つ（2026-10-15 — [handball-project#567](https://github.com/kinjo-ryura/handball-project/issues/567)・[#578](https://github.com/kinjo-ryura/handball-project/issues/578)）
 
-男子と女子のように**順位表や山が別になるものは、別の大会として配信する**（例: `league-h-2026-27-men` / `league-h-2026-27-women`）。
-リーグ戦でもトーナメントでも、この規則 1 つで配信側が分けられ、アプリは「大会 1 つに表 1 組」しか知らなくてよい。
-レギュラーシーズンとプレーオフのような**段階は同じ大会に入れ**、`round` のラベル（「第1節」「プレーオフ 準決勝」）で分ける。
+男子と女子のように**順位表や山が別になるものは、別の一覧（`competitions/{id}.json`）として配信する**。
+リーグ戦でもトーナメントでも、この規則 1 つで配信側が分けられ、アプリは「一覧 1 つに表 1 組」しか知らなくてよい。
+レギュラーシーズンとプレーオフのような**段階は同じ一覧に入れ**、`round` のラベル（「第1節」「プレーオフ 準決勝」）で分ける。
+
+### 部門（`divisions[]`。2026-10-15 — [handball-project#578](https://github.com/kinjo-ryura/handball-project/issues/578)）
+
+**部門**は、1 つの大会の中で順位表と節が別になる区分（男子・女子・中学 / 高校のような年代）。部門ごとに一覧ファイルを 1 つ持ち、
+名簿では大会の項目の `divisions[]` に並べる（例: 大会 `league-h-2026-27` の部門 `league-h-2026-27-men` / `-women`）。
+
+- **バナーは大会に 1 本。** アプリは押した先で部門を切り替え（`divisions` の順。部門が 1 つなら切替を出さない）、選んだ部門の一覧を読む。
+  #567 で男女を別の大会にしたらバナーが 2 本並び、注目の試合が画面の外へ押し出されたので、まとめる単位を名簿に持たせた
+- **部門をまたいで 1 つの一覧に混ぜない。** 混ぜると表の切替が「表の種類 × 部門」の数になり、節が部門ごとに交互に並ぶ
+- **部門の意味（男女・年代）を表す項目は持たない。** アプリは `title` をそのまま出すだけで、部門の種類が増えても改修しない
+- 部門を持たない大会は `divisions` を書かず、大会の id の一覧ファイルを 1 つ持つ（#578 より前の形のまま読める）
 
 **大会の形式（リーグ / トーナメント）を表す項目は持たない。** アプリの表示に要るのは「試合をどう区切るか」（`round`）と
 「どの表を出すか」（`tables`）の 2 つだけで、リーグ戦らしい画面（節 + 順位表）もトーナメントらしい画面（回戦だけ）も
