@@ -21,6 +21,7 @@ iOS アプリ「ハンド記録」で配信するサンプル試合データの�
 │   └── competitions/    大会（注目の試合とは別配信。試合本体は matches/ を共有。SCHEMA の「大会」節）
 │       ├── index.json   大会の一覧と各大会の部門（無ければ大会を配信していない）
 │       └── {id}.json    1 大会（部門を持つ大会は 1 部門）の試合一覧（index.json と同じ形 + 節 / 回戦のラベルと順位表などの表）
+├── team-short-names.json チーム名の正式名 → 短い名前（略称）の対応表（配信対象外。一覧と表を作る tool が読む。SCHEMA の「短い名前」節）
 ├── migration-snapshots/ V1 → V2 移行時の突合用スナップショット（配信対象外）
 ├── pdf/                 元ネタの公式ランニングスコア PDF（**.gitignore 済み**、ローカル専用）
 └── pdf-matches/         PDF から自動抽出した中間 JSON（**.gitignore 済み**、ローカル専用の staging）
