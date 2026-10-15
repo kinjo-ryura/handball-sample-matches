@@ -88,9 +88,14 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
   "schemaVersion": 2,
   "competitions": [
     {
-      "id": "league-h-2026-27",
-      "title": "リーグH 2026-27",
-      "description": "2026-27 シーズンの全試合（タイマーモード・動画なし）"
+      "id": "league-h-2026-27-men",
+      "title": "リーグH 2026-27 男子",
+      "description": "2026-27 シーズンの男子の全試合（タイマーモード・動画なし）"
+    },
+    {
+      "id": "league-h-2026-27-women",
+      "title": "リーグH 2026-27 女子",
+      "description": "2026-27 シーズンの女子の全試合（タイマーモード・動画なし）"
     }
   ]
 }
@@ -107,7 +112,7 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 `competitions/index.json` が無い（404）ことは「大会を配信していない」として扱い、アプリは失敗にしない。
 
 ```jsonc
-// /v2/competitions/{id}.json — /v2/index.json と同じ形
+// /v2/competitions/{id}.json — /v2/index.json と同じ形に、節 / 回戦のラベルと表を足したもの
 {
   "schemaVersion": 2,
   "matches": [
@@ -120,17 +125,64 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
       "awayScore": 22,
       "hasVideo": false,
       "homeTeamName": "Tigers",
-      "awayTeamName": "Falcons"
+      "awayTeamName": "Falcons",
+      "round": "第1節"
+    }
+  ],
+  "tables": [
+    {
+      "id": "standings",
+      "title": "順位表",
+      "columns": [
+        { "title": "順位", "align": "trailing" },
+        { "title": "チーム", "align": "leading" },
+        { "title": "勝点", "align": "trailing" }
+      ],
+      "rows": [
+        ["1", "Tigers", "2"],
+        ["2", "Falcons", "0"]
+      ]
     }
   ]
 }
 ```
 
-- 項目の形・`date` 降順・slug の規則は `/v2/index.json` と同じ。**`homeTeamName` / `awayTeamName` は必須**（`corpus/missingTeamName`）— アプリは大会の一覧を**本体を取らずに**項目だけで描く（数百試合の本体を一覧のたびに取らないため）
+- 項目の形と slug の規則は `/v2/index.json` と同じ。**`homeTeamName` / `awayTeamName` は必須**（`corpus/missingTeamName`）— アプリは大会の一覧を**本体を取らずに**項目だけで描く（数百試合の本体を一覧のたびに取らないため）
+- **`matches[].round`（String、任意）は節 / 回戦の表示ラベル**（例: `"第1節"`・`"準決勝"`・`"プレーオフ 準決勝"`・`"予選リーグ A組"`）。アプリは一覧の並びのまま、**同じラベルが続く行を 1 つのセクション**にまとめ、ラベルを見出しに出す。ラベルの無い行は見出しの無いセクションになる。文言は配信側が組む（アプリは語を足さない）
+- **大会の一覧の並びは配信側が決める**（`date` 降順の縛りは `/v2/index.json` だけ）。`promote.py` は節 / 回戦の新しい順 → `date` 降順に並べる（ラベル中の数字で順を取り、数字の無いラベル — 決勝・プレーオフなど — を先頭に置く）。延期した試合も本来の節に入る。検証 CLI は、同じ `round` が離れて 2 回現れないこと（`corpus/roundNotContiguous`）と、同じ `round` の中が `date` 降順であること（`corpus/indexNotDateDescending`）を見る
 - **本体は `/v2/matches/{slug}.json` を共有する。** 試合 URL（`?match=<slug>`）とアプリの直接取得は本体の置き場しか見ないので、大会の試合も同じ URL で開ける
 - **1 つの本体は `/v2/index.json` か 1 つの大会のどちらか一方にだけ載せる**（`corpus/slugListedTwice`）。どこにも載らない本体は `corpus/orphanMatchFile`
 - 大会の一覧にはフル試合だけを載せる（ハイライトは `/v2/highlights/`）。アプリは `hasVideo` からモードを決める（false = タイマー、true = 動画）
 - 検証 CLI の突合: `competitions/index.json` の id に一覧ファイルが無い（`corpus/missingCompetitionFile`）・index に無い一覧ファイル（`corpus/orphanCompetitionFile`）・id の重複（`corpus/duplicateCompetitionID`）
+
+### 大会 1 つ = 順位表 1 つ・山 1 つ（2026-10-15 — [handball-project#567](https://github.com/kinjo-ryura/handball-project/issues/567)）
+
+男子と女子のように**順位表や山が別になるものは、別の大会として配信する**（例: `league-h-2026-27-men` / `league-h-2026-27-women`）。
+リーグ戦でもトーナメントでも、この規則 1 つで配信側が分けられ、アプリは「大会 1 つに表 1 組」しか知らなくてよい。
+レギュラーシーズンとプレーオフのような**段階は同じ大会に入れ**、`round` のラベル（「第1節」「プレーオフ 準決勝」）で分ける。
+
+**大会の形式（リーグ / トーナメント）を表す項目は持たない。** アプリの表示に要るのは「試合をどう区切るか」（`round`）と
+「どの表を出すか」（`tables`）の 2 つだけで、リーグ戦らしい画面（節 + 順位表）もトーナメントらしい画面（回戦だけ）も
+データの中身からそうなる。形式名でアプリが分岐すると、形式が増えるたびにアプリの改修になる。山形（対戦の親子）を
+描くときは、そのときに必要な構造を任意項目として足す（任意項目の追加は `schemaVersion` を上げず、旧アプリは無視する）。
+
+### 表（`tables[]`。2026-10-15 — handball-project#567）
+
+順位表・得点ランキング・星取表のような**大会ごとの表**。大会の一覧ファイル（`competitions/{id}.json`）の任意項目で、
+`/v2/index.json` には書かない（`corpus/unexpectedTables`）。
+
+| フィールド | 型 | 必須 | 説明 |
+|---|---|---|---|
+| `tables[].id` | String | ✓ | 表の識別子（英数字と `-`）。同じ一覧の中で一意（`corpus/duplicateTableID`・`corpus/unsafeTableID`） |
+| `tables[].title` | String | ✓ | 表の題。アプリはこれを切替のラベルに出す（例: `"順位表"`） |
+| `tables[].columns[]` | Object[] | ✓ | 列の定義。1 列以上（`corpus/tableWithoutColumns`） |
+| `tables[].columns[].title` | String | ✓ | 列見出し |
+| `tables[].columns[].align` | String? | | `"leading"`（既定）/ `"trailing"` / `"center"`。数値の列は `trailing` |
+| `tables[].rows[][]` | String[][] | ✓ | 行。各行のセル数は `columns` の数と一致（`corpus/tableRowWidthMismatch`）。セルは表示する文字列そのまま（数値も文字列で書く） |
+
+- **表は汎用で、アプリは列の意味を知らない。** 配信側が題・列・寄せ・中身を決め、アプリは「見出し行を太字・`align` どおりに寄せ・幅が足りなければ横スクロール」の 1 つの描き方で全部の表を出す。順位表でも得点ランキングでも将来の表でも、アプリの改修なしに足せる。列の意味を型で持つと、表の種類が増えるたびに配信とアプリの両方を直すことになる
+- **中身は配信側が自分のデータから計算する。** 計算できないもの（配信していない数値から作る表）は載せない。表の並び（順位の決め方）は作る側の tool が持ち、その規則は tool の README に書く
+- 表の順は配列順。アプリは「試合」の後に表の題を並べる。`tables` が無い・空なら試合の一覧だけを出す（今までと同じ画面）
 
 ## `/v2/matches/{slug}.json`
 
