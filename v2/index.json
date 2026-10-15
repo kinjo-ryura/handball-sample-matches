@@ -14,23 +14,27 @@
     {
       "awayScore": 23,
       "awayTeamName": "ハニービー石川",
+      "awayTeamShortName": "石川",
       "date": "2025-12-21T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "ブルーサクヤ鹿児島 vs ハニービー石川",
       "hasVideo": false,
       "homeScore": 26,
       "homeTeamName": "ブルーサクヤ鹿児島",
+      "homeTeamShortName": "鹿児島",
       "slug": "2025-12-21-w23"
     },
     {
       "awayScore": 31,
       "awayTeamName": "ジークスター東京",
+      "awayTeamShortName": "Z東京",
       "date": "2025-12-21T00:00:00Z",
       "description": "公式ランニングスコアから起こしたタイマーモード版（動画なし）",
       "displayName": "豊田合成ブルーファルコン名古屋 vs ジークスター東京",
       "hasVideo": false,
       "homeScore": 41,
       "homeTeamName": "豊田合成ブルーファルコン名古屋",
+      "homeTeamShortName": "豊田合成",
       "slug": "2025-12-21-bluefalcon-vs-zeekstar-tokyo"
     },
     {
@@ -53,11 +57,13 @@
       "hasVideo": false,
       "homeScore": 34,
       "homeTeamName": "ジークスター東京",
+      "homeTeamShortName": "Z東京",
       "slug": "2025-12-20-zeekstar-tokyo-vs-bravekings-kariya"
     },
     {
       "awayScore": 25,
       "awayTeamName": "ハニービー石川",
+      "awayTeamShortName": "石川",
       "date": "2025-12-20T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "大阪体育大学 vs ハニービー石川",
@@ -69,23 +75,27 @@
     {
       "awayScore": 29,
       "awayTeamName": "香川銀行シラソル香川",
+      "awayTeamShortName": "香川銀行",
       "date": "2025-12-20T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "ブルーサクヤ鹿児島 vs 香川銀行シラソル香川",
       "hasVideo": false,
       "homeScore": 30,
       "homeTeamName": "ブルーサクヤ鹿児島",
+      "homeTeamShortName": "鹿児島",
       "slug": "2025-12-20-w21"
     },
     {
       "awayScore": 25,
       "awayTeamName": "大同フェニックス東海",
+      "awayTeamShortName": "大同PX",
       "date": "2025-12-20T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "豊田合成ブルーファルコン名古屋 vs 大同フェニックス東海",
       "hasVideo": false,
       "homeScore": 44,
       "homeTeamName": "豊田合成ブルーファルコン名古屋",
+      "homeTeamShortName": "豊田合成",
       "slug": "2025-12-20-m20"
     },
     {
@@ -102,6 +112,7 @@
     {
       "awayScore": 27,
       "awayTeamName": "ハニービー石川",
+      "awayTeamShortName": "石川",
       "date": "2025-12-19T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "ザ・テラスホテルズラティーダ琉球 vs ハニービー石川",
@@ -113,6 +124,7 @@
     {
       "awayScore": 25,
       "awayTeamName": "イズミメイプルレッズ広島",
+      "awayTeamShortName": "メイプル",
       "date": "2025-12-19T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "大阪体育大学 vs イズミメイプルレッズ広島",
@@ -124,12 +136,14 @@
     {
       "awayScore": 33,
       "awayTeamName": "香川銀行シラソル香川",
+      "awayTeamShortName": "香川銀行",
       "date": "2025-12-19T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "熊本ビューストピンディーズ vs 香川銀行シラソル香川",
       "hasVideo": false,
       "homeScore": 29,
       "homeTeamName": "熊本ビューストピンディーズ",
+      "homeTeamShortName": "熊本BP",
       "slug": "2025-12-19-w18"
     },
     {
@@ -141,50 +155,59 @@
       "hasVideo": false,
       "homeScore": 27,
       "homeTeamName": "大崎オーソル埼玉",
+      "homeTeamShortName": "オーソル",
       "slug": "2025-12-19-m19"
     },
     {
       "awayScore": 33,
       "awayTeamName": "トヨタ自動車東日本レガロッソ宮城",
+      "awayTeamShortName": "TMEJ",
       "date": "2025-12-19T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "ジークスター東京 vs トヨタ自動車東日本レガロッソ宮城",
       "hasVideo": false,
       "homeScore": 34,
       "homeTeamName": "ジークスター東京",
+      "homeTeamShortName": "Z東京",
       "slug": "2025-12-19-m18"
     },
     {
       "awayScore": 33,
       "awayTeamName": "大同フェニックス東海",
+      "awayTeamShortName": "大同PX",
       "date": "2025-12-19T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "レッドトルネード佐賀 vs 大同フェニックス東海",
       "hasVideo": false,
       "homeScore": 32,
       "homeTeamName": "レッドトルネード佐賀",
+      "homeTeamShortName": "レットル",
       "slug": "2025-12-19-m17"
     },
     {
       "awayScore": 25,
       "awayTeamName": "福井永平寺ブルーサンダー",
+      "awayTeamShortName": "福井永平寺",
       "date": "2025-12-19T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "豊田合成ブルーファルコン名古屋 vs 福井永平寺ブルーサンダー",
       "hasVideo": false,
       "homeScore": 44,
       "homeTeamName": "豊田合成ブルーファルコン名古屋",
+      "homeTeamShortName": "豊田合成",
       "slug": "2025-12-19-m16"
     },
     {
       "awayScore": 29,
       "awayTeamName": "ハニービー石川",
+      "awayTeamShortName": "石川",
       "date": "2025-12-18T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "大阪ラヴィッツ vs ハニービー石川",
       "hasVideo": false,
       "homeScore": 14,
       "homeTeamName": "大阪ラヴィッツ",
+      "homeTeamShortName": "大阪L",
       "slug": "2025-12-18-w16"
     },
     {
@@ -201,12 +224,14 @@
     {
       "awayScore": 30,
       "awayTeamName": "イズミメイプルレッズ広島",
+      "awayTeamShortName": "メイプル",
       "date": "2025-12-18T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "飛騨高山ブラックブルズ岐阜 vs イズミメイプルレッズ広島",
       "hasVideo": false,
       "homeScore": 27,
       "homeTeamName": "飛騨高山ブラックブルズ岐阜",
+      "homeTeamShortName": "ブルズ",
       "slug": "2025-12-18-w14"
     },
     {
@@ -218,11 +243,13 @@
       "hasVideo": false,
       "homeScore": 24,
       "homeTeamName": "アランマーレ富山",
+      "homeTeamShortName": "A富山",
       "slug": "2025-12-18-w13"
     },
     {
       "awayScore": 40,
       "awayTeamName": "香川銀行シラソル香川",
+      "awayTeamShortName": "香川銀行",
       "date": "2025-12-18T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "筑波大学 vs 香川銀行シラソル香川",
@@ -240,6 +267,7 @@
       "hasVideo": false,
       "homeScore": 40,
       "homeTeamName": "熊本ビューストピンディーズ",
+      "homeTeamShortName": "熊本BP",
       "slug": "2025-12-18-w11"
     },
     {
@@ -256,12 +284,14 @@
     {
       "awayScore": 24,
       "awayTeamName": "三重バイオレットアイリス",
+      "awayTeamShortName": "MVI",
       "date": "2025-12-18T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "ブルーサクヤ鹿児島 vs 三重バイオレットアイリス",
       "hasVideo": false,
       "homeScore": 34,
       "homeTeamName": "ブルーサクヤ鹿児島",
+      "homeTeamShortName": "鹿児島",
       "slug": "2025-12-18-w09"
     },
     {
@@ -273,6 +303,7 @@
       "hasVideo": false,
       "homeScore": 23,
       "homeTeamName": "安芸高田わくながハンドボールクラブ",
+      "homeTeamShortName": "湧永HC",
       "slug": "2025-12-18-m15"
     },
     {
@@ -284,11 +315,13 @@
       "hasVideo": false,
       "homeScore": 34,
       "homeTeamName": "大崎オーソル埼玉",
+      "homeTeamShortName": "オーソル",
       "slug": "2025-12-18-m14"
     },
     {
       "awayScore": 42,
       "awayTeamName": "トヨタ自動車東日本レガロッソ宮城",
+      "awayTeamShortName": "TMEJ",
       "date": "2025-12-18T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "アルバモス大阪 vs トヨタ自動車東日本レガロッソ宮城",
@@ -306,11 +339,13 @@
       "hasVideo": false,
       "homeScore": 36,
       "homeTeamName": "ジークスター東京",
+      "homeTeamShortName": "Z東京",
       "slug": "2025-12-18-m12"
     },
     {
       "awayScore": 41,
       "awayTeamName": "大同フェニックス東海",
+      "awayTeamShortName": "大同PX",
       "date": "2025-12-18T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "高松大学 vs 大同フェニックス東海",
@@ -322,12 +357,14 @@
     {
       "awayScore": 30,
       "awayTeamName": "アースフレンズBM東京・神奈川",
+      "awayTeamShortName": "EFBM",
       "date": "2025-12-18T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "レッドトルネード佐賀 vs アースフレンズBM東京・神奈川",
       "hasVideo": false,
       "homeScore": 40,
       "homeTeamName": "レッドトルネード佐賀",
+      "homeTeamShortName": "レットル",
       "slug": "2025-12-18-m10"
     },
     {
@@ -339,6 +376,7 @@
       "hasVideo": false,
       "homeScore": 42,
       "homeTeamName": "豊田合成ブルーファルコン名古屋",
+      "homeTeamShortName": "豊田合成",
       "slug": "2025-12-18-m08"
     },
     {
@@ -350,6 +388,7 @@
       "hasVideo": false,
       "homeScore": 32,
       "homeTeamName": "大阪ラヴィッツ",
+      "homeTeamShortName": "大阪L",
       "slug": "2025-12-17-w08"
     },
     {
@@ -366,6 +405,7 @@
     {
       "awayScore": 42,
       "awayTeamName": "飛騨高山ブラックブルズ岐阜",
+      "awayTeamShortName": "ブルズ",
       "date": "2025-12-17T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "山口銀行YMGUTS vs 飛騨高山ブラックブルズ岐阜",
@@ -421,6 +461,7 @@
     {
       "awayScore": 38,
       "awayTeamName": "三重バイオレットアイリス",
+      "awayTeamShortName": "MVI",
       "date": "2025-12-17T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "Glück vs 三重バイオレットアイリス",
@@ -438,6 +479,7 @@
       "hasVideo": false,
       "homeScore": 37,
       "homeTeamName": "安芸高田わくながハンドボールクラブ",
+      "homeTeamShortName": "湧永HC",
       "slug": "2025-12-17-m07"
     },
     {
@@ -487,6 +529,7 @@
     {
       "awayScore": 50,
       "awayTeamName": "アースフレンズBM東京・神奈川",
+      "awayTeamShortName": "EFBM",
       "date": "2025-12-17T00:00:00Z",
       "description": "第77回日本選手権の公式ランニングスコアから起こしたタイマーモード版（動画なし・選手名は非公開で背番号のみ）",
       "displayName": "H.C.金沢 vs アースフレンズBM東京・神奈川",

@@ -72,8 +72,22 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `matches[].hasVideo` | Bool | ✓ | `.video` / `.videoHighlight` のとき true |
 | `matches[].homeTeamName` | String? | | 本体 `teams.home.name` の転記。**大会の一覧では必須**（下の「大会」節）。書いてあれば本体と一致必須（`corpus/teamNameMismatch`） |
 | `matches[].awayTeamName` | String? | | 同上（`teams.away.name`） |
+| `matches[].homeTeamShortName` | String? | | ホームの短い名前（略称。例: `"TMEJ"`）。アプリは一覧の行で正式名の代わりに出し、無ければ正式名。書くなら `homeTeamName` も必須（`corpus/shortNameWithoutTeamName`）・空文字は不可（`corpus/emptyTeamShortName`）。下の「短い名前」 |
+| `matches[].awayTeamShortName` | String? | | 同上（アウェイ） |
 
 `matches` 配列は **`date` 降順**（新しい試合が上）で維持する（検証 CLI の `corpus/indexNotDateDescending`）。アプリは配列順をそのまま表示に使う。
+
+### 短い名前（2026-10-15 — [handball-project#582](https://github.com/kinjo-ryura/handball-project/issues/582)）
+
+リーグH の正式名は最長 17 字（「安芸高田わくながハンドボールクラブ」）あり、一覧の行では 2〜3 行に折り返し、表では iPhone の幅の大半を取る。
+そこで**一覧の項目と表には短い名前を書く**。中身はチームの略称（`TMEJ`・`Z東京`・`BK刈谷` など）。どのチームをどの略称にするかは下の対応表が決める。
+
+- **正式名 → 短い名前の対応表はこのリポ直下の `team-short-names.json`**（配信領域 `v2/` の外。アプリは読まない）。一覧と表を作る
+  tool がこれを読み、一覧の項目には `homeTeamShortName` / `awayTeamShortName` を、表にはセルと凡例（下の「表」の `legend`）を書く
+- **対応表に無いチームは書かない**（アプリは正式名を出す）。正式名と同じ短い名前も書かない
+- **試合本体（`matches/{slug}.json`）には書かない。** 試合画面は正式名のまま（本体のチームは端末に保存する試合の形とつながっていて、
+  欄を足すとアプリの保存の形まで変わる）。一覧の行をタップすれば正式名の試合画面が開く
+- 対応表を変えたら `promote.py --dist v2 --sync-short-names` で `index.json` と全大会の一覧を合わせ直す（大会の表は表を作る tool で作り直す）
 
 ## `/v2/competitions/`（大会）
 
@@ -199,8 +213,14 @@ V1 schema (`/index.json` / `/matches/` / `/highlights/` および root の `SCHE
 | `tables[].columns[].title` | String | ✓ | 列見出し |
 | `tables[].columns[].align` | String? | | `"leading"`（既定）/ `"trailing"` / `"center"`。数値の列は `trailing` |
 | `tables[].rows[][]` | String[][] | ✓ | 行。各行のセル数は `columns` の数と一致（`corpus/tableRowWidthMismatch`）。セルは表示する文字列そのまま（数値も文字列で書く） |
+| `tables[].legend[]` | Object[]? | | 凡例（2026-10-15 — handball-project#582）。セルや列見出しに書いた略した文字と、その意味。アプリは凡例にある文字と**完全に一致する**セル・列見出しをタップされたら `detail` を吹き出しに出し、読み上げも `detail` にする |
+| `tables[].legend[].text` | String | ✓ | セル・列見出しに書いた文字（例: `"TMEJ"`）。表の中で一意（`corpus/duplicateLegendText`）・空文字不可（`corpus/emptyLegendEntry`） |
+| `tables[].legend[].detail` | String | ✓ | 意味（例: `"トヨタ自動車東日本レガロッソ宮城"`）。空文字不可（`corpus/emptyLegendEntry`） |
 
 - **表は汎用で、アプリは列の意味を知らない。** 配信側が題・列・寄せ・中身を決め、アプリは「見出し行を太字・`align` どおりに寄せ・幅が足りなければ横スクロール」の 1 つの描き方で全部の表を出す。順位表でも得点ランキングでも将来の表でも、アプリの改修なしに足せる。列の意味を型で持つと、表の種類が増えるたびに配信とアプリの両方を直すことになる
+- **アプリは見出し行と、先頭から最初の `leading` の列までを固定する**（#582）。残りの列だけが横に送られる。行を名指す列（チーム・選手）を先頭に置き、`leading` にする。
+  その右に一番見せたい数字を置く（得点ランキングは 順位・選手・得点・試合・チーム。チームを選手の右に置くと、iPhone の縦では得点が画面の外に出る）
+- **チーム名は短い名前で書き、凡例に正式名を載せる**（上の「短い名前」）。星取表の列見出しもチームの短い名前（#582 までは行の番号だった）
 - **中身は配信側が自分のデータから計算する。** 計算できないもの（配信していない数値から作る表）は載せない。表の並び（順位の決め方）は作る側の tool が持ち、その規則は tool の README に書く
 - 表の順は配列順。アプリは「試合」の後に表の題を並べる。`tables` が無い・空なら試合の一覧だけを出す（今までと同じ画面）
 
